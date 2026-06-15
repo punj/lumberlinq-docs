@@ -1,0 +1,8 @@
+{
+  "authCheck": {
+    "products": 200,
+    "loadingSites": 200
+  },
+  "trendInjectedForScreenshotOnly": true,
+  "lastUrl": "https://app-vps.rikexim.com/dashboard-v5"
+}

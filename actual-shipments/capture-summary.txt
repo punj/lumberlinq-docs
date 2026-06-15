@@ -1,0 +1,5 @@
+authCheck={"products":200,"loadingSites":200}
+seedAction=reused-existing
+encodedId=AREBcrI5sUTHohjzT0us2DUU
+mobileCapture=ok
+lastUrl=https://app-vps.rikexim.com/shipments/list

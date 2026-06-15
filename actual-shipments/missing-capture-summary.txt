@@ -1,0 +1,3 @@
+authCheck={"products":200,"loadingSites":200}
+encodedId=AREBcrI5sUTHohjzT0us2DUU
+lastUrl=https://app-vps.rikexim.com/shipments/list

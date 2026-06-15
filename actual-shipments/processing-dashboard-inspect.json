@@ -1,0 +1,592 @@
+{
+  "authCheck": {
+    "products": 200,
+    "loadingSites": 200
+  },
+  "availableInputs": {
+    "status": 200,
+    "ok": true,
+    "body": [
+      {
+        "transportUnitId": 3,
+        "transportId": "LL Help Demo Empty Tally Sheet",
+        "cbmContributed": 6.25,
+        "piecesContributed": 42,
+        "productName": "LL Help Demo - Cedar Utility Poles",
+        "loadingSiteName": "LL Help Demo - North Yard"
+      },
+      {
+        "transportUnitId": 4,
+        "transportId": "LL Help Demo Dashboard Available Teak Logs",
+        "cbmContributed": 18.75,
+        "piecesContributed": 98,
+        "productName": "LL Help Demo - Round Teak Logs",
+        "loadingSiteName": "LL Help Demo - Forest Depot"
+      }
+    ],
+    "text": "[{\"transportUnitId\":3,\"transportId\":\"LL Help Demo Empty Tally Sheet\",\"cbmContributed\":6.25,\"piecesContributed\":42,\"productName\":\"LL Help Demo - Cedar Utility Poles\",\"loadingSiteName\":\"LL Help Demo - North Yard\"},{\"transportUnitId\":4,\"transportId\":\"LL Help Demo Dashboard Available Teak Logs\",\"cbmContributed\":18.75,\"piecesContributed\":98,\"productName\":\"LL Help Demo - Round Teak Logs\",\"loadingSiteName\":\"LL Help Demo - Forest Depot\"}]"
+  },
+  "runs": {
+    "status": 200,
+    "ok": true,
+    "body": {
+      "content": [
+        {
+          "id": 1,
+          "encodedId": "LLHELP-PROC-COMP-001",
+          "runCode": "PR-LL-DEMO-001",
+          "status": "COMPLETED",
+          "processingDate": "2026-06-15",
+          "startedAt": "2026-06-15T18:14:52.53124",
+          "completedAt": "2026-06-15T20:14:52.53124",
+          "millSiteId": 3,
+          "millSiteName": "LL Help Demo - East Sawmill",
+          "inputCbm": 13.517,
+          "inputPieces": 115,
+          "inputProductName": "LL Help Demo - Cedar Utility Poles",
+          "outputMethod": "DIRECT",
+          "outputCbm": 10.4,
+          "outputPieces": 86,
+          "outputProductName": "LL Help Demo - Sawn Oak Boards",
+          "outputSiteId": 5,
+          "outputSiteName": "LL Help Demo - Warehouse Stack A",
+          "outturnRatio": 0.7694,
+          "lossCbm": 3.117,
+          "notes": "LL Help Demo processing run: round logs converted to sawn boards for screenshot documentation.",
+          "inputs": [
+            {
+              "transportUnitId": 1,
+              "transportId": null,
+              "cbmContributed": 13.517,
+              "piecesContributed": 115,
+              "productName": null,
+              "loadingSiteName": null
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "encodedId": "LLHELP-PROC-DRAFT-003",
+          "runCode": "PR-LL-DEMO-003",
+          "status": "DRAFT",
+          "processingDate": "2026-06-15",
+          "startedAt": null,
+          "completedAt": null,
+          "millSiteId": 3,
+          "millSiteName": "LL Help Demo - East Sawmill",
+          "inputCbm": 5.75,
+          "inputPieces": 48,
+          "inputProductName": "LL Help Demo - Cedar Utility Poles",
+          "outputMethod": null,
+          "outputCbm": null,
+          "outputPieces": null,
+          "outputProductName": null,
+          "outputSiteId": null,
+          "outputSiteName": null,
+          "outturnRatio": null,
+          "lossCbm": null,
+          "notes": "LL Help Demo draft processing run for wizard and list screenshots.",
+          "inputs": [
+            {
+              "transportUnitId": 3,
+              "transportId": null,
+              "cbmContributed": 5.75,
+              "piecesContributed": 48,
+              "productName": null,
+              "loadingSiteName": null
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "encodedId": "LLHELP-PROC-INPROG-002",
+          "runCode": "PR-LL-DEMO-002",
+          "status": "IN_PROGRESS",
+          "processingDate": "2026-06-15",
+          "startedAt": "2026-06-15T19:14:52.710728",
+          "completedAt": null,
+          "millSiteId": 3,
+          "millSiteName": "LL Help Demo - East Sawmill",
+          "inputCbm": 8.25,
+          "inputPieces": 72,
+          "inputProductName": "LL Help Demo - Round Teak Logs",
+          "outputMethod": null,
+          "outputCbm": null,
+          "outputPieces": null,
+          "outputProductName": null,
+          "outputSiteId": null,
+          "outputSiteName": null,
+          "outturnRatio": null,
+          "lossCbm": null,
+          "notes": "LL Help Demo processing run in progress for dashboard and processing screenshots.",
+          "inputs": [
+            {
+              "transportUnitId": 3,
+              "transportId": null,
+              "cbmContributed": 8.25,
+              "piecesContributed": 72,
+              "productName": null,
+              "loadingSiteName": null
+            }
+          ]
+        }
+      ],
+      "pageable": {
+        "pageNumber": 0,
+        "pageSize": 20,
+        "sort": {
+          "sorted": true,
+          "unsorted": false,
+          "empty": false
+        },
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+      },
+      "totalElements": 3,
+      "totalPages": 1,
+      "last": true,
+      "size": 20,
+      "number": 0,
+      "sort": {
+        "sorted": true,
+        "unsorted": false,
+        "empty": false
+      },
+      "first": true,
+      "numberOfElements": 3,
+      "empty": false
+    },
+    "text": "{\"content\":[{\"id\":1,\"encodedId\":\"LLHELP-PROC-COMP-001\",\"runCode\":\"PR-LL-DEMO-001\",\"status\":\"COMPLETED\",\"processingDate\":\"2026-06-15\",\"startedAt\":\"2026-06-15T18:14:52.53124\",\"completedAt\":\"2026-06-15T20:14:52.53124\",\"millSiteId\":3,\"millSiteName\":\"LL Help Demo - East Sawmill\",\"inputCbm\":13.5170,\"inputPieces\":115,\"inputProductName\":\"LL Help Demo - Cedar Utility Poles\",\"outputMethod\":\"DIRECT\",\"outputCbm\":10.4000,\"outputPieces\":86,\"outputProductName\":\"LL Help Demo - Sawn Oak Boards\",\"outputSiteId\":5,\"outputSiteName\":\"LL Help Demo - Warehouse Stack A\",\"outturnRatio\":0.7694,\"lossCbm\":3.1170,\"notes\":\"LL Help Demo processing run: round logs converted to sawn boards for screenshot documentation.\",\"inputs\":[{\"transportUnitId\":1,\"transportId\":null,\"cbmContributed\":13.5170,\"piecesContributed\":115,\"productName\":null,\"loadingSiteName\":null}]},{\"id\":3,\"encodedId\":\"LLHELP-PROC-DRAFT-003\",\"runCode\":\"PR-LL-DEMO-003\",\"status\":\"DRAFT\",\"processingDate\":\"2026-06-15\",\"startedAt\":null,\"completedAt\":null,\"millSiteId\":3,\"millSiteName\":\"LL Help Demo - East Sawmill\",\"inputCbm\":5.7500,\"inputPieces\":48,\"inputProductName\":\"LL Help Demo - Cedar Utility Poles\",\"outputMethod\":null,\"outputCbm\":null,\"outputPieces\":null,\"outputProductName\":null,\"outputSiteId\":null,\"outputSiteName\":null,\"outturnRatio\":null,\"lossCbm\":null,\"notes\":\"LL Help Demo draft processing run for wizard and list screenshots.\",\"inputs\":[{\"transportUnitId\":3,\"transportId\":null,\"cbmContributed\":5.7500,\"piecesContributed\":48,\"productName\":null,\"loadingSiteName\":null}]},{\"id\":2,\"encodedId\":\"LLHELP-PROC-INPROG-002\",\"runCode\":\"PR-LL-DEMO-002\",\"status\":\"IN_PROGRESS\",\"processingDate\":\"2026-06-15\",\"startedAt\":\"2026-06-15T19:14:52.710728\",\"completedAt\":null,\"millSiteId\":3,\"millSiteName\":\"LL Help Demo - East Sawmill\",\"inputCbm\":8.2500,\"inputPieces\":72,\"inputProductName\":\"LL Help Demo - Round Teak Logs\",\"outputMethod\":null,\"outputCbm\":null,\"outputPieces\":null,\"outputProductName\":null,\"outputSiteId\":null,\"outputSiteName\":null,\"outturnRatio\":null,\"lossCbm\":null,\"notes\":\"LL Help Demo processing run in progress for dashboard and processing screenshots.\",\"inputs\":[{\"transportUnitId\":3,\"transportId\":null,\"cbmContributed\":8.2500,\"piecesContributed\":72,\"productName\":null,\"loadingSiteName\":null}]}],\"pageable\":{\"pageNumber\":0,\"pageSize\":20,\"sort\":{\"sorted\":true,\"unsorted\":false,\"empty\":false},\"offset\":0,\"paged\":true,\"unpaged\":false},\"totalElements\":3,\"totalPages\":1,\"last\":true,\"size\":20,\"number\":0,\"sort\":{\"sorted\":true,\"unsorted\":false,\"empty\":false},\"first\":true,\"numberOfElements\":3,\"empty\":false}"
+  },
+  "dashboard": {
+    "status": 200,
+    "ok": true,
+    "body": {
+      "partners": {
+        "total": 6,
+        "active": 5,
+        "inactive": 1,
+        "byCountry": {
+          "SG": 1,
+          "IN": 3,
+          "US": 1,
+          "CA": 1
+        }
+      },
+      "shipments": {
+        "total": 8,
+        "byTradeType": {
+          "IMPORT": 2,
+          "DOMESTIC_PURCHASE": 1,
+          "EXPORT": 3,
+          "DOMESTIC_SALE": 1,
+          "TRADING": 1
+        },
+        "byMode": {
+          "RAIL": 1,
+          "ROAD": 1,
+          "AIR": 1,
+          "SEA": 5
+        },
+        "upcomingDepartures": [
+          {
+            "encodedId": "LLHELP-SHP-ROAD-004",
+            "blNumber": "LL-DEMO-SHP-ROAD-004",
+            "tradeType": "DOMESTIC_SALE",
+            "mode": "ROAD",
+            "shipper": "Mahadev Export",
+            "consignee": "LL Help Demo - Evergreen Ply Traders",
+            "date": "2026-06-16",
+            "portOfLoading": null,
+            "portOfDischarge": null
+          },
+          {
+            "encodedId": "LLHELP-SHP-AIR-002",
+            "blNumber": "LL-DEMO-SHP-AIR-002",
+            "tradeType": "EXPORT",
+            "mode": "AIR",
+            "shipper": "Mahadev Export",
+            "consignee": "LL Help Demo - Blue Oak Distribution",
+            "date": "2026-06-17",
+            "portOfLoading": "Mundra",
+            "portOfDischarge": "Singapore"
+          },
+          {
+            "encodedId": "AREBcrI5sUTHohjzT0us2DUU",
+            "blNumber": "LL-DEMO-SHP-SEA-001",
+            "tradeType": "EXPORT",
+            "mode": "SEA",
+            "shipper": "Mahadev Export",
+            "consignee": "LL Help Demo - Harborline Imports LLC",
+            "date": "2026-06-18",
+            "portOfLoading": "Mundra",
+            "portOfDischarge": "Dubai (Jebel Ali)"
+          },
+          {
+            "encodedId": "LLHELP-SHP-TRD-006",
+            "blNumber": "LL-DEMO-SHP-TRD-006",
+            "tradeType": "TRADING",
+            "mode": "SEA",
+            "shipper": "LL Help Demo - Greenfield Timber Exports",
+            "consignee": "LL Help Demo - Blue Oak Distribution",
+            "date": "2026-06-19",
+            "portOfLoading": "Mundra",
+            "portOfDischarge": "Shanghai"
+          }
+        ],
+        "upcomingArrivals": [
+          {
+            "encodedId": "LLHELP-SHP-ARR-008",
+            "blNumber": "LL-DEMO-SHP-ARR-008",
+            "tradeType": "IMPORT",
+            "mode": "SEA",
+            "shipper": "LL Help Demo - Blue Oak Distribution",
+            "consignee": "Mahadev Export",
+            "date": "2026-06-18",
+            "portOfLoading": "Singapore",
+            "portOfDischarge": "Mundra"
+          },
+          {
+            "encodedId": "LLHELP-SHP-IMP-003",
+            "blNumber": "LL-DEMO-SHP-IMP-003",
+            "tradeType": "IMPORT",
+            "mode": "SEA",
+            "shipper": "LL Help Demo - North Ridge Sawmills",
+            "consignee": "Mahadev Export",
+            "date": "2026-06-19",
+            "portOfLoading": "Vancouver",
+            "portOfDischarge": "Mundra"
+          },
+          {
+            "encodedId": "LLHELP-SHP-RAIL-005",
+            "blNumber": "LL-DEMO-SHP-RAIL-005",
+            "tradeType": "DOMESTIC_PURCHASE",
+            "mode": "RAIL",
+            "shipper": "LL Help Demo - North Ridge Sawmills",
+            "consignee": "Mahadev Export",
+            "date": "2026-06-21",
+            "portOfLoading": null,
+            "portOfDischarge": null
+          },
+          {
+            "encodedId": "LLHELP-SHP-TRD-006",
+            "blNumber": "LL-DEMO-SHP-TRD-006",
+            "tradeType": "TRADING",
+            "mode": "SEA",
+            "shipper": "LL Help Demo - Greenfield Timber Exports",
+            "consignee": "LL Help Demo - Blue Oak Distribution",
+            "date": "2026-06-22",
+            "portOfLoading": "Mundra",
+            "portOfDischarge": "Shanghai"
+          }
+        ],
+        "paymentStatus": {
+          "PAID": 4,
+          "PENDING": 5
+        }
+      },
+      "transportUnits": {
+        "total": 6,
+        "unassigned": 4
+      },
+      "tally": {
+        "totalCbm": 146.09,
+        "totalCft": 5159.08,
+        "totalPieces": 675,
+        "trend": [],
+        "topProducts": [
+          {
+            "productName": "LL Help Demo - Mixed Hardwood Planks",
+            "totalCft": 1870.55,
+            "totalCbm": 52.97
+          },
+          {
+            "productName": "LL Help Demo - Round Teak Logs",
+            "totalCft": 1523.85,
+            "totalCbm": 43.15
+          },
+          {
+            "productName": "LL Help Demo - Sawn Oak Boards",
+            "totalCft": 1066.57,
+            "totalCbm": 30.2
+          },
+          {
+            "productName": "LL Help Demo - Cedar Utility Poles",
+            "totalCft": 698.1,
+            "totalCbm": 19.77
+          }
+        ]
+      },
+      "loadingSites": [
+        {
+          "id": 1,
+          "name": "LL Help Demo - North Yard",
+          "capacity": "1200",
+          "currentVolume": "735",
+          "country": "IN"
+        },
+        {
+          "id": 2,
+          "name": "LL Help Demo - Port Loading Bay",
+          "capacity": "2500",
+          "currentVolume": "1680",
+          "country": "IN"
+        },
+        {
+          "id": 3,
+          "name": "LL Help Demo - East Sawmill",
+          "capacity": "800",
+          "currentVolume": "520",
+          "country": "IN"
+        },
+        {
+          "id": 4,
+          "name": "LL Help Demo - Forest Depot",
+          "capacity": "600",
+          "currentVolume": "385",
+          "country": "IN"
+        },
+        {
+          "id": 5,
+          "name": "LL Help Demo - Warehouse Stack A",
+          "capacity": "1500",
+          "currentVolume": "1040",
+          "country": "IN"
+        }
+      ],
+      "subscription": {
+        "packageName": "Standard",
+        "status": "ACTIVE",
+        "validTill": null,
+        "daysRemaining": -1
+      },
+      "recentTransportUnits": [
+        {
+          "encodedId": "LLHELP-TU-SHIPPED-006",
+          "transportId": "LL Help Demo Dashboard Shipped Boards",
+          "productName": "LL Help Demo - Sawn Oak Boards",
+          "loadingSite": "LL Help Demo - Port Loading Bay",
+          "pieces": 240,
+          "cbm": 30.2,
+          "cft": 1066.57,
+          "createdAt": "15 Jun 2026, 20:33"
+        },
+        {
+          "encodedId": "LLHELP-TU-PROC-005",
+          "transportId": "LL Help Demo Dashboard Mill Processing Logs",
+          "productName": "LL Help Demo - Round Teak Logs",
+          "loadingSite": "LL Help Demo - East Sawmill",
+          "pieces": 160,
+          "cbm": 24.4,
+          "cft": 861.72,
+          "createdAt": "15 Jun 2026, 20:33"
+        },
+        {
+          "encodedId": "LLHELP-TU-AVAIL-004",
+          "transportId": "LL Help Demo Dashboard Available Teak Logs",
+          "productName": "LL Help Demo - Round Teak Logs",
+          "loadingSite": "LL Help Demo - Forest Depot",
+          "pieces": 98,
+          "cbm": 18.75,
+          "cft": 662.13,
+          "createdAt": "15 Jun 2026, 20:33"
+        },
+        {
+          "encodedId": "gJpqM8MSwfReArI71mz40MVv",
+          "transportId": "LL Help Demo Empty Tally Sheet",
+          "productName": "LL Help Demo - Cedar Utility Poles",
+          "loadingSite": "LL Help Demo - North Yard",
+          "pieces": 42,
+          "cbm": 6.25,
+          "cft": 220.73,
+          "createdAt": "15 Jun 2026, 14:29"
+        },
+        {
+          "encodedId": "uU3y6uH4-ugp5JNX-6MiPldY",
+          "transportId": "LL Help Demo Square Tally 1200 Pieces",
+          "productName": "LL Help Demo - Mixed Hardwood Planks",
+          "loadingSite": "LL Help Demo - North Yard",
+          "pieces": 20,
+          "cbm": 52.968,
+          "cft": 1870.554,
+          "createdAt": "15 Jun 2026, 14:29"
+        }
+      ],
+      "financialHealth": {
+        "totalInvoiced": 6307350,
+        "totalReceived": 1550000,
+        "totalPayable": 2316000,
+        "outstandingReceivable": 4757350,
+        "overdueAmount": 3794450,
+        "overdueCount": 5,
+        "primaryCurrency": "USD",
+        "receivablesAging": [
+          {
+            "label": "0–30 days",
+            "amount": 184750,
+            "count": 1
+          },
+          {
+            "label": "31–60 days",
+            "amount": 217400,
+            "count": 2
+          },
+          {
+            "label": "61–90 days",
+            "amount": 142300,
+            "count": 1
+          },
+          {
+            "label": "90+ days",
+            "amount": 3250000,
+            "count": 1
+          }
+        ]
+      },
+      "reconciliation": {
+        "totalTUs": 6,
+        "reconciledTUs": 5,
+        "pendingTUs": 1,
+        "lockedTUs": 3,
+        "netDiscrepancyCbm": 4.28,
+        "topDiscrepancies": [
+          {
+            "transportId": "LL Help Demo Square Tally 1200 Pieces",
+            "encodedId": "uU3y6uH4-ugp5JNX-6MiPldY",
+            "sourceCbm": 52.97,
+            "destinationCbm": 51.42,
+            "discrepancyCbm": 1.55
+          },
+          {
+            "transportId": "LL Help Demo Dashboard Mill Processing Logs",
+            "encodedId": "LLHELP-TU-PROC-005",
+            "sourceCbm": 24.4,
+            "destinationCbm": 23.2,
+            "discrepancyCbm": 1.2
+          },
+          {
+            "transportId": "LL Help Demo Dashboard Available Teak Logs",
+            "encodedId": "LLHELP-TU-AVAIL-004",
+            "sourceCbm": 18.75,
+            "destinationCbm": 17.9,
+            "discrepancyCbm": 0.85
+          },
+          {
+            "transportId": "LL Help Demo Round Tally 115 Logs",
+            "encodedId": "SBG6xXKXDQVm1EzVcHGntrZ8",
+            "sourceCbm": 13.52,
+            "destinationCbm": 12.84,
+            "discrepancyCbm": 0.68
+          }
+        ]
+      },
+      "processing": {
+        "totalRuns": 3,
+        "completedRuns": 1,
+        "totalInputCbm": 27.52,
+        "totalOutputCbm": 10.4,
+        "avgOutturnPercent": 37.79,
+        "netGainCbm": -17.12
+      }
+    },
+    "text": "{\"partners\":{\"total\":6,\"active\":5,\"inactive\":1,\"byCountry\":{\"SG\":1,\"IN\":3,\"US\":1,\"CA\":1}},\"shipments\":{\"total\":8,\"byTradeType\":{\"IMPORT\":2,\"DOMESTIC_PURCHASE\":1,\"EXPORT\":3,\"DOMESTIC_SALE\":1,\"TRADING\":1},\"byMode\":{\"RAIL\":1,\"ROAD\":1,\"AIR\":1,\"SEA\":5},\"upcomingDepartures\":[{\"encodedId\":\"LLHELP-SHP-ROAD-004\",\"blNumber\":\"LL-DEMO-SHP-ROAD-004\",\"tradeType\":\"DOMESTIC_SALE\",\"mode\":\"ROAD\",\"shipper\":\"Mahadev Export\",\"consignee\":\"LL Help Demo - Evergreen Ply Traders\",\"date\":\"2026-06-16\",\"portOfLoading\":null,\"portOfDischarge\":null},{\"encodedId\":\"LLHELP-SHP-AIR-002\",\"blNumber\":\"LL-DEMO-SHP-AIR-002\",\"tradeType\":\"EXPORT\",\"mode\":\"AIR\",\"shipper\":\"Mahadev Export\",\"consignee\":\"LL Help Demo - Blue Oak Distribution\",\"date\":\"2026-06-17\",\"portOfLoading\":\"Mundra\",\"portOfDischarge\":\"Singapore\"},{\"encodedId\":\"AREBcrI5sUTHohjzT0us2DUU\",\"blNumber\":\"LL-DEMO-SHP-SEA-001\",\"tradeType\":\"EXPORT\",\"mode\":\"SEA\",\"shipper\":\"Mahadev Export\",\"consignee\":\"LL Help Demo - Harborline Imports LLC\",\"date\":\"2026-06-18\",\"portOfLoading\":\"Mundra\",\"portOfDischarge\":\"Dubai (Jebel Ali)\"},{\"encodedId\":\"LLHELP-SHP-TRD-006\",\"blNumber\":\"LL-DEMO-SHP-TRD-006\",\"tradeType\":\"TRADING\",\"mode\":\"SEA\",\"shipper\":\"LL Help Demo - Greenfield Timber Exports\",\"consignee\":\"LL Help Demo - Blue Oak Distribution\",\"date\":\"2026-06-19\",\"portOfLoading\":\"Mundra\",\"portOfDischarge\":\"Shanghai\"}],\"upcomingArrivals\":[{\"encodedId\":\"LLHELP-SHP-ARR-008\",\"blNumber\":\"LL-DEMO-SHP-ARR-008\",\"tradeType\":\"IMPORT\",\"mode\":\"SEA\",\"shipper\":\"LL Help Demo - Blue Oak Distribution\",\"consignee\":\"Mahadev Export\",\"date\":\"2026-06-18\",\"portOfLoading\":\"Singapore\",\"portOfDischarge\":\"Mundra\"},{\"encodedId\":\"LLHELP-SHP-IMP-003\",\"blNumber\":\"LL-DEMO-SHP-IMP-003\",\"tradeType\":\"IMPORT\",\"mode\":\"SEA\",\"shipper\":\"LL Help Demo - North Ridge Sawmills\",\"consignee\":\"Mahadev Export\",\"date\":\"2026-06-19\",\"portOfLoading\":\"Vancouver\",\"portOfDischarge\":\"Mundra\"},{\"encodedId\":\"LLHELP-SHP-RAIL-005\",\"blNumber\":\"LL-DEMO-SHP-RAIL-005\",\"tradeType\":\"DOMESTIC_PURCHASE\",\"mode\":\"RAIL\",\"shipper\":\"LL Help Demo - North Ridge Sawmills\",\"consignee\":\"Mahadev Export\",\"date\":\"2026-06-21\",\"portOfLoading\":null,\"portOfDischarge\":null},{\"encodedId\":\"LLHELP-SHP-TRD-006\",\"blNumber\":\"LL-DEMO-SHP-TRD-006\",\"tradeType\":\"TRADING\",\"mode\":\"SEA\",\"shipper\":\"LL Help Demo - Greenfield Timber Exports\",\"consignee\":\"LL Help Demo - Blue Oak Distribution\",\"date\":\"2026-06-22\",\"portOfLoading\":\"Mundra\",\"portOfDischarge\":\"Shanghai\"}],\"paymentStatus\":{\"PAID\":4,\"PENDING\":5}},\"transportUnits\":{\"total\":6,\"unassigned\":4},\"tally\":{\"totalCbm\":146.09,\"totalCft\":5159.08,\"totalPieces\":675.0,\"trend\":[],\"topProducts\":[{\"productName\":\"LL Help Demo - Mixed Hardwood Planks\",\"totalCft\":1870.55,\"totalCbm\":52.97},{\"productName\":\"LL Help Demo - Round Teak Logs\",\"totalCft\":1523.85,\"totalCbm\":43.15},{\"productName\":\"LL Help Demo - Sawn Oak Boards\",\"totalCft\":1066.57,\"totalCbm\":30.2},{\"productName\":\"LL Help Demo - Cedar Utility Poles\",\"totalCft\":698.1,\"totalCbm\":19.77}]},\"loadingSites\":[{\"id\":1,\"name\":\"LL Help Demo - North Yard\",\"capacity\":\"1200\",\"currentVolume\":\"735\",\"country\":\"IN\"},{\"id\":2,\"name\":\"LL Help Demo - Port Loading Bay\",\"capacity\":\"2500\",\"currentVolume\":\"1680\",\"country\":\"IN\"},{\"id\":3,\"name\":\"LL Help Demo - East Sawmill\",\"capacity\":\"800\",\"currentVolume\":\"520\",\"country\":\"IN\"},{\"id\":4,\"name\":\"LL Help Demo - Forest Depot\",\"capacity\":\"600\",\"currentVolume\":\"385\",\"country\":\"IN\"},{\"id\":5,\"name\":\"LL Help Demo - Warehouse Stack A\",\"capacity\":\"1500\",\"currentVolume\":\"1040\",\"country\":\"IN\"}],\"subscription\":{\"packageName\":\"Standard\",\"status\":\"ACTIVE\",\"validTill\":null,\"daysRemaining\":-1},\"recentTransportUnits\":[{\"encodedId\":\"LLHELP-TU-SHIPPED-006\",\"transportId\":\"LL Help Demo Dashboard Shipped Boards\",\"productName\":\"LL Help Demo - Sawn Oak Boards\",\"loadingSite\":\"LL Help Demo - Port Loading Bay\",\"pieces\":240.0,\"cbm\":30.2,\"cft\":1066.57,\"createdAt\":\"15 Jun 2026, 20:33\"},{\"encodedId\":\"LLHELP-TU-PROC-005\",\"transportId\":\"LL Help Demo Dashboard Mill Processing Logs\",\"productName\":\"LL Help Demo - Round Teak Logs\",\"loadingSite\":\"LL Help Demo - East Sawmill\",\"pieces\":160.0,\"cbm\":24.4,\"cft\":861.72,\"createdAt\":\"15 Jun 2026, 20:33\"},{\"encodedId\":\"LLHELP-TU-AVAIL-004\",\"transportId\":\"LL Help Demo Dashboard Available Teak Logs\",\"productName\":\"LL Help Demo - Round Teak Logs\",\"loadingSite\":\"LL Help Demo - Forest Depot\",\"pieces\":98.0,\"cbm\":18.75,\"cft\":662.13,\"createdAt\":\"15 Jun 2026, 20:33\"},{\"encodedId\":\"gJpqM8MSwfReArI71mz40MVv\",\"transportId\":\"LL Help Demo Empty Tally Sheet\",\"productName\":\"LL Help Demo - Cedar Utility Poles\",\"loadingSite\":\"LL Help Demo - North Yard\",\"pieces\":42.0,\"cbm\":6.25,\"cft\":220.73,\"createdAt\":\"15 Jun 2026, 14:29\"},{\"encodedId\":\"uU3y6uH4-ugp5JNX-6MiPldY\",\"transportId\":\"LL Help Demo Square Tally 1200 Pieces\",\"productName\":\"LL Help Demo - Mixed Hardwood Planks\",\"loadingSite\":\"LL Help Demo - North Yard\",\"pieces\":20.0,\"cbm\":52.968,\"cft\":1870.554,\"createdAt\":\"15 Jun 2026, 14:29\"}],\"financialHealth\":{\"totalInvoiced\":6307350.0,\"totalReceived\":1550000.0,\"totalPayable\":2316000.0,\"outstandingReceivable\":4757350.0,\"overdueAmount\":3794450.0,\"overdueCount\":5,\"primaryCurrency\":\"USD\",\"receivablesAging\":[{\"label\":\"0–30 days\",\"amount\":184750.0,\"count\":1},{\"label\":\"31–60 days\",\"amount\":217400.0,\"count\":2},{\"label\":\"61–90 days\",\"amount\":142300.0,\"count\":1},{\"label\":\"90+ days\",\"amount\":3250000.0,\"count\":1}]},\"reconciliation\":{\"totalTUs\":6,\"reconciledTUs\":5,\"pendingTUs\":1,\"lockedTUs\":3,\"netDiscrepancyCbm\":4.28,\"topDiscrepancies\":[{\"transportId\":\"LL Help Demo Square Tally 1200 Pieces\",\"encodedId\":\"uU3y6uH4-ugp5JNX-6MiPldY\",\"sourceCbm\":52.97,\"destinationCbm\":51.42,\"discrepancyCbm\":1.55},{\"transportId\":\"LL Help Demo Dashboard Mill Processing Logs\",\"encodedId\":\"LLHELP-TU-PROC-005\",\"sourceCbm\":24.4,\"destinationCbm\":23.2,\"discrepancyCbm\":1.2},{\"transportId\":\"LL Help Demo Dashboard Available Teak Logs\",\"encodedId\":\"LLHELP-TU-AVAIL-004\",\"sourceCbm\":18.75,\"destinationCbm\":17.9,\"discrepancyCbm\":0.85},{\"transportId\":\"LL Help Demo Round Tally 115 Logs\",\"encodedId\":\"SBG6xXKXDQVm1EzVcHGntrZ8\",\"sourceCbm\":13.52,\"destinationCbm\":12.84,\"discrepancyCbm\":0.68}]},\"processing\":{\"totalRuns\":3,\"completedRuns\":1,\"totalInputCbm\":27.52,\"totalOutputCbm\":10.4,\"avgOutturnPercent\":37.79,\"netGainCbm\":-17.12}}"
+  },
+  "inventory": {
+    "status": 200,
+    "ok": true,
+    "body": {
+      "availableCbm": 25,
+      "availableTuCount": 2,
+      "inProcessCbm": 24.4,
+      "inProcessTuCount": 1,
+      "inShipmentCbm": 66.485,
+      "inShipmentTuCount": 2,
+      "shippedCbmThisMonth": 30.2,
+      "atForest": {
+        "cbm": 18.75,
+        "tuCount": 1
+      },
+      "inTransit": {
+        "cbm": 0,
+        "tuCount": 0
+      },
+      "atMill": {
+        "cbm": 0,
+        "tuCount": 0
+      },
+      "inProcess": {
+        "cbm": 24.4,
+        "tuCount": 1
+      },
+      "atYard": {
+        "cbm": 6.25,
+        "tuCount": 1
+      },
+      "inShipment": {
+        "cbm": 96.685,
+        "tuCount": 3
+      },
+      "bySite": [
+        {
+          "siteId": 1,
+          "siteName": "LL Help Demo - North Yard",
+          "siteType": "YARD",
+          "transportUnits": [
+            {
+              "tuId": 3,
+              "transportId": "LL Help Demo Empty Tally Sheet",
+              "encodedId": "gJpqM8MSwfReArI71mz40MVv",
+              "productName": "LL Help Demo - Cedar Utility Poles",
+              "tallyType": "ROUND",
+              "cbm": 6.25,
+              "pieces": 42,
+              "inventoryStatus": "AVAILABLE",
+              "receivedAt": "2026-06-15T14:29:15.692866",
+              "daysInYard": 0
+            }
+          ]
+        },
+        {
+          "siteId": 4,
+          "siteName": "LL Help Demo - Forest Depot",
+          "siteType": "FOREST",
+          "transportUnits": [
+            {
+              "tuId": 4,
+              "transportId": "LL Help Demo Dashboard Available Teak Logs",
+              "encodedId": "LLHELP-TU-AVAIL-004",
+              "productName": "LL Help Demo - Round Teak Logs",
+              "tallyType": "ROUND",
+              "cbm": 18.75,
+              "pieces": 98,
+              "inventoryStatus": "AVAILABLE",
+              "receivedAt": "2026-06-15T20:33:49.188917",
+              "daysInYard": 0
+            }
+          ]
+        },
+        {
+          "siteId": 3,
+          "siteName": "LL Help Demo - East Sawmill",
+          "siteType": "MILL",
+          "transportUnits": [
+            {
+              "tuId": 5,
+              "transportId": "LL Help Demo Dashboard Mill Processing Logs",
+              "encodedId": "LLHELP-TU-PROC-005",
+              "productName": "LL Help Demo - Round Teak Logs",
+              "tallyType": "ROUND",
+              "cbm": 24.4,
+              "pieces": 160,
+              "inventoryStatus": "IN_PROCESS",
+              "receivedAt": "2026-06-15T20:33:49.330285",
+              "daysInYard": 0
+            }
+          ]
+        }
+      ]
+    },
+    "text": "{\"availableCbm\":25.00,\"availableTuCount\":2,\"inProcessCbm\":24.4,\"inProcessTuCount\":1,\"inShipmentCbm\":66.485,\"inShipmentTuCount\":2,\"shippedCbmThisMonth\":30.2,\"atForest\":{\"cbm\":18.75,\"tuCount\":1},\"inTransit\":{\"cbm\":0,\"tuCount\":0},\"atMill\":{\"cbm\":0,\"tuCount\":0},\"inProcess\":{\"cbm\":24.4,\"tuCount\":1},\"atYard\":{\"cbm\":6.25,\"tuCount\":1},\"inShipment\":{\"cbm\":96.685,\"tuCount\":3},\"bySite\":[{\"siteId\":1,\"siteName\":\"LL Help Demo - North Yard\",\"siteType\":\"YARD\",\"transportUnits\":[{\"tuId\":3,\"transportId\":\"LL Help Demo Empty Tally Sheet\",\"encodedId\":\"gJpqM8MSwfReArI71mz40MVv\",\"productName\":\"LL Help Demo - Cedar Utility Poles\",\"tallyType\":\"ROUND\",\"cbm\":6.25,\"pieces\":42,\"inventoryStatus\":\"AVAILABLE\",\"receivedAt\":\"2026-06-15T14:29:15.692866\",\"daysInYard\":0}]},{\"siteId\":4,\"siteName\":\"LL Help Demo - Forest Depot\",\"siteType\":\"FOREST\",\"transportUnits\":[{\"tuId\":4,\"transportId\":\"LL Help Demo Dashboard Available Teak Logs\",\"encodedId\":\"LLHELP-TU-AVAIL-004\",\"productName\":\"LL Help Demo - Round Teak Logs\",\"tallyType\":\"ROUND\",\"cbm\":18.75,\"pieces\":98,\"inventoryStatus\":\"AVAILABLE\",\"receivedAt\":\"2026-06-15T20:33:49.188917\",\"daysInYard\":0}]},{\"siteId\":3,\"siteName\":\"LL Help Demo - East Sawmill\",\"siteType\":\"MILL\",\"transportUnits\":[{\"tuId\":5,\"transportId\":\"LL Help Demo Dashboard Mill Processing Logs\",\"encodedId\":\"LLHELP-TU-PROC-005\",\"productName\":\"LL Help Demo - Round Teak Logs\",\"tallyType\":\"ROUND\",\"cbm\":24.4,\"pieces\":160,\"inventoryStatus\":\"IN_PROCESS\",\"receivedAt\":\"2026-06-15T20:33:49.330285\",\"daysInYard\":0}]}]}"
+  }
+}

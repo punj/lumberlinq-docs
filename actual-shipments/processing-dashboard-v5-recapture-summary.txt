@@ -1,0 +1,14 @@
+{
+  "authCheck": {
+    "products": 200,
+    "loadingSites": 200
+  },
+  "receiveTu3": {
+    "status": 500,
+    "ok": false,
+    "body": "<Map><appCodeLabel>Unexpected / uncategorised error</appCodeLabel><appCode>5099</appCode><message>An unexpected error occurred. Please try again or contact support.</message><status>500</status><timestamp>2026-06-15T18:37:00.555548761Z</timestamp></Map>",
+    "text": "<Map><appCodeLabel>Unexpected / uncategorised error</appCodeLabel><appCode>5099</appCode><message>An unexpected error occurred. Please try again or contact support.</message><status>500</status><timestamp>2026-06-15T18:37:00.555548761Z</timestamp></Map>"
+  },
+  "availableInputsCount": 2,
+  "lastUrl": "https://app-vps.rikexim.com/dashboard-v5"
+}

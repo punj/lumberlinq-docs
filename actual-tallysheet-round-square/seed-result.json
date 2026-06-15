@@ -1,0 +1,20 @@
+{
+  "round": {
+    "id": 1,
+    "encodedId": "SBG6xXKXDQVm1EzVcHGntrZ8",
+    "transportId": "LL Help Demo Round Tally 115 Logs",
+    "tallyMasterId": 1
+  },
+  "square": {
+    "id": 2,
+    "encodedId": "uU3y6uH4-ugp5JNX-6MiPldY",
+    "transportId": "LL Help Demo Square Tally 1200 Pieces",
+    "tallyMasterId": 2
+  },
+  "empty": {
+    "id": 3,
+    "encodedId": "gJpqM8MSwfReArI71mz40MVv",
+    "transportId": "LL Help Demo Empty Tally Sheet",
+    "tallyMasterId": 3
+  }
+}

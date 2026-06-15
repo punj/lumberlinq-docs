@@ -1,0 +1,30 @@
+[
+  {
+    "tuId": 1,
+    "receive": {
+      "status": 200,
+      "body": {
+        "success": true,
+        "message": "Transport Unit received into inventory"
+      }
+    },
+    "link": {
+      "status": 200,
+      "body": "Referenced"
+    }
+  },
+  {
+    "tuId": 2,
+    "receive": {
+      "status": 200,
+      "body": {
+        "success": true,
+        "message": "Transport Unit received into inventory"
+      }
+    },
+    "link": {
+      "status": 200,
+      "body": "Referenced"
+    }
+  }
+]

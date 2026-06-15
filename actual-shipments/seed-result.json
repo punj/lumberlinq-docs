@@ -1,0 +1,77 @@
+{
+  "authCheck": {
+    "products": 200,
+    "loadingSites": 200
+  },
+  "action": "reused-existing",
+  "shipment": {
+    "id": 1,
+    "encodedId": "AREBcrI5sUTHohjzT0us2DUU",
+    "tradeType": "EXPORT",
+    "shipmentDate": "2026-06-15",
+    "shipper": "Mahadev Export",
+    "consignee": "LL Help Demo - Harborline Imports LLC",
+    "status": "DRAFT",
+    "blNumber": "LL-DEMO-SHP-SEA-001",
+    "buyerOrderNo": "LL-PO-DEMO-2026-044",
+    "exporterRefNo": "LL-EXP-DEMO-2026-001",
+    "modeOfTransport": "SEA",
+    "portOfLoading": "Mundra",
+    "portOfDischarge": "Dubai (Jebel Ali)",
+    "currency": "USD",
+    "totalInvoiceAmount": 184750,
+    "transportUnitCount": 0
+  },
+  "listResponse": {
+    "status": 200,
+    "ok": true,
+    "body": {
+      "content": [
+        {
+          "id": 1,
+          "encodedId": "AREBcrI5sUTHohjzT0us2DUU",
+          "tradeType": "EXPORT",
+          "shipmentDate": "2026-06-15",
+          "shipper": "Mahadev Export",
+          "consignee": "LL Help Demo - Harborline Imports LLC",
+          "status": "DRAFT",
+          "blNumber": "LL-DEMO-SHP-SEA-001",
+          "buyerOrderNo": "LL-PO-DEMO-2026-044",
+          "exporterRefNo": "LL-EXP-DEMO-2026-001",
+          "modeOfTransport": "SEA",
+          "portOfLoading": "Mundra",
+          "portOfDischarge": "Dubai (Jebel Ali)",
+          "currency": "USD",
+          "totalInvoiceAmount": 184750,
+          "transportUnitCount": 0
+        }
+      ],
+      "pageable": {
+        "pageNumber": 0,
+        "pageSize": 10,
+        "sort": {
+          "sorted": true,
+          "unsorted": false,
+          "empty": false
+        },
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+      },
+      "totalElements": 1,
+      "totalPages": 1,
+      "last": true,
+      "size": 10,
+      "number": 0,
+      "sort": {
+        "sorted": true,
+        "unsorted": false,
+        "empty": false
+      },
+      "first": true,
+      "numberOfElements": 1,
+      "empty": false
+    },
+    "text": "{\"content\":[{\"id\":1,\"encodedId\":\"AREBcrI5sUTHohjzT0us2DUU\",\"tradeType\":\"EXPORT\",\"shipmentDate\":\"2026-06-15\",\"shipper\":\"Mahadev Export\",\"consignee\":\"LL Help Demo - Harborline Imports LLC\",\"status\":\"DRAFT\",\"blNumber\":\"LL-DEMO-SHP-SEA-001\",\"buyerOrderNo\":\"LL-PO-DEMO-2026-044\",\"exporterRefNo\":\"LL-EXP-DEMO-2026-001\",\"modeOfTransport\":\"SEA\",\"portOfLoading\":\"Mundra\",\"portOfDischarge\":\"Dubai (Jebel Ali)\",\"currency\":\"USD\",\"totalInvoiceAmount\":184750.0,\"transportUnitCount\":0}],\"pageable\":{\"pageNumber\":0,\"pageSize\":10,\"sort\":{\"sorted\":true,\"unsorted\":false,\"empty\":false},\"offset\":0,\"paged\":true,\"unpaged\":false},\"totalElements\":1,\"totalPages\":1,\"last\":true,\"size\":10,\"number\":0,\"sort\":{\"sorted\":true,\"unsorted\":false,\"empty\":false},\"first\":true,\"numberOfElements\":1,\"empty\":false}"
+  }
+}
