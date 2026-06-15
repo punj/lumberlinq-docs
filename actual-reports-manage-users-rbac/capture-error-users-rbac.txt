@@ -1,0 +1,3 @@
+Error: No visible textarea found
+    at fillVisibleTextarea (/home/punj/projects/lumberlinq-help-preview/actual-reports-manage-users-rbac/scripts/capture-users-rbac-resume.js:41:18)
+    at async run (/home/punj/projects/lumberlinq-help-preview/actual-reports-manage-users-rbac/scripts/capture-users-rbac-resume.js:71:3)

@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "seed": "node scripts/seed-products-loading-sites.js",
+    "capture": "node scripts/capture-products-loading-sites.js",
+    "video": "node scripts/capture-short-video.js",
+    "all": "npm run seed && npm run capture"
+  },
+  "dependencies": {
+    "playwright-core": "^1.61.0"
+  }
+}

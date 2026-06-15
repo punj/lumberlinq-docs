@@ -1,0 +1,35 @@
+# Screenshot Inventory - Reports, Manage User, and RBAC
+
+- `screenshots/rbac-01-settings-overview.png`
+- `screenshots/rbac-02-configure-user-sidebar.png`
+- `screenshots/rbac-03-disable-confirmation-dialog.png`
+- `screenshots/reports-01-business-partner-report.png`
+- `screenshots/reports-02-product-report.png`
+- `screenshots/reports-03-loading-site-report.png`
+- `screenshots/reports-04-transport-unit-report.png`
+- `screenshots/reports-05-tally-report.png`
+- `screenshots/reports-06-reconciliation-report.png`
+- `screenshots/reports-07-app-usage-report.png`
+- `screenshots/reports-08-users-report.png`
+- `screenshots/reports-09-shipment-overview.png`
+- `screenshots/reports-10-shipment-transactions-tab.png`
+- `screenshots/reports-11-shipment-financial-tab.png`
+- `screenshots/reports-12-shipment-export-buttons.png`
+- `screenshots/reports-13-financial-overview.png`
+- `screenshots/reports-14-financial-by-currency-tab.png`
+- `screenshots/reports-15-financial-partners-tab.png`
+- `screenshots/reports-16-financial-trend-tab.png`
+- `screenshots/reports-17-financial-transactions-tab.png`
+- `screenshots/reports-18-inventory-overview.png`
+- `screenshots/reports-19-inventory-adjustments-tab.png`
+- `screenshots/reports-20-inventory-processing-runs-tab.png`
+- `screenshots/reports-21-mobile-financial-report.png`
+- `screenshots/users-01-manage-user-list.png`
+- `screenshots/users-02-pending-invitations.png`
+- `screenshots/users-03-invite-user-dialog.png`
+- `screenshots/users-04-invite-validation-error.png`
+- `screenshots/users-05-role-template-dropdown.png`
+- `screenshots/users-06-access-rights-panel.png`
+- `screenshots/users-07-access-rights-role-template-dropdown.png`
+- `screenshots/users-08-access-rights-permission-groups.png`
+- `screenshots/users-09-mobile-manage-user.png`

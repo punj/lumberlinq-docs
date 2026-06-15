@@ -1,0 +1,185 @@
+{
+  "text": "BETA\nEN\nA\nS\nManage User\n\nView and administer user profiles\n\n5 users\nInvite User\nManage Users\n5\nTotal Members\n4\nActive\n1\nInactive\n3\nPending Invites\nSR\tMEMBER\tROLE\tSTATUS\tLOGIN\tLAST ACTIVE\tACTIONS\n1\t\nS\nShiv Mahadev\nshiv-vps@mahadev.com\n\t\nAdmin\t\nActive\t\tJust now\t\n\n2\t\nA\nAmit Yard Supervisor\nll-help-demo-ops@lumberlinq.example\n\t\nSupervisor — Tally + Shipments + Export\t\nActive\t\t34m ago\t\n\n3\t\nM\nMeera Finance Analyst\nll-help-demo-finance@lumberlinq.example\n\t\nAnalyst — View & export everything, no edits\t\nActive\t\t2h ago\t\n\n4\t\nR\nRavi Field Operator\nll-help-demo-field@lumberlinq.example\n\t\nField Operator — Tally add & view only\t\nActive\t\t1d ago\t\n\n5\t\nS\nSara Viewer\nll-help-demo-viewer@lumberlinq.example\n\t\nCustom — No permissions (configure manually)\t\nInactive\t\t6/6/2026\t\nPending Invitations\n3\nSR\tEMAIL\tEXPIRES\tSTATUS\tACTIONS\n1\t\nll-help-demo-new-yard@lumberlinq.example\tJust now\t\nPending\t\n\n2\t\nll-help-demo-reporting@lumberlinq.example\tJust now\t\nPending\t\n\n3\t\nll-help-demo-revoked@lumberlinq.example\tJust now\t\nRevoked\t\nInvite User\nEmail Addresses\nSeparate multiple emails with commas, spaces, or new lines.\nRole Template\nField Operator — Tally add & view only\nDefines initial access rights. Can be changed anytime.\nUsers join after accepting the emailed invite link.\nInvite links expire in 24 hours — you can resend if needed.\nThe number of users is subject to your subscription plan.\nCancel\nSend Invite\n2024 Lumber Linq — All Rights Reserved.\nPowered By Lumber Linq\nLove our app?\nUse it for your own business!",
+  "dialogs": [
+    {
+      "txt": "Invite User\nEmail Addresses\nSeparate multiple emails with commas, spaces, or new lines.\nRole Template\nField Operator — Tally add & view only\nDefines initial access rights. Can be changed anytime.\nUsers join after accepting the emailed invite link.\nInvite links expire in 24 hours — you can resend if needed.\nThe number of users is subject to your subscription plan.\nCancel\nSend Invite",
+      "html": "<div pfocustrap=\"\" role=\"dialog\" class=\"p-element ng-trigger ng-trigger-animation ng-tns-c1946505645-25 usr-invite-dialog p-dialog p-component ng-star-inserted\" ng-reflect-ng-class=\"[object Object]\" ng-reflect-ng-style=\"[object Object]\" ng-reflect-p-focus-trap-disabled=\"false\" aria-labelledby=\"pn_id_45_header\" aria-modal=\"true\" pn_id_46=\"\" style=\"width: 480px; z-index: 1102;\"><span class=\"p-hidden-accessible p-hidden-focusable\" tabindex=\"0\" role=\"presentation\" data-p-hidden-accessible=\"true\" data-p-hidden-focusable=\"true\" data-pc-section=\"firstfocusableelement\"></span><!--bindings={\n  \"ng-reflect-ng-if\": \"false\"\n}--><div class=\"p-dialog-header ng-tns-c1946505645-25 ng-star-inserted\" style=\"\"><span class=\"p-dialog-title ng-tns-c1946505645-25 ng-star-inserted\" id=\"pn_id_45_header\">Invite User</span><!--bindings={\n  \"ng-reflect-ng-if\": \"true\"\n}--><!--bindings={}--><!--bindings={}--><div class=\"p-dialog-header-icons ng-tns-c1946505645-25\"><!--bindings={\n  \"ng-reflect-ng-if\": \"false\"\n}--><b",
+      "rect": {
+        "x": 560,
+        "y": 263.71875,
+        "w": 480,
+        "h": 572.5625
+      }
+    }
+  ],
+  "textareas": [
+    {
+      "html": "<textarea _ngcontent-ng-c1504639010=\"\" pinputtextarea=\"\" formcontrolname=\"emailAddresses\" placeholder=\"e.g. alice@company.com, bob@company.com\" class=\"p-inputtextarea p-inputtext p-component p-element w-full ng-untouched ng-pristine ng-invalid\" style=\"resize: vertical;\" ng-reflect-name=\"emailAddresses\" rows=\"3\"></textarea>",
+      "rect": {
+        "x": 584,
+        "y": 388.3125,
+        "w": 432,
+        "h": 83
+      },
+      "style": ""
+    }
+  ],
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded tms-hdr-icon-btn p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c4191250933=\"\" pbutton=\"\" type=\"button\" id=\"tms-tour-menu-btn\" icon=\"pi pi-bars\" tooltipposition=\"bottom\" appendto=\"body\" class=\"p-element p-button-text p-button-rounded tms-hdr-"
+    },
+    {
+      "i": 1,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded tms-hdr-icon-btn tms-theme-btn p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c4191250933=\"\" pbutton=\"\" type=\"button\" id=\"tms-tour-darkmode\" tooltipposition=\"bottom\" appendto=\"body\" class=\"p-element p-button-text p-button-rounded tms-hdr-icon-btn tms-theme"
+    },
+    {
+      "i": 2,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded tms-hdr-icon-btn tms-tour-btn p-button p-component p-button-icon-only",
+      "html": "<button _ngcontent-ng-c4191250933=\"\" pbutton=\"\" type=\"button\" id=\"tms-tour-help\" icon=\"pi pi-question-circle\" tooltipposition=\"bottom\" appendto=\"body\" class=\"p-element p-button-text p-button-rounded t"
+    },
+    {
+      "i": 3,
+      "text": "Invite User",
+      "cls": "p-element p-button-primary bp-btn-new p-button p-component ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-user-plus\" class=\"p-element p-button-primary bp-btn-new p-button p-component ng-star-inserted\" ng-reflect-icon=\"pi pi-user-plu"
+    },
+    {
+      "i": 4,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-ban\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component "
+    },
+    {
+      "i": 5,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-shield\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-compo"
+    },
+    {
+      "i": 6,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-ban\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component "
+    },
+    {
+      "i": 7,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-shield\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-compo"
+    },
+    {
+      "i": 8,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-ban\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component "
+    },
+    {
+      "i": 9,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-shield\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-compo"
+    },
+    {
+      "i": 10,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-ban\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component "
+    },
+    {
+      "i": 11,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-shield\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-compo"
+    },
+    {
+      "i": 12,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-success p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-user-plus\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-success p-button p-comp"
+    },
+    {
+      "i": 13,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-primary p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-send\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-primary p-button p-component"
+    },
+    {
+      "i": 14,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-ban\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component "
+    },
+    {
+      "i": 15,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-primary p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-send\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-primary p-button p-component"
+    },
+    {
+      "i": 16,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-ban\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component "
+    },
+    {
+      "i": 17,
+      "text": "",
+      "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-danger p-button p-component p-button-icon-only ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-trash\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-danger p-button p-component"
+    },
+    {
+      "i": 18,
+      "text": "",
+      "cls": "p-element p-ripple ng-tns-c1946505645-25 p-dialog-header-icon p-dialog-header-close p-link p-button p-component ng-star-inserted",
+      "html": "<button type=\"button\" pripple=\"\" pbutton=\"\" class=\"p-element p-ripple ng-tns-c1946505645-25 p-dialog-header-icon p-dialog-header-close p-link p-button p-component ng-star-inserted\" ng-reflect-ng-class"
+    },
+    {
+      "i": 19,
+      "text": "Cancel",
+      "cls": "p-element p-button-text p-button p-component ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" class=\"p-element p-button-text p-button p-component ng-star-inserted\" ng-reflect-label=\"Cancel\"><span class=\"p-button-label\">Cancel</span>"
+    },
+    {
+      "i": 20,
+      "text": "Send Invite",
+      "cls": "p-element p-button-primary p-button p-component ng-star-inserted",
+      "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-send\" class=\"p-element p-button-primary p-button p-component ng-star-inserted\" ng-reflect-icon=\"pi pi-send\" ng-reflect-label=\""
+    },
+    {
+      "i": 21,
+      "text": "",
+      "cls": "p-element tms-ft-btn tms-ft-fb p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only",
+      "html": "<button _ngcontent-ng-c1828443824=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-facebook\" tooltipposition=\"top\" appendto=\"body\" class=\"p-element tms-ft-btn tms-ft-fb p-button-rounded p-button-text p-button-"
+    },
+    {
+      "i": 22,
+      "text": "",
+      "cls": "p-element tms-ft-btn tms-ft-tw p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only",
+      "html": "<button _ngcontent-ng-c1828443824=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-twitter\" tooltipposition=\"top\" appendto=\"body\" class=\"p-element tms-ft-btn tms-ft-tw p-button-rounded p-button-text p-button-s"
+    },
+    {
+      "i": 23,
+      "text": "",
+      "cls": "p-element tms-ft-btn tms-ft-li p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only",
+      "html": "<button _ngcontent-ng-c1828443824=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-linkedin\" tooltipposition=\"top\" appendto=\"body\" class=\"p-element tms-ft-btn tms-ft-li p-button-rounded p-button-text p-button-"
+    },
+    {
+      "i": 24,
+      "text": "",
+      "cls": "p-element tms-ft-btn tms-ft-ig p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only",
+      "html": "<button _ngcontent-ng-c1828443824=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-instagram\" tooltipposition=\"top\" appendto=\"body\" class=\"p-element tms-ft-btn tms-ft-ig p-button-rounded p-button-text p-button"
+    },
+    {
+      "i": 25,
+      "text": "",
+      "cls": "p-element tms-ft-btn tms-ft-yt p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only",
+      "html": "<button _ngcontent-ng-c1828443824=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-youtube\" tooltipposition=\"top\" appendto=\"body\" class=\"p-element tms-ft-btn tms-ft-yt p-button-rounded p-button-text p-button-s"
+    }
+  ]
+}

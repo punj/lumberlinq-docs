@@ -1,0 +1,226 @@
+{
+  "perms": {
+    "userId": 2,
+    "permissions": [
+      "TALLY_AI_IMPORT",
+      "SHIPMENT_ACCESS",
+      "BP_DELETE",
+      "TALLY_DELETE",
+      "BP_ACCESS",
+      "TALLY_ACCESS",
+      "SHIPMENT_EXPORT",
+      "USERS_VIEW",
+      "TALLY_IMPORT",
+      "EXTRAS_MANAGE",
+      "BP_EDIT",
+      "BP_ADD",
+      "TALLY_EXPORT",
+      "REPORT_EXPORT",
+      "DASHBOARD_ACCESS",
+      "SHIPMENT_DELETE",
+      "SHIPMENT_IMPORT",
+      "SHIPMENT_ADD",
+      "TALLY_ADD",
+      "USERS_MANAGE",
+      "SHIPMENT_EDIT",
+      "TALLY_SHARE",
+      "SHIPMENT_SHARE",
+      "TALLY_EDIT",
+      "REPORT_ACCESS",
+      "STORAGE_ACCESS",
+      "EXTRAS_ACCESS"
+    ]
+  },
+  "data": {
+    "url": "https://app-vps.rikexim.com/manage/user",
+    "text": "BETA\nEN\nA\nS\nManage User\n\nView and administer user profiles\n\n5 users\nInvite User\nManage Users\n5\nTotal Members\n4\nActive\n1\nInactive\n3\nPending Invites\nSR\tMEMBER\tROLE\tSTATUS\tLOGIN\tLAST ACTIVE\tACTIONS\n1\t\nS\nShiv Mahadev\nshiv-vps@mahadev.com\n\t\nAdmin\t\nActive\t\t2m ago\t\n\n2\t\nA\nAmit Yard Supervisor\nll-help-demo-ops@lumberlinq.example\n\t\nSupervisor — Tally + Shipments + Export\t\nActive\t\t31m ago\t\n\n3\t\nM\nMeera Finance Analyst\nll-help-demo-finance@lumberlinq.example\n\t\nAnalyst — View & export everything, no edits\t\nActive\t\t2h ago\t\n\n4\t\nR\nRavi Field Operator\nll-help-demo-field@lumberlinq.example\n\t\nField Operator — Tally add & view only\t\nActive\t\t1d ago\t\n\n5\t\nS\nSara Viewer\nll-help-demo-viewer@lumberlinq.example\n\t\nCustom — No permissions (configure manually)\t\nInactive\t\t6/6/2026\t\nPending Invitations\n3\nSR\tEMAIL\tEXPIRES\tSTATUS\tACTIONS\n1\t\nll-help-demo-new-yard@lumberlinq.example\tJust now\t\nPending\t\n\n2\t\nll-help-demo-reporting@lumberlinq.example\tJust now\t\nPending\t\n\n3\t\nll-help-demo-revoked@lumberlinq.example\tJust now\t\nRevoked\t\n2024 Lumber Linq — All Rights Reserved.\nPowered By Lumber Linq\nLove our app?\nUse it for your own business!",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded tms-hdr-icon-btn p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c4191250933=\"\" pbutton=\"\" type=\"button\" id=\"tms-tour-menu-btn\" icon=\"pi pi-bars\" tooltipposition=\"bottom\" appendto=\"body\" class=\"p-element p-button-text p-button-rounded tms-hdr-icon-btn p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-bars\" ng-r"
+      },
+      {
+        "i": 1,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded tms-hdr-icon-btn tms-theme-btn p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c4191250933=\"\" pbutton=\"\" type=\"button\" id=\"tms-tour-darkmode\" tooltipposition=\"bottom\" appendto=\"body\" class=\"p-element p-button-text p-button-rounded tms-hdr-icon-btn tms-theme-btn p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-tooltip-position=\"bottom\" "
+      },
+      {
+        "i": 2,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded tms-hdr-icon-btn tms-tour-btn p-button p-component p-button-icon-only",
+        "html": "<button _ngcontent-ng-c4191250933=\"\" pbutton=\"\" type=\"button\" id=\"tms-tour-help\" icon=\"pi pi-question-circle\" tooltipposition=\"bottom\" appendto=\"body\" class=\"p-element p-button-text p-button-rounded tms-hdr-icon-btn tms-tour-btn p-button p-component p-button-icon-only\" ng-reflect-icon=\"pi pi-questio"
+      },
+      {
+        "i": 3,
+        "text": "Invite User",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-primary bp-btn-new p-button p-component ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-user-plus\" class=\"p-element p-button-primary bp-btn-new p-button p-component ng-star-inserted\" ng-reflect-icon=\"pi pi-user-plus\" ng-reflect-label=\"Invite User\"><span class=\"p-button-icon p-button-icon-left pi pi-user-plus\" ari"
+      },
+      {
+        "i": 4,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-ban\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-ban\" ng-reflect-tooltip-position=\"left\" "
+      },
+      {
+        "i": 5,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-shield\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-shield\" ng-reflect-tooltip-position"
+      },
+      {
+        "i": 6,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-ban\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-ban\" ng-reflect-tooltip-position=\"left\" "
+      },
+      {
+        "i": 7,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-shield\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-shield\" ng-reflect-tooltip-position"
+      },
+      {
+        "i": 8,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-ban\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-ban\" ng-reflect-tooltip-position=\"left\" "
+      },
+      {
+        "i": 9,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-shield\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-shield\" ng-reflect-tooltip-position"
+      },
+      {
+        "i": 10,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-ban\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-ban\" ng-reflect-tooltip-position=\"left\" "
+      },
+      {
+        "i": 11,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-shield\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-secondary p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-shield\" ng-reflect-tooltip-position"
+      },
+      {
+        "i": 12,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-success p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-user-plus\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-success p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-user-plus\" ng-reflect-tooltip-posi"
+      },
+      {
+        "i": 13,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-primary p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-send\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-primary p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-send\" ng-reflect-tooltip-position=\"left"
+      },
+      {
+        "i": 14,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-ban\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-ban\" ng-reflect-tooltip-position=\"left\" "
+      },
+      {
+        "i": 15,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-primary p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-send\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-primary p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-send\" ng-reflect-tooltip-position=\"left"
+      },
+      {
+        "i": 16,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-ban\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-warning p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-ban\" ng-reflect-tooltip-position=\"left\" "
+      },
+      {
+        "i": 17,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element p-button-text p-button-rounded p-button-sm p-button-danger p-button p-component p-button-icon-only ng-star-inserted",
+        "html": "<button _ngcontent-ng-c1504639010=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-trash\" tooltipposition=\"left\" class=\"p-element p-button-text p-button-rounded p-button-sm p-button-danger p-button p-component p-button-icon-only ng-star-inserted\" ng-reflect-icon=\"pi pi-trash\" ng-reflect-tooltip-position=\"lef"
+      },
+      {
+        "i": 18,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element tms-ft-btn tms-ft-fb p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only",
+        "html": "<button _ngcontent-ng-c1828443824=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-facebook\" tooltipposition=\"top\" appendto=\"body\" class=\"p-element tms-ft-btn tms-ft-fb p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only\" ng-reflect-icon=\"pi pi-facebook\" ng-reflect-tooltip-posi"
+      },
+      {
+        "i": 19,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element tms-ft-btn tms-ft-tw p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only",
+        "html": "<button _ngcontent-ng-c1828443824=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-twitter\" tooltipposition=\"top\" appendto=\"body\" class=\"p-element tms-ft-btn tms-ft-tw p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only\" ng-reflect-icon=\"pi pi-twitter\" ng-reflect-tooltip-positi"
+      },
+      {
+        "i": 20,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element tms-ft-btn tms-ft-li p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only",
+        "html": "<button _ngcontent-ng-c1828443824=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-linkedin\" tooltipposition=\"top\" appendto=\"body\" class=\"p-element tms-ft-btn tms-ft-li p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only\" ng-reflect-icon=\"pi pi-linkedin\" ng-reflect-tooltip-posi"
+      },
+      {
+        "i": 21,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element tms-ft-btn tms-ft-ig p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only",
+        "html": "<button _ngcontent-ng-c1828443824=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-instagram\" tooltipposition=\"top\" appendto=\"body\" class=\"p-element tms-ft-btn tms-ft-ig p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only\" ng-reflect-icon=\"pi pi-instagram\" ng-reflect-tooltip-po"
+      },
+      {
+        "i": 22,
+        "text": "",
+        "title": null,
+        "aria": null,
+        "cls": "p-element tms-ft-btn tms-ft-yt p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only",
+        "html": "<button _ngcontent-ng-c1828443824=\"\" pbutton=\"\" type=\"button\" icon=\"pi pi-youtube\" tooltipposition=\"top\" appendto=\"body\" class=\"p-element tms-ft-btn tms-ft-yt p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only\" ng-reflect-icon=\"pi pi-youtube\" ng-reflect-tooltip-positi"
+      }
+    ],
+    "textareas": 0,
+    "dialogs": 0
+  }
+}
