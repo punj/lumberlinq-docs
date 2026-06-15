@@ -1,0 +1,32 @@
+[
+  {
+    "name": "LL Help Demo - Greenfield Timber Exports",
+    "action": "create",
+    "status": 200,
+    "text": "{\"id\":3,\"encodedId\":\"0paD_DszWRdfh-uKEbp3O7Me\",\"name\":\"LL Help Demo - Greenfield Timber Exports\",\"contactPerson\":\"Rahul Mehta\",\"partyType\":\"BOTH\",\"referenceCode\":\"LL-DEMO-GF\",\"isActive\":true,\"isOwner\":false,\"taxId\":\"27ABCDE1234F1Z5\",\"registrationType\":\"EXPORTER\",\"email\":\"greenfield.demo@example.com\",\"phone1\":\"(415) 555-0101\",\"phone2\":\"(415) 555-0199\",\"website\":\"https://example.com/greenfield\",\"address1\":\"Block C, Timber Export Yard\",\"address2\":\"Near Inland Container Depot\",\"countryIso2\":\"IN\",\"stateCode\":\"GJ\",\"cityName\":\"Ahmedabad\",\"postalCode\":\"382421\",\"notes\":\"Demo partner for Business Partner help documentation.\",\"attachments\":null,\"linkedUserId\":null,\"externalCode\":\"ERP-DEMO-GF\",\"partyCategory\":\"INTERNATIONAL\",\"tags\":[\"TRADER\",\"EXPORTER\",\"SAWMILL\"],\"bankDetails\":[{\"createdBy\":\"shiv-vps@mahadev.com\",\"createdDate\":\"2026-06-15T10:48:02.523743922\",\"lastModifiedBy\":\"shiv-vps@mahadev.com\",\"lastModifiedDate\":\"2026-06-15T10:48:02.523743922\",\"id\":1,\"bankName\":\"HDFC Bank\",\"accNo\":\"998877664821\",\"ifscSwift\":\"HDFCINBBXXX\",\"currency\":\"USD\"}]}"
+  },
+  {
+    "name": "LL Help Demo - North Ridge Sawmills",
+    "action": "create",
+    "status": 200,
+    "text": "{\"id\":4,\"encodedId\":\"1C5tdHit0gdYuMhczEeKsWEU\",\"name\":\"LL Help Demo - North Ridge Sawmills\",\"contactPerson\":\"Ava Thompson\",\"partyType\":\"SELLER\",\"referenceCode\":\"LL-DEMO-NR\",\"isActive\":true,\"isOwner\":false,\"taxId\":\"CA879221\",\"registrationType\":\"COMPANY\",\"email\":\"northridge.demo@example.com\",\"phone1\":\"(604) 555-0178\",\"phone2\":null,\"website\":\"https://example.com/northridge\",\"address1\":\"120 Cedar Mill Road\",\"address2\":null,\"countryIso2\":\"CA\",\"stateCode\":\"BC\",\"cityName\":\"Vancouver\",\"postalCode\":\"V6B 1A1\",\"notes\":\"Supplier demo record.\",\"attachments\":null,\"linkedUserId\":null,\"externalCode\":\"ERP-DEMO-NR\",\"partyCategory\":\"INTERNATIONAL\",\"tags\":[\"SAWMILL\"],\"bankDetails\":[]}"
+  },
+  {
+    "name": "LL Help Demo - Harborline Imports LLC",
+    "action": "create",
+    "status": 200,
+    "text": "{\"id\":5,\"encodedId\":\"J6p72_Y6EpNJ7lUM9XZgIeKe\",\"name\":\"LL Help Demo - Harborline Imports LLC\",\"contactPerson\":\"Miguel Santos\",\"partyType\":\"BUYER\",\"referenceCode\":\"LL-DEMO-HI\",\"isActive\":true,\"isOwner\":false,\"taxId\":\"US442109\",\"registrationType\":\"IMPORTER\",\"email\":\"harborline.demo@example.com\",\"phone1\":\"(305) 555-0160\",\"phone2\":null,\"website\":\"https://example.com/harborline\",\"address1\":\"88 Port Avenue\",\"address2\":null,\"countryIso2\":\"US\",\"stateCode\":\"FL\",\"cityName\":\"Miami\",\"postalCode\":\"33101\",\"notes\":\"Buyer demo record.\",\"attachments\":null,\"linkedUserId\":null,\"externalCode\":\"ERP-DEMO-HI\",\"partyCategory\":\"INTERNATIONAL\",\"tags\":[\"IMPORTER\"],\"bankDetails\":[]}"
+  },
+  {
+    "name": "LL Help Demo - Evergreen Ply Traders",
+    "action": "create",
+    "status": 200,
+    "text": "{\"id\":6,\"encodedId\":\"kSMnNWApxVqH2wx9t4OO7p9I\",\"name\":\"LL Help Demo - Evergreen Ply Traders\",\"contactPerson\":\"Nisha Patel\",\"partyType\":\"BOTH\",\"referenceCode\":\"LL-DEMO-EP\",\"isActive\":false,\"isOwner\":false,\"taxId\":\"24PQRSX4455K1Z2\",\"registrationType\":\"COMPANY\",\"email\":\"evergreen.demo@example.com\",\"phone1\":\"(212) 555-0188\",\"phone2\":null,\"website\":null,\"address1\":\"7 Warehouse Lane\",\"address2\":null,\"countryIso2\":\"IN\",\"stateCode\":\"GJ\",\"cityName\":\"Ahmedabad\",\"postalCode\":\"380015\",\"notes\":\"Inactive demo record for status filtering.\",\"attachments\":null,\"linkedUserId\":null,\"externalCode\":\"ERP-DEMO-EP\",\"partyCategory\":\"DOMESTIC\",\"tags\":[\"TRADER\"],\"bankDetails\":[]}"
+  },
+  {
+    "name": "LL Help Demo - Blue Oak Distribution",
+    "action": "create",
+    "status": 200,
+    "text": "{\"id\":7,\"encodedId\":\"lXuODXG83aKdUwMWFGlMgVRe\",\"name\":\"LL Help Demo - Blue Oak Distribution\",\"contactPerson\":\"Chen Wei\",\"partyType\":\"BUYER\",\"referenceCode\":\"LL-DEMO-BO\",\"isActive\":true,\"isOwner\":false,\"taxId\":\"SG556781\",\"registrationType\":\"COMPANY\",\"email\":\"blueoak.demo@example.com\",\"phone1\":\"(650) 555-0144\",\"phone2\":null,\"website\":null,\"address1\":\"42 Trade Center Road\",\"address2\":null,\"countryIso2\":\"SG\",\"stateCode\":\"\",\"cityName\":\"Singapore\",\"postalCode\":\"048616\",\"notes\":\"Distribution demo record.\",\"attachments\":null,\"linkedUserId\":null,\"externalCode\":\"ERP-DEMO-BO\",\"partyCategory\":\"INTERNATIONAL\",\"tags\":[\"RETAILER\",\"IMPORTER\"],\"bankDetails\":[]}"
+  }
+]

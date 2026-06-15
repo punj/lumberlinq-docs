@@ -1,0 +1,738 @@
+CONSOLE error Failed to load resource: net::ERR_FAILED
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE warning DEPRECATED: DI is instantiating a token "MyHammerConfig" that inherits its @Injectable decorator but does not provide one itself.
+This will become an error in a future version of Angular. Please add @Injectable() to the "MyHammerConfig" class.
+
+CONSOLE debug %c2026-06-15T10:39:29.044Z DEBUG [main.js:45435:17] color:teal Key using service is 
+
+CONSOLE error %c2026-06-15T10:39:29.048Z ERROR [main.js:45429:22] color:red Encryption key not found in cookies.
+
+CONSOLE debug %c2026-06-15T10:39:29.228Z DEBUG [main.js:46348:17] color:teal Url for getting user profile https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE debug %c2026-06-15T10:39:29.235Z DEBUG [main.js:46342:17] color:teal Url for getting menu https://api-vps.rikexim.com/api/v1/menu-items
+
+CONSOLE debug %c2026-06-15T10:39:29.239Z DEBUG [main.js:46348:17] color:teal Url for getting user profile https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE debug %c2026-06-15T10:39:29.241Z DEBUG [main.js:46342:17] color:teal Url for getting menu https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781519969241
+
+CONSOLE debug %c2026-06-15T10:39:29.286Z DEBUG [main.js:45669:17] color:teal changeFontSize from service is 1
+
+CONSOLE log Angular is running in development mode.
+
+CONSOLE debug %c2026-06-15T10:39:29.295Z DEBUG [main.js:30437:19] color:teal Header cached profile loaded {hasProfile: false, profilePicture: undefined, companyLogoUrl: undefined}
+
+CONSOLE debug %c2026-06-15T10:39:29.295Z DEBUG [main.js:46348:17] color:teal Url for getting user profile https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE debug %c2026-06-15T10:39:29.308Z DEBUG [main.js:2897:19] color:teal [LoginRedirectGuard] Forced login flow — skipping session check
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:29.769Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/user-profile, message: Http failure response for https://api-vps.rikexim.com/api/v1/user-profile: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:29.772Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/user-profile}
+
+CONSOLE debug %c2026-06-15T10:39:29.773Z DEBUG [main.js:13670:19] color:teal Interceptor :: Starting shared refresh request
+
+CONSOLE debug %c2026-06-15T10:39:29.773Z DEBUG [main.js:45233:17] color:teal [AuthService] Refresh session request started
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/users/me/permissions
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:29.784Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/users/me/permissions, message: Http failure response for https://api-vps.rikexim.com/api/v1/users/me/permissions: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:29.805Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/users/me/permissions}
+
+CONSOLE debug %c2026-06-15T10:39:29.808Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/menu-items
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:29.822Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/menu-items, message: Http failure response for https://api-vps.rikexim.com/api/v1/menu-items: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:29.825Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/menu-items}
+
+CONSOLE debug %c2026-06-15T10:39:29.827Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:29.844Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/user-profile, message: Http failure response for https://api-vps.rikexim.com/api/v1/user-profile: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:29.845Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/user-profile}
+
+CONSOLE debug %c2026-06-15T10:39:29.845Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781519969241
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:29.849Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781519969241, message: Http failure response for https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781519969241: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:29.850Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781519969241}
+
+CONSOLE debug %c2026-06-15T10:39:29.850Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/users/me/permissions
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:29.853Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/users/me/permissions, message: Http failure response for https://api-vps.rikexim.com/api/v1/users/me/permissions: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:29.859Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/users/me/permissions}
+
+CONSOLE debug %c2026-06-15T10:39:29.860Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:29.871Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/user-profile, message: Http failure response for https://api-vps.rikexim.com/api/v1/user-profile: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:29.923Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/user-profile}
+
+CONSOLE debug %c2026-06-15T10:39:29.929Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+HTTP 401 https://api-vps.rikexim.com/auth/refresh
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:30.122Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/auth/refresh, message: Http failure response for https://api-vps.rikexim.com/auth/refresh: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:30.124Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/auth/refresh}
+
+CONSOLE warning %c2026-06-15T10:39:30.124Z WARN [main.js:13602:23] color:red Interceptor :: Refresh skipped for auth/public endpoint {url: https://api-vps.rikexim.com/auth/refresh}
+
+CONSOLE warning %c2026-06-15T10:39:30.126Z WARN [main.js:13708:17] color:red Interceptor :: Showing session expired dialog {status: 401, message: Session refresh failed You will be redirected to the login page. Click Yes to continue.}
+
+CONSOLE debug %c2026-06-15T10:39:30.128Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:30.130Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:30.131Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:30.131Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:30.131Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:30.132Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:30.132Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:30.143Z DEBUG [main.js:13714:21] color:teal Interceptor :: Opening app-owned session expired dialog via service
+
+CONSOLE debug %c2026-06-15T10:39:30.144Z DEBUG [main.js:46235:17] color:teal [SessionExpiredDialogService] Opening session expired dialog {message: Session refresh failed You will be redirected to the login page. Click Yes to continue.}
+
+CONSOLE debug %c2026-06-15T10:39:30.144Z DEBUG [main.js:1235:19] color:teal AppComponent :: session expired dialog request received {message: Session refresh failed You will be redirected to the login page. Click Yes to continue., onAccept: , onReject: }
+
+CONSOLE debug %c2026-06-15T10:39:31.590Z DEBUG [src_app_modules_login-logout_login_login_component_ts.js:486:17] color:teal Login invite/social URL state {isInviteMode: false, inviteToken: , fingerprint: 2395933434, googleUrl: https://api-vps.rikexim.com/oauth2/authorization/google?deviceId=2395933434&authMode=login}
+
+CONSOLE debug %c2026-06-15T10:39:31.591Z DEBUG [src_app_modules_login-logout_login_login_component_ts.js:502:17] color:teal Return Url is /
+
+CONSOLE debug %c2026-06-15T10:39:31.592Z DEBUG [src_app_modules_login-logout_login_login_component_ts.js:503:17] color:teal Return Url is /
+
+CONSOLE warning %c2026-06-15T10:39:31.592Z WARN [src_app_modules_login-logout_login_login_component_ts.js:509:17] color:red error %%%%% null
+
+CONSOLE warning %c2026-06-15T10:39:31.615Z WARN [src_app_modules_login-logout_login_login_component_ts.js:573:19] color:red Turnstile script unavailable — security check will be skipped client-side
+
+CONSOLE verbose [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+
+CONSOLE verbose [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE debug %c2026-06-15T10:39:36.102Z DEBUG [main.js:1538:17] color:teal AppComponent :: session expired dialog accepted
+
+CONSOLE info %c2026-06-15T10:39:36.103Z INFO [main.js:13718:25] color:gray Interceptor :: Session expired dialog accepted, clearing local session and navigating login
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE info %c2026-06-15T10:39:41.320Z INFO [main.js:45215:17] color:gray CustomLogin {"deviceId":2395933434,"email":"shiv-vps@mahadev.com","password":"Ganpatiji1","turnstileToken":null}
+
+CONSOLE debug %c2026-06-15T10:39:41.852Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/login, body: Object}
+
+CONSOLE info %c2026-06-15T10:39:41.852Z INFO [src_app_modules_login-logout_login_login_component_ts.js:842:21] color:gray LOGIN successful {message: shiv-vps@mahadev.com, status: PERMANENT_REDIRECT, token: null, redirectUrl: https://app-vps.rikexim.com/tally-sheet/confirm-logout-devices}
+
+CONSOLE error Failed to load resource: net::ERR_FAILED
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE warning DEPRECATED: DI is instantiating a token "MyHammerConfig" that inherits its @Injectable decorator but does not provide one itself.
+This will become an error in a future version of Angular. Please add @Injectable() to the "MyHammerConfig" class.
+
+CONSOLE debug %c2026-06-15T10:39:43.333Z DEBUG [main.js:45435:17] color:teal Key using service is 
+
+CONSOLE error %c2026-06-15T10:39:43.334Z ERROR [main.js:45429:22] color:red Encryption key not found in cookies.
+
+CONSOLE debug %c2026-06-15T10:39:43.394Z DEBUG [main.js:46348:17] color:teal Url for getting user profile https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE debug %c2026-06-15T10:39:43.397Z DEBUG [main.js:46342:17] color:teal Url for getting menu https://api-vps.rikexim.com/api/v1/menu-items
+
+CONSOLE debug %c2026-06-15T10:39:43.401Z DEBUG [main.js:46348:17] color:teal Url for getting user profile https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE debug %c2026-06-15T10:39:43.404Z DEBUG [main.js:46342:17] color:teal Url for getting menu https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781519983404
+
+CONSOLE debug %c2026-06-15T10:39:43.426Z DEBUG [main.js:45669:17] color:teal changeFontSize from service is 1
+
+CONSOLE log Angular is running in development mode.
+
+CONSOLE debug %c2026-06-15T10:39:43.431Z DEBUG [main.js:30437:19] color:teal Header cached profile loaded {hasProfile: false, profilePicture: undefined, companyLogoUrl: undefined}
+
+CONSOLE debug %c2026-06-15T10:39:43.432Z DEBUG [main.js:46348:17] color:teal Url for getting user profile https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:43.504Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/user-profile, message: Http failure response for https://api-vps.rikexim.com/api/v1/user-profile: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:43.505Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/user-profile}
+
+CONSOLE debug %c2026-06-15T10:39:43.506Z DEBUG [main.js:13670:19] color:teal Interceptor :: Starting shared refresh request
+
+CONSOLE debug %c2026-06-15T10:39:43.507Z DEBUG [main.js:45233:17] color:teal [AuthService] Refresh session request started
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781519983404
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:43.524Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781519983404, message: Http failure response for https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781519983404: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:43.525Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781519983404}
+
+CONSOLE debug %c2026-06-15T10:39:43.527Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/users/me/permissions
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:43.532Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/users/me/permissions, message: Http failure response for https://api-vps.rikexim.com/api/v1/users/me/permissions: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:43.533Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/users/me/permissions}
+
+CONSOLE debug %c2026-06-15T10:39:43.534Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/users/me/permissions
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:43.540Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/users/me/permissions, message: Http failure response for https://api-vps.rikexim.com/api/v1/users/me/permissions: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:43.541Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/users/me/permissions}
+
+CONSOLE debug %c2026-06-15T10:39:43.541Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+CONSOLE debug %c2026-06-15T10:39:45.757Z DEBUG [src_app_modules_tally-sheet_confirm-logout-devices_confirm-logout-devices_component_ts.js:104:19] color:teal undefined
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:45.890Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/user-profile, message: Http failure response for https://api-vps.rikexim.com/api/v1/user-profile: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:45.897Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/user-profile}
+
+CONSOLE debug %c2026-06-15T10:39:45.898Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/menu-items
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:45.911Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/menu-items, message: Http failure response for https://api-vps.rikexim.com/api/v1/menu-items: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:45.912Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/menu-items}
+
+CONSOLE debug %c2026-06-15T10:39:45.917Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+HTTP 401 https://api-vps.rikexim.com/auth/refresh
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:45.929Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/auth/refresh, message: Http failure response for https://api-vps.rikexim.com/auth/refresh: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:45.930Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/auth/refresh}
+
+CONSOLE warning %c2026-06-15T10:39:45.930Z WARN [main.js:13602:23] color:red Interceptor :: Refresh skipped for auth/public endpoint {url: https://api-vps.rikexim.com/auth/refresh}
+
+CONSOLE debug %c2026-06-15T10:39:45.931Z DEBUG [main.js:13698:19] color:teal Interceptor :: Session expired dialog skipped {visible: false, currentUrl: /tally-sheet/confirm-logout-devices, suppressedRoute: true}
+
+CONSOLE debug %c2026-06-15T10:39:45.931Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:45.932Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:45.932Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:45.933Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:45.933Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:45.934Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:45.946Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/user-profile, message: Http failure response for https://api-vps.rikexim.com/api/v1/user-profile: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:45.948Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/user-profile}
+
+CONSOLE debug %c2026-06-15T10:39:45.978Z DEBUG [main.js:13670:19] color:teal Interceptor :: Starting shared refresh request
+
+CONSOLE debug %c2026-06-15T10:39:45.980Z DEBUG [main.js:45233:17] color:teal [AuthService] Refresh session request started
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/subscriptions/latest/status
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:46.044Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/subscriptions/latest/status, message: Http failure response for https://api-vps.rikexim.com/api/v1/subscriptions/latest/status: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:46.045Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/subscriptions/latest/status}
+
+CONSOLE debug %c2026-06-15T10:39:46.046Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/app/beta
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:46.065Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/app/beta, message: Http failure response for https://api-vps.rikexim.com/api/v1/app/beta: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:46.066Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/app/beta}
+
+CONSOLE debug %c2026-06-15T10:39:46.066Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/profile/timezone
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:46.071Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/profile/timezone, message: Http failure response for https://api-vps.rikexim.com/api/v1/profile/timezone: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:46.091Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/profile/timezone}
+
+CONSOLE debug %c2026-06-15T10:39:46.092Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+HTTP 401 https://api-vps.rikexim.com/api/v1/tickets/count
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:46.109Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/api/v1/tickets/count, message: Http failure response for https://api-vps.rikexim.com/api/v1/tickets/count: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:46.110Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/api/v1/tickets/count}
+
+CONSOLE debug %c2026-06-15T10:39:46.111Z DEBUG [main.js:13676:19] color:teal Interceptor :: Joining existing refresh request
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+HTTP 401 https://api-vps.rikexim.com/auth/refresh
+
+CONSOLE error Failed to load resource: the server responded with a status of 401 ()
+
+CONSOLE error %c2026-06-15T10:39:46.976Z ERROR [main.js:13538:19] color:red Interceptor :: Error: {status: 401, url: https://api-vps.rikexim.com/auth/refresh, message: Http failure response for https://api-vps.rikexim.com/auth/refresh: 401 OK, error: Object}
+
+CONSOLE warning %c2026-06-15T10:39:46.977Z WARN [main.js:13591:21] color:red Interceptor :: Unauthorized, attempting refresh before login redirect {url: https://api-vps.rikexim.com/auth/refresh}
+
+CONSOLE warning %c2026-06-15T10:39:46.978Z WARN [main.js:13602:23] color:red Interceptor :: Refresh skipped for auth/public endpoint {url: https://api-vps.rikexim.com/auth/refresh}
+
+CONSOLE debug %c2026-06-15T10:39:46.979Z DEBUG [main.js:13698:19] color:teal Interceptor :: Session expired dialog skipped {visible: false, currentUrl: /tally-sheet/confirm-logout-devices, suppressedRoute: true}
+
+CONSOLE debug %c2026-06-15T10:39:46.980Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:46.982Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:46.982Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:46.983Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:46.985Z DEBUG [main.js:13672:21] color:teal Interceptor :: Shared refresh request finished
+
+CONSOLE debug %c2026-06-15T10:39:53.813Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/login/confirm-logout-other-devices, body: Object}
+
+CONSOLE info %c2026-06-15T10:39:53.814Z INFO [src_app_modules_tally-sheet_confirm-logout-devices_confirm-logout-devices_component_ts.js:80:23] color:gray logoutAllOtherDevices success {"message":"Successfully logout all devices","status":"OK","token":"","redirectUrl":"https://app-vps.rikexim.com/dashboard-new"}
+
+CONSOLE error Failed to load resource: net::ERR_FAILED
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE warning DEPRECATED: DI is instantiating a token "MyHammerConfig" that inherits its @Injectable decorator but does not provide one itself.
+This will become an error in a future version of Angular. Please add @Injectable() to the "MyHammerConfig" class.
+
+CONSOLE debug %c2026-06-15T10:39:55.090Z DEBUG [main.js:45435:17] color:teal Key using service is 2aj0TrP0wWRWEbXHPAGCyt5qmQo5ReZu6lYzI/xR4mw=
+
+CONSOLE debug %c2026-06-15T10:39:55.134Z DEBUG [main.js:46348:17] color:teal Url for getting user profile https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE debug %c2026-06-15T10:39:55.137Z DEBUG [main.js:46342:17] color:teal Url for getting menu https://api-vps.rikexim.com/api/v1/menu-items
+
+CONSOLE debug %c2026-06-15T10:39:55.143Z DEBUG [main.js:46348:17] color:teal Url for getting user profile https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE debug %c2026-06-15T10:39:55.146Z DEBUG [main.js:46342:17] color:teal Url for getting menu https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781519995146
+
+CONSOLE debug %c2026-06-15T10:39:55.209Z DEBUG [main.js:45669:17] color:teal changeFontSize from service is 1
+
+CONSOLE log Angular is running in development mode.
+
+CONSOLE debug %c2026-06-15T10:39:55.222Z DEBUG [main.js:30437:19] color:teal Header cached profile loaded {hasProfile: false, profilePicture: undefined, companyLogoUrl: undefined}
+
+CONSOLE debug %c2026-06-15T10:39:55.222Z DEBUG [main.js:46348:17] color:teal Url for getting user profile https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE debug %c2026-06-15T10:39:56.552Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/users/me/permissions, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:56.556Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/user-profile, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:56.557Z DEBUG [main.js:31271:19] color:teal In getUserProfile data {"firstName":"Shiv","lastName":"Mahadev","companyId":"82O0VUZSI","profilePicture":null,"gender":"Male","roles":["ROLE_USER","ROLE_ADMIN","ROLE_REGISTRATION"],"status":200,"companyLogoUrl":null,"appVersion":"1.39.3"}
+
+CONSOLE debug %c2026-06-15T10:39:56.564Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/user-profile, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:56.565Z DEBUG [main.js:30450:19] color:teal In getUserProfile data {"firstName":"Shiv","lastName":"Mahadev","companyId":"82O0VUZSI","profilePicture":null,"gender":"Male","roles":["ROLE_USER","ROLE_ADMIN","ROLE_REGISTRATION"],"status":200,"companyLogoUrl":null,"appVersion":"1.39.3"}
+
+CONSOLE debug %c2026-06-15T10:39:56.565Z DEBUG [main.js:30452:19] color:teal Header fresh profile loaded {profilePicture: null, companyLogoUrl: null, companyId: 82O0VUZSI}
+
+CONSOLE debug %c2026-06-15T10:39:56.572Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/user-profile, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:56.574Z DEBUG [main.js:31271:19] color:teal In getUserProfile data {"firstName":"Shiv","lastName":"Mahadev","companyId":"82O0VUZSI","profilePicture":null,"gender":"Male","roles":["ROLE_USER","ROLE_ADMIN","ROLE_REGISTRATION"],"status":200,"companyLogoUrl":null,"appVersion":"1.39.3"}
+
+CONSOLE debug %c2026-06-15T10:39:56.581Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/menu-items, body: Array(10)}
+
+CONSOLE debug %c2026-06-15T10:39:56.582Z DEBUG [main.js:31176:21] color:teal Sidebar menu loaded {menuCount: 10, labels: Array(10)}
+
+CONSOLE debug %c2026-06-15T10:39:56.593Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/users/me/permissions, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:56.610Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781519995146, body: Array(10)}
+
+CONSOLE debug %c2026-06-15T10:39:56.610Z DEBUG [main.js:31176:21] color:teal Sidebar menu loaded {menuCount: 10, labels: Array(10)}
+
+CONSOLE debug %c2026-06-15T10:39:56.634Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/users/me/permissions, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:56.649Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/progress, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:56.651Z DEBUG [main.js:2994:19] color:teal userProgress Response is {"roles":[{"roleId":6,"name":"REGISTRATION"},{"roleId":3,"name":"ADMIN"}],"registrationStatus":true,"companyRegistered":true,"invitedUser":false,"termsAccepted":true,"termsVersion":"2026-05","onboardingCompleted":false,"subscriptionValid":true}
+
+CONSOLE debug %c2026-06-15T10:39:56.652Z DEBUG [main.js:2995:19] color:teal userProgress roles are [{"roleId":6,"name":"REGISTRATION"},{"roleId":3,"name":"ADMIN"}]
+
+CONSOLE debug %c2026-06-15T10:39:56.653Z DEBUG [main.js:2996:19] color:teal userProgress companyRegistered is true
+
+CONSOLE debug %c2026-06-15T10:39:56.654Z DEBUG [main.js:2997:19] color:teal userProgress registrationStatus is true
+
+CONSOLE debug %c2026-06-15T10:39:56.655Z DEBUG [main.js:2998:19] color:teal userProgress subscriptionValid is true
+
+CONSOLE debug %c2026-06-15T10:39:56.655Z DEBUG [main.js:2999:19] color:teal userProgress hasRegistrationRole=> true
+
+CONSOLE debug %c2026-06-15T10:39:56.923Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/subscriptions/latest/status, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:56.928Z DEBUG [main.js:3015:21] color:teal subscriptionStatus Response is {"daysRemaining":365,"gracePeriodDays":0,"gracePeriodEnd":"2027-06-15","packageId":1,"renewalLocked":false,"message":"ACTIVE","trial":true,"graceDaysRemaining":365,"subscriptionEnd":"2027-06-15T10:01:14.84033","success":true,"currency":"INR","packageName":"Trial","tenure":"YEARLY"}
+
+CONSOLE debug %c2026-06-15T10:39:57.435Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/subscriptions/latest/status, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:57.460Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/app/beta, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:57.507Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/inventory/summary, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:57.548Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/profile/timezone, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:57.628Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/tickets/count, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:57.673Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/dashboard-v3/stats?from=2026-05-16&to=2026-06-15, body: Object}
+
+CONSOLE debug %c2026-06-15T10:39:57.674Z DEBUG [src_app_modules_dashboard-v4_dashboard-v4_module_ts.js:1364:21] color:teal [DashV4] data loaded
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+postLoginUrl=https://app-vps.rikexim.com/dashboard-new
+
+postLoginBody=BETA
+EN
+A
+S
+Operations Dashboard
+
+Real-time overview of your timber trade operations
+
+From
+To
+BUSINESS PULSE
+BUSINESS PARTNERS
+1
+1 active
+0 inactive
+SHIPMENTS
+0
+0 upcoming
+TRANSPORT UNITS
+0
+0 unassigned
+TOTAL VOLUME
+0.0
+CBM  |  0 CFT
+TOTAL PIECES
+0
+Tally Units
+INVENTORY SNAPSHOT
+Full Inventory
+AVAILABLE STOCK
+0.0
+CBM  ·  0 TUs
+IN PROCESSING
+0.0
+CBM
+IN SHIPMENT
+0.0
+CBM
+SHIPPED THIS MONTH
+0.0
+CBM
+ACTIVE SITES
+0
+locations
+Volume Trend (CBM)
+
+No data available for the selected period
+Shipments by Trade Type
+
+No data available for the selected period
+Top Products by Volume (CFT)
+
+No data available for the selected period
+Transport Mode
+
+No data available for the selected period
+Payment Status
+UPCOMING SHIPMENTS
+View All
+Departures
+0
+BL / BILL NO	SHIPPER	CONSIGNEE	PORT OF LOADING	PORT OF DISCHARGE	DATE	MODE
+No data available for the selected period
+Arrivals
+0
+BL / BILL NO	SHIPPER	CONSIGNEE	PORT OF LOADING	PORT OF DISCHARGE	DATE	MODE
+No data available for the selected period
+GEOGRAPHY & SITES
+Partners by Country
+1
+IN
+1
+Loading Site Utilization
+SITE	COUNTRY	CAPACITY	CURRENT	UTILIZATION
+No data available for the selected period
+RECENT TRANSPORT UNITS
+View All
+TRANSPORT ID	PRODUCT	LOADING SITE	PIECES	CBM	CFT	CREATED
+No data available for the selected period
+Standard
+Status: ACTIVE
+Manage
+2024 Lumber Linq — All Rights Reserved.
+Powered By Lumber Linq
+Love our app?
+Use it for your own business!
+
+CONSOLE error Failed to load resource: net::ERR_FAILED
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE warning DEPRECATED: DI is instantiating a token "MyHammerConfig" that inherits its @Injectable decorator but does not provide one itself.
+This will become an error in a future version of Angular. Please add @Injectable() to the "MyHammerConfig" class.
+
+CONSOLE debug %c2026-06-15T10:40:09.403Z DEBUG [main.js:45435:17] color:teal Key using service is 2aj0TrP0wWRWEbXHPAGCyt5qmQo5ReZu6lYzI/xR4mw=
+
+CONSOLE debug %c2026-06-15T10:40:09.617Z DEBUG [main.js:46348:17] color:teal Url for getting user profile https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE debug %c2026-06-15T10:40:09.620Z DEBUG [main.js:46342:17] color:teal Url for getting menu https://api-vps.rikexim.com/api/v1/menu-items
+
+CONSOLE debug %c2026-06-15T10:40:09.623Z DEBUG [main.js:46348:17] color:teal Url for getting user profile https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE debug %c2026-06-15T10:40:09.625Z DEBUG [main.js:46342:17] color:teal Url for getting menu https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781520009625
+
+CONSOLE debug %c2026-06-15T10:40:09.669Z DEBUG [main.js:45669:17] color:teal changeFontSize from service is 1
+
+CONSOLE log Angular is running in development mode.
+
+CONSOLE debug %c2026-06-15T10:40:09.711Z DEBUG [main.js:46377:27] color:teal Decrypted Profile: {firstName: Shiv, lastName: Mahadev, companyId: 82O0VUZSI, profilePicture: null, gender: Male}
+
+CONSOLE debug %c2026-06-15T10:40:09.717Z DEBUG [main.js:30437:19] color:teal Header cached profile loaded {hasProfile: true, profilePicture: null, companyLogoUrl: null}
+
+CONSOLE debug %c2026-06-15T10:40:09.717Z DEBUG [main.js:46348:17] color:teal Url for getting user profile https://api-vps.rikexim.com/api/v1/user-profile
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE debug %c2026-06-15T10:40:09.846Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/users/me/permissions, body: Object}
+
+CONSOLE debug %c2026-06-15T10:40:10.827Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/menu-items, body: Array(10)}
+
+CONSOLE debug %c2026-06-15T10:40:10.828Z DEBUG [main.js:31176:21] color:teal Sidebar menu loaded {menuCount: 10, labels: Array(10)}
+
+CONSOLE debug %c2026-06-15T10:40:10.831Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/user-profile, body: Object}
+
+CONSOLE debug %c2026-06-15T10:40:10.832Z DEBUG [main.js:31271:19] color:teal In getUserProfile data {"firstName":"Shiv","lastName":"Mahadev","companyId":"82O0VUZSI","profilePicture":null,"gender":"Male","roles":["ROLE_USER","ROLE_ADMIN","ROLE_REGISTRATION"],"status":200,"companyLogoUrl":null,"appVersion":"1.39.3"}
+
+CONSOLE debug %c2026-06-15T10:40:10.841Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/users/me/permissions, body: Object}
+
+CONSOLE debug %c2026-06-15T10:40:10.844Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/user-profile, body: Object}
+
+CONSOLE debug %c2026-06-15T10:40:10.845Z DEBUG [main.js:31271:19] color:teal In getUserProfile data {"firstName":"Shiv","lastName":"Mahadev","companyId":"82O0VUZSI","profilePicture":null,"gender":"Male","roles":["ROLE_USER","ROLE_ADMIN","ROLE_REGISTRATION"],"status":200,"companyLogoUrl":null,"appVersion":"1.39.3"}
+
+CONSOLE debug %c2026-06-15T10:40:10.849Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/user-profile, body: Object}
+
+CONSOLE debug %c2026-06-15T10:40:10.850Z DEBUG [main.js:30450:19] color:teal In getUserProfile data {"firstName":"Shiv","lastName":"Mahadev","companyId":"82O0VUZSI","profilePicture":null,"gender":"Male","roles":["ROLE_USER","ROLE_ADMIN","ROLE_REGISTRATION"],"status":200,"companyLogoUrl":null,"appVersion":"1.39.3"}
+
+CONSOLE debug %c2026-06-15T10:40:10.851Z DEBUG [main.js:30452:19] color:teal Header fresh profile loaded {profilePicture: null, companyLogoUrl: null, companyId: 82O0VUZSI}
+
+CONSOLE debug %c2026-06-15T10:40:10.855Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/menu-items?_ts=1781520009625, body: Array(10)}
+
+CONSOLE debug %c2026-06-15T10:40:10.857Z DEBUG [main.js:31176:21] color:teal Sidebar menu loaded {menuCount: 10, labels: Array(10)}
+
+CONSOLE debug %c2026-06-15T10:40:10.967Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/progress, body: Object}
+
+CONSOLE debug %c2026-06-15T10:40:10.968Z DEBUG [main.js:2994:19] color:teal userProgress Response is {"roles":[{"roleId":6,"name":"REGISTRATION"},{"roleId":3,"name":"ADMIN"}],"registrationStatus":true,"companyRegistered":true,"invitedUser":false,"termsAccepted":true,"termsVersion":"2026-05","onboardingCompleted":false,"subscriptionValid":true}
+
+CONSOLE debug %c2026-06-15T10:40:10.969Z DEBUG [main.js:2995:19] color:teal userProgress roles are [{"roleId":6,"name":"REGISTRATION"},{"roleId":3,"name":"ADMIN"}]
+
+CONSOLE debug %c2026-06-15T10:40:10.970Z DEBUG [main.js:2996:19] color:teal userProgress companyRegistered is true
+
+CONSOLE debug %c2026-06-15T10:40:10.971Z DEBUG [main.js:2997:19] color:teal userProgress registrationStatus is true
+
+CONSOLE debug %c2026-06-15T10:40:10.971Z DEBUG [main.js:2998:19] color:teal userProgress subscriptionValid is true
+
+CONSOLE debug %c2026-06-15T10:40:10.971Z DEBUG [main.js:2999:19] color:teal userProgress hasRegistrationRole=> true
+
+CONSOLE debug %c2026-06-15T10:40:11.158Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/subscriptions/latest/status, body: Object}
+
+CONSOLE debug %c2026-06-15T10:40:11.161Z DEBUG [main.js:3015:21] color:teal subscriptionStatus Response is {"daysRemaining":365,"gracePeriodDays":0,"gracePeriodEnd":"2027-06-15","packageId":1,"renewalLocked":false,"message":"ACTIVE","trial":true,"graceDaysRemaining":365,"subscriptionEnd":"2027-06-15T10:01:14.84033","success":true,"currency":"INR","packageName":"Trial","tenure":"YEARLY"}
+
+CONSOLE debug %c2026-06-15T10:40:11.202Z DEBUG [src_app_modules_business-partner_business-partner_module_ts.js:643:17] color:teal [BP List] Component initialized
+
+CONSOLE debug %c2026-06-15T10:40:11.217Z DEBUG [src_app_modules_business-partner_business-partner_module_ts.js:697:17] color:teal [BP List] Request URL → https://api-vps.rikexim.com/api/v1/business-partners?page=0&size=10&sort=name,asc&search=&status=true
+
+CONSOLE debug %c2026-06-15T10:40:11.555Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/tickets/count, body: Object}
+
+CONSOLE debug %c2026-06-15T10:40:11.566Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/app/beta, body: Object}
+
+CONSOLE debug %c2026-06-15T10:40:11.612Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/profile/timezone, body: Object}
+
+CONSOLE debug %c2026-06-15T10:40:11.665Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/subscriptions/latest/status, body: Object}
+
+CONSOLE warning Failed to decode downloaded font: https://app-vps.rikexim.com/assets/themes/lara-light-blue/fonts/Inter-roman.var.woff2?v=3.19
+
+CONSOLE warning OTS parsing error: Failed to convert WOFF 2.0 font to SFNT
+
+CONSOLE debug %c2026-06-15T10:40:12.078Z DEBUG [main.js:13528:21] color:teal Interceptor :: Response: {status: 200, url: https://api-vps.rikexim.com/api/v1/business-partne…?page=0&size=10&sort=name,asc&search=&status=true, body: Object}
+
+CONSOLE debug %c2026-06-15T10:40:12.199Z DEBUG [src_app_modules_business-partner_business-partner_module_ts.js:700:21] color:teal [OPAQUE-ID][BP List] Response tokens: [8FNXFWynezzAY-teLEekGa9R]
+
+bpUrl=https://app-vps.rikexim.com/business-partners
+
+bpBody=BETA
+EN
+A
+S
+Business Partners
+
+Manage your trading partners and business relationships
+
+1 partner
+New Partner
+1
+Total
+Active
+Filter
+	
+NAME
+	
+PARTY TYPE
+	
+CONTACT PERSON
+	
+PHONE
+	
+TAX ID
+	
+REG. TYPE
+	
+COUNTRY
+	
+STATUS
+	ACTIONS
+									
+
+	
+M
+Mahadev Export
+Owner
+	BOTH	
+Shiv Mahadev
+	
+9879205382
+	24AACDR8186J1ZY	COMPANY	
+In
+	
+Active
+	
+Showing 1 to 1 of 1 entries
+1
+10
+2024 Lumber Linq — All Rights Reserved.
+Powered By Lumber Linq
+Love our app?
+Use it for your own business!

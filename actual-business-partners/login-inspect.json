@@ -1,0 +1,192 @@
+{
+  "url": "https://app-vps.rikexim.com/",
+  "title": "Lumber Linq",
+  "bodyText": "EN\n2024 Lumber Linq — All Rights Reserved.\nPowered By Lumber Linq\nLove our app?\nUse it for your own business!\nWe use cookies 🍪\nWe use cookies to keep you signed in and improve your experience. Analytics cookies require your consent. Privacy Policy\nReject Non-Essential\nManage\nAccept All\nSession Expired\n\nSession refresh failed You will be redirected to the login page. Click Yes to continue.\n\nNo\nYes",
+  "inputs": [],
+  "buttons": [
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "name": null,
+      "id": "tms-tour-help",
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "",
+      "value": null,
+      "classes": "p-element p-button-text p-button-rounded tms-hdr-icon-btn tms-tour-btn tms-tour-pulse p-button p-component p-button-icon-only"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "",
+      "value": null,
+      "classes": "p-element tms-ft-btn tms-ft-fb p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "",
+      "value": null,
+      "classes": "p-element tms-ft-btn tms-ft-tw p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "",
+      "value": null,
+      "classes": "p-element tms-ft-btn tms-ft-li p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "",
+      "value": null,
+      "classes": "p-element tms-ft-btn tms-ft-ig p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "",
+      "value": null,
+      "classes": "p-element tms-ft-btn tms-ft-yt p-button-rounded p-button-text p-button-sm p-button p-component p-button-icon-only"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "Reject Non-Essential",
+      "value": null,
+      "classes": "p-element p-button-text p-button-sm ng-tns-c3305219393-0 p-button p-component"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "Manage",
+      "value": null,
+      "classes": "p-element p-button-outlined p-button-sm ng-tns-c3305219393-0 p-button p-component"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "Accept All",
+      "value": null,
+      "classes": "p-element p-button-sm ng-tns-c3305219393-0 p-button p-component"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "No",
+      "value": null,
+      "classes": "p-ripple p-element p-button p-component p-button-text"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "Yes",
+      "value": null,
+      "classes": "p-ripple p-element p-button p-component"
+    }
+  ],
+  "anchors": [
+    {
+      "tag": "A",
+      "type": null,
+      "name": null,
+      "id": "tms-tour-logo",
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "",
+      "value": null,
+      "classes": "tms-hdr-logo-wrap"
+    },
+    {
+      "tag": "A",
+      "type": null,
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "Use it for your own business!",
+      "value": null,
+      "classes": "tms-ft-cta-link"
+    },
+    {
+      "tag": "A",
+      "type": null,
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "",
+      "value": null,
+      "classes": "p-element tms-support-fab ng-tns-c3305219393-0 ng-star-inserted"
+    },
+    {
+      "tag": "A",
+      "type": null,
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "formcontrolname": null,
+      "aria": null,
+      "text": "Privacy Policy",
+      "value": null,
+      "classes": "cookie-privacy-link ng-tns-c3305219393-0"
+    }
+  ],
+  "iframes": [],
+  "htmlStart": "<html lang=\"en\" style=\"font-size: 1rem;\"><head>\n    <meta charset=\"utf-8\">\n    <title>Lumber Linq</title>\n    <base href=\"/\">\n    <!-- <link id=\"theme-link\" rel=\"stylesheet\" href=\"assets/themes/bootstrap4-light-blue/theme.css\" /> -->\n\n    <!-- <script src=\"https://checkout.razorpay.com/v1/checkout.js\"></script> -->\n    <!-- <script type=\"text/javascript\" src=\"https://checkout.razorpay.com/v1/razorpay.js\"></script> -->\n    <!-- Razorpay removed — Cashfree SDK is loaded lazily via CashfreePaymentService -->\n    <!-- <script src=\"https://checkout.razorpay.com/v1/checkout.js\"></script> -->\n    <script src=\"https://challenges.cloudflare.com/turnstile/v0/api.js\" async=\"\" defer=\"\"></script>\n\n    <!-- <base href=\"https://storage.googleapis.com/sgn-ng-packing-list-app/\"> -->\n    <!-- <script src=\"https://js.stripe.com/v3/\"></script> -->\n    <!-- <link id=\"theme-css\" rel=\"stylesheet\" type=\"text/css\" href=\"assets/layout/styles/theme/lara-light-indigo/theme.css\"> -->\n\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <!-- <meta name=\"viewport\" content=\"user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, viewport-fit=cover\"> -->\n\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta property=\"og:title\" content=\"Lumberlinq - Your Digital Partner in Timber Business\">\n    <meta property=\"og:description\" content=\"Lumberlinq: Revolutionizing Timber Business with digital solutions for measurement, loading, calculations, and packing lists.\">\n    <meta property=\"og:type\" content=\"website\">\n    <meta property=\"og:url\" content=\"https://www.lumberlinq.com/\">\n    <meta property=\"og:image\" content=\"https://app-vps.rikexim.com/assets/images/logo.png\">\n\n    <script>\n      if (typeof global === \"undefined\") {\n        var global = window;\n      }\n    </script>\n    <!-- Google tag: loaded with consent denied by default; app cookie settings update consent after Angular boots. -->\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('consent', 'default', {\n        analytics_storage: 'denied',\n        ad_storage: 'denied',\n        ad_user_data: 'denied',\n        ad_personalization: 'denied'\n      });\n      gtag('js', new Date());\n      gtag('config', 'G-7TN9PBHZEF', { anonymize_ip: true });\n    </script>\n    <script id=\"ll-google-analytics\" async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-7TN9PBHZEF\"></script>\n    <!-- <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'self'; style-src 'self' 'unsafe-inline';\"> -->\n    <!-- <meta http-equiv=\"Content-Security-Policy\" content=\"style-src 'self' 'unsafe-inline';\"> -->\n\n    <!-- <meta http-equiv=\"Content-Security-Policy\" content=\"default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval';\"> -->\n    <!-- <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'self'; style-src 'self' 'unsafe-inline';\"> -->\n\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"favicon-32.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"favicon-16.png\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n    <link id=\"app-theme\" rel=\"stylesheet\" type=\"text/css\" href=\"/assets/themes/lara-light-blue/theme.css\">\n    <!-- Restore saved theme before Angular boots to prevent flash of wrong theme -->\n    <script>\n      (function () {\n        try {\n          var saved = localStorage.getItem('theme');\n          if (saved) {\n            var link = document.getElementById('app-theme');\n            if (link) link.setAttribute('href', saved.replace(/^\\//, ''));\n          }\n        } catch (e) {}\n      })();\n    </script>\n\n  <link rel=\"stylesheet\" href=\"styles.css\"><style>\n\n.tms-support-fab[_ngcontent-ng-c3305219393] {\n  position: fixed;\n  \n\n  bottom: 1.5rem;\n  right: 1.5rem;\n  z-index: 9000;\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);\n  color: #fff;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.45);\n  text-decoration: none;\n  font-size: 1.2rem;\n  transition: transform 0.2s, box-shadow 0.2s;\n}\n.tms-support-fab[_ngcontent-ng-c3305219393]:hover {\n  transform: scale(1.12);\n  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.55);\n}\n.tms-fab-badge[_ngcontent-ng-c3305219393] {\n  position: absolute;\n  top: -5px;\n  right: -5px;\n  background: #ef4444;\n  color: #fff;\n  border-radius: 50%;\n  width: 18px;\n  height: 18px;\n  font-size: .65rem;\n  font-weight: 800;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 2px solid #fff;\n  line-height: 1;\n}\n\n.route-shell[_ngcontent-ng-c3305219393] {\n  min-height: 60vh;\n  position: relative;\n  display: block;\n  overflow: visible;\n  width: 100%;\n}\n\n\n\n\n\n\nmain[_ngcontent-ng-c3305219393] {\n  min-width: 0;\n}\n\n.route-shell[_ngcontent-ng-c3305219393]    > router-outlet[_ngcontent-ng-c3305219393]    + *[_ngcontent-ng-c3305219393] {\n  display: block;\n  position: relative;\n  width: 100%;\n}\n\n.route-shell[_ngcontent-ng-c3305219393]:not(.dashboard-active)   app-dashboard-new[_ngcontent-ng-c3305219393] {\n  display: none !important;\n}\n\n\n\n.global-page-loader[_ngcontent-ng-c3305219393] {\n  position: fixed;\n  inset: 0;\n  z-index: 9999;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  pointer-events: all;\n}\n\n\n\n\n\n.global-page-loader.ng-animating[_ngcontent-ng-c3305219393] {\n  pointer-events: none;\n}\n\n.gpl-backdrop[_ngcontent-ng-c3305219393] {\n  position: absolute;\n  inset: 0;\n  background: rgba(0, 0, 0, 0.45);\n  backdrop-filter: blur(3px);\n  -webkit-backdrop-filter: blur(3px);\n}\n\n.gpl-card[_ngcontent-ng-c3305219393] {\n  position: relative;\n  z-index: 1;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 1.25rem;\n  padding: 2.5rem 3rem;\n  border-radius: 1.25rem;\n  background: var(--surface-card, #ffffff);\n  box-shadow:\n    0 24px 64px rgba(0, 0, 0, 0.28),\n    0 0 0 1px rgba(255, 255, 255, 0.08);\n  min-width: 220px;\n  animation: _ngcontent-ng-c3305219393_gplCardPop 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) both;\n}\n\n@keyframes _ngcontent-ng-c3305219393_gplCardPop {\n  from { transform: scale(0.88); opacity: 0; }\n  to   { transform: scale(1);    opacity: 1; }\n}\n\n.gpl-logo[_ngcontent-ng-c3305219393] {\n  height: 2.25rem;\n  object-fit: contain;\n  opacity: 0.85;\n}\n\n  .gpl-spinner {\n  width: 3.5rem !important;\n  height: 3.5rem !important;\n}\n\n  .gpl-spinner .p-progress-spinner-circle {\n  stroke: #40916c !important;\n  animation: p-progress-spinner-dash 1.5s ease-in-out infinite,\n             _ngcontent-ng-c3305219393_gplSpinnerColor 6s ease-in-out infinite !important;\n}\n\n@keyframes _ngcontent-ng-c3305219393_gplSpinnerColor {\n  0%   { stroke: #40916c; }\n  33%  { stroke: #52b788; }\n  66%  { stroke: #2d6a4f; }\n  100% { stroke: #40916c; }\n}\n\n.gpl-text[_ngcontent-ng-c3305219393] {\n  margin: 0;\n  font-size: 0.8125rem;\n  font-weight: 500;\n  color: var(--text-color-secondary, #6c757d);\n  letter-spacing: 0.04em;\n  animation: _ngcontent-ng-c3305219393_gplDots 1.4s steps(4, end) infinite;\n}\n\n@keyframes _ngcontent-ng-c3305219393_gplDots {\n  0%   { content: 'Loading'; }\n  25%  { opacity: 0.7; }\n  50%  { opacity: 0.5; }\n  75%  { opacity: 0.7; }\n  100% { opacity: 1; }\n}\n\n\n\n.cookie-consent[_ngcontent-ng-c3305219393] {\n  position: fixed;\n  left: 50%;\n  bottom: 1.25rem;\n  transform: translateX(-50%);\n  z-index: 26000;\n  width: min(680px, calc(100vw - 2rem));\n  display: flex;\n  align-items: center;\n  gap: 1.25rem;\n  padding: .875rem 1.25rem;\n  background: var(--surface-card, #ffffff);\n  border: 1px solid var(--surface-border, rgba(0,0,0,.1));\n  border-radius: 1rem;\n  box-shadow:\n    0 4px 6px -1px rgba(0,0,0,.07),\n    0 20px 50px -10px rgba(0,0,0,.18),\n    0 0 0 1px rgba(99,102,241,.08);\n  animation: _ngcontent-ng-c3305219393_cookieFadeUp .35s cubic-bezier(.34,1.56,.64,1) both;\n}\n\n.cookie-consent[_ngcontent-ng-c3305219393]::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  border-radius: inherit;\n  background: linear-gradient(135deg, rgba(99,102,241,.04) 0%, transparent 60%);\n  pointer-events: none;\n}\n\n@keyframes _ngcontent-ng-c3305219393_cookieFadeUp {\n  from { opacity: 0; transform: translateX(-50%) translateY(1.5rem) scale(.97); }\n  to   { opacity: 1; transform: translateX(-50%) translateY(0)       scale(1);   }\n}\n\n.cookie-icon[_ngcontent-ng-c3305219393] {\n  flex-shrink: 0;\n  width: 2.5rem;\n  height: 2.5rem;\n  border-radius: .75rem;\n  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 1.1rem;\n  color: #fff;\n  box-shadow: 0 4px 12px rgba(99,102,241,.35);\n}\n\n.cookie-copy[_ngcontent-ng-c3305219393] {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  gap: .2rem;\n  min-width: 0;\n}\n\n.cookie-copy[_ngcontent-ng-c3305219393]   strong[_ngcontent-ng-c3305219393] {\n  font-size: .85rem;\n  font-weight: 600;\n  color: var(--text-color, #1e293b);\n  letter-spacing: -.01em;\n}\n\n.cookie-copy[_ngcontent-ng-c3305219393]   span[_ngcontent-ng-c3305219393], \n.cookie-preference-row[_ngcontent-ng-c3305219393]   p[_ngcontent-ng-c3305219393] {\n  margin: 0;\n  font-size: .775rem;\n  color: var(--text-color-secondary, #64748b);\n  line-height: 1.4;\n}\n\n.cookie-actions[_ngcontent-ng-c3305219393] {\n  flex-shrink: 0;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: .5rem;\n}\n\n.cookie-actions[_ngcontent-ng-c3305219393]   .p-button[_ngcontent-ng-c3305219393] {\n  font-size: .8rem !important;\n  padding: .45rem .9rem !important;\n  border-radius: .6rem !important;\n  white-space: nowrap;\n}\n\n\n\n.cookie-preference-row[_ngcontent-ng-c3305219393] {\n  display: flex;\n  align-items: flex-start;\n  justify-content: space-between;\n  gap: 1.25rem;\n  padding: .875rem 0;\n  border-bottom: 1px solid var(--surface-border, #f1f5f9);\n}\n\n.cookie-preference-row[_ngcontent-ng-c3305219393]:last-child {\n  border-bottom: none;\n}\n\n.cookie-pref-info[_ngcontent-ng-c3305219393]   strong[_ngcontent-ng-c3305219393] {\n  font-size: .875rem;\n  font-weight: 600;\n  color: var(--text-color, #1e293b);\n}\n\n.cookie-pref-info[_ngcontent-ng-c3305219393]   p[_ngcontent-ng-c3305219393] {\n  margin-top: .2rem;\n}\n\n.cookie-gdpr-dialog-note[_ngcontent-ng-c3305219393] {\n  background: var(--surface-ground);\n  border: 1px solid var(--surface-border);\n  border-left: 3px solid #6366f1;\n  border-radius: 6px;\n  padding: .6rem .85rem;\n  font-size: .8rem;\n  color: var(--text-color-secondary);\n}\n\n.cookie-privacy-link[_ngcontent-ng-c3305219393] {\n  color: #6366f1;\n  text-decoration: underline;\n  font-size: inherit;\n}\n\n[_nghost-ng-c3305219393]     .cookie-dialog {\n  width: 90vw;\n  max-width: 460px;\n}\n\n[_nghost-ng-c3305219393]     .cookie-dialog .p-dialog-content {\n  padding-top: .5rem;\n}\n\n@media (max-width: 640px) {\n  .cookie-consent[_ngcontent-ng-c3305219393] {\n    flex-direction: column;\n    align-items: stretch;\n    padding: 1rem;\n    bottom: .75rem;\n  }\n\n  .cookie-icon[_ngcontent-ng-c3305219393] { display: none; }\n\n  .cookie-actions[_ngcontent-ng-c3305219393] {\n    flex-direction: column;\n  }\n\n  .cookie-actions[_ngcontent-ng-c3305219393]   .p-button[_ngcontent-ng-c3305219393] {\n    width: 100% !important;\n    justify-content: center;\n  }\n}\n\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsa0NBQWtDO0FBQ2xDO0VBQ0UsZUFBZTtFQUNmLGdEQUFnRDtFQUNoRCxjQUFjO0VBQ2QsYUFBYTtFQUNiLGFBQWE7RUFDYixXQUFXO0VBQ1gsWUFBWTtFQUNaLGtCQUFrQjtFQUNsQiw2REFBNkQ7RUFDN0QsV0FBVztFQUNYLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsdUJBQXVCO0VBQ3ZCLCtDQUErQztFQUMvQyxxQkFBcUI7RUFDckIsaUJBQWlCO0VBQ2pCLDJDQUEyQztBQUM3QztBQUNBO0VBQ0Usc0JBQXNCO0VBQ3RCLCtDQUErQztBQUNqRDtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLFNBQVM7RUFDVCxXQUFXO0VBQ1gsbUJBQW1CO0VBQ25CLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsV0FBVztFQUNYLFlBQVk7RUFDWixpQkFBaUI7RUFDakIsZ0JBQWdCO0VBQ2hCLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsdUJBQXVCO0VBQ3ZCLHNCQUFzQjtFQUN0QixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtFQUNsQixjQUFjO0VBQ2QsaUJBQWlCO0VBQ2pCLFdBQVc7QUFDYjs7QUFFQTs7O2lGQUdpRjtBQUNqRjtFQUNFLFlBQVk7QUFDZDs7QUFFQTtFQUNFLGNBQWM7RUFDZCxrQkFBa0I7RUFDbEIsV0FBVztBQUNiOztBQUVBO0VBQ0Usd0JBQXdCO0FBQzFCOztBQUVBLDhEQUE4RDtBQUM5RDtFQUNFLGVBQWU7RUFDZixRQUFRO0VBQ1IsYUFBYTtFQUNiLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsdUJBQXVCO0VBQ3ZCLG1CQUFtQjtBQUNyQjs7QUFFQTs7bUVBRW1FO0FBQ25FO0VBQ0Usb0JBQW9CO0FBQ3RCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLFFBQVE7RUFDUiwrQkFBK0I7RUFDL0IsMEJBQTBCO0VB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QUNkLDBCQUEwQjtFQUMxQixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0Usa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0U7SUFDRSxzQkFBc0I7SUFDdEIsb0JBQW9CO0lBQ3BCLGFBQWE7SUFDYixjQUFjO0VBQ2hCOztFQUVBLGVBQWUsYUFBYSxFQUFFOztFQUU5QjtJQUNFLHNCQUFzQjtFQUN4Qjs7RUFFQTtJQUNFLHNCQUFzQjtJQUN0Qix1QkFBdUI7RUFDekI7QUFDRiIsInNvdXJjZXNDb250ZW50IjpbIi8qIMOiwpTCgMOiwpTCgCBGbG9hdGluZyBTdXBwb3J0IEJ1dHRvbiDDosKUwoDDosKUwoAgKi9cbi50bXMtc3VwcG9ydC1mYWIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIC8qIGJhZGdlIHJlcXVpcmVzIHJlbGF0aXZlIHBvc2l0aW9uaW5nIGNvbnRleHQgKi9cbiAgYm90dG9tOiAxLjVyZW07XG4gIHJpZ2h0OiAxLjVyZW07XG4gIHotaW5kZXg6IDkwMDA7XG4gIHdpZHRoOiA0OHB4O1xuICBoZWlnaHQ6IDQ4cHg7XG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDEzNWRlZywgIzYzNjZmMSAwJSwgIzhiNWNmNiAxMDAlKTtcbiAgY29sb3I6ICNmZmY7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBib3gtc2hhZG93OiAwIDRweCAxNnB4IHJnYmEoOTksIDEwMiwgMjQxLCAwLjQ1KTtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICBmb250LXNpemU6IDEuMnJlbTtcbiAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMnMsIGJveC1zaGFkb3cgMC4ycztcbn1cbi50bXMtc3VwcG9ydC1mYWI6aG92ZXIge1xuICB0cmFuc2Zvcm06IHNjYWxlKDEuMTIpO1xuICBib3gtc2hhZG93OiAwIDhweCAyNHB4IHJnYmEoOTksIDEwMiwgMjQxLCAwLjU1KTtcbn1cbi50bXMtZmFiLWJhZGdlIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IC01cHg7XG4gIHJpZ2h0OiAtNXB4O1xuICBiYWNrZ3JvdW5kOiAjZWY0NDQ0O1xuICBjb2xvcjogI2ZmZjtcbiAgYm9yZGVyLXJhZGl1czogNTAlO1xuICB3aWR0aDogMThweDtcbiAgaGVpZ2h0OiAxOHB4O1xuICBmb250LXNpemU6IC42NXJlbTtcbiAgZm9udC13ZWlnaHQ6IDgwMDtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGJvcmRlcjogMnB4IHNvbGlkICNmZmY7XG4gIGxpbmUtaGVpZ2h0OiAxO1xufVxuXG4ucm91dGUtc2hlbGwge1xuICBtaW4taGVpZ2h0OiA2MHZoO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi8qIFByZXZlbnQgdGhlIG1haW4gZmxleCBpdGVtIGZyb20gZ3Jvd2luZyB3aWRlciB0aGFuIHRoZSB2aWV3cG9ydC5cbiAgIFdpdGhvdXQgbWluLXdpZHRoOjAsIGEgZmxleCBpdGVtJ3MgZGVmYXVsdCBtaW4td2lkdGg6YXV0byBsZXRzIHdpZGVcbiAgIGNvbnRlbnQgKHRhYmxlcywgZXRjLikgcHVzaCA8bWFpbj4gw6LCgMKUIGFuZCBldmVyeSBhbmNlc3RvciDDosKAwpQgd2lkZXIgdGhhblxuICAgdGhlIHNjcmVlbiwgY2F1c2luZyB0aGUgbGF5b3V0IHRvIGJlIHdpZGVyIHRoYW4gdGhlIHZpZXdwb3J0IGV2ZW4gb24gbW9iaWxlLiAqL1xubWFpbiB7XG4gIG1pbi13aWR0aDogMDtcbn1cblxuLnJvdXRlLXNoZWxsID4gcm91dGVyLW91dGxldCArICoge1xuICBkaXNwbGF5OiBibG9jaztcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB3aWR0aDogMTAwJTtcbn1cblxuLnJvdXRlLXNoZWxsOm5vdCguZGFzaGJvYXJkLWFjdGl2ZSkgYXBwLWRhc2hib2FyZC1uZXcge1xuICBkaXNwbGF5OiBub25lICFpbXBvcnRhbnQ7XG59XG5cbi8qIMOiwpTCgMOiwpTCgCBHbG9iYWwgRnVsbC1QYWdlIExvYWRlciDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoDDosKUwoAgKi9cbi5nbG9iYWwtcGFnZS1sb2FkZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGluc2V0OiAwO1xuICB6LWluZGV4OiA5OTk5O1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgcG9pbnRlci1ldmVudHM6IGFsbDtcbn1cblxuLyogRHVyaW5nIEFuZ3VsYXIncyBAZmFkZUluT3V0IGxlYXZlIGFuaW1hdGlvbiB0aGUgZWxlbWVudCBzdGF5cyBpbiB0aGUgRE9NIGF0IHotaW5kZXggOTk5OS5cbiAgIHBvaW50ZXItZXZlbnRzOiBub25lIGxldHMgY2xpY2tzIGZhbGwgdGhyb3VnaCB0byB0aGUgcC1jb25maXJtRGlhbG9nIChiYXNlWkluZGV4IDEwMDAwKVxuICAgdGhhdCB0aGUgQ2FuRGVhY3RpdmF0ZUd1YXJkIG1heSBiZSBzaG93aW5nIGF0IHRoZSBzYW1lIG1vbWVudC4gKi9cbi5nbG9iYWwtcGFnZS1sb2FkZXIubmctYW5pbWF0aW5nIHtcbiAgcG9pbnRlci1ldmVudHM6IG5vbmU7XG59XG5cbi5ncGwtYmFja2Ryb3Age1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGluc2V0OiAwO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNDUpO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoM3B4KTtcbiAgLXdlYmtpdC1iYWNrZHJvcC1maWx0ZXI6IGJsdXIoM3B4KTtcbn1cblxuLmdwbC1jYXJkIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB6LWluZGV4OiAxO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBnYXA6IDEuMjVyZW07XG4gIHBhZGRpbmc6IDIuNXJlbSAzcmVtO1xuICBib3JkZXItcmFkaXVzOiAxLjI1cmVtO1xuICBiYWNrZ3JvdW5kOiB2YXIoLS1zdXJmYWNlLWNhcmQsICNmZmZmZmYpO1xuICBib3gtc2hhZG93OlxuICAgIDAgMjRweCA2NHB4IHJnYmEoMCwgMCwgMCwgMC4yOCksXG4gICAgMCAwIDAgMXB4IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC4wOCk7XG4gIG1pbi13aWR0aDogMjIwcHg7XG4gIGFuaW1hdGlvbjogZ3BsQ2FyZFBvcCAwLjI1cyBjdWJpYy1iZXppZXIoMC4zNCwgMS41NiwgMC42NCwgMSkgYm90aDtcbn1cblxuQGtleWZyYW1lcyBncGxDYXJkUG9wIHtcbiAgZnJvbSB7IHRyYW5zZm9ybTogc2NhbGUoMC44OCk7IG9wYWNpdHk6IDA7IH1cbiAgdG8gICB7IHRyYW5zZm9ybTogc2NhbGUoMSk7ICAgIG9wYWNpdHk6IDE7IH1cbn1cblxuLmdwbC1sb2dvIHtcbiAgaGVpZ2h0OiAyLjI1cmVtO1xuICBvYmplY3QtZml0OiBjb250YWluO1xuICBvcGFjaXR5OiAwLjg1O1xufVxuXG46Om5nLWRlZXAgLmdwbC1zcGlubmVyIHtcbiAgd2lkdGg6IDMuNXJlbSAhaW1wb3J0YW50O1xuICBoZWlnaHQ6IDMuNXJlbSAhaW1wb3J0YW50O1xufVxuXG46Om5nLWRlZXAgLmdwbC1zcGlubmVyIC5wLXByb2dyZXNzLXNwaW5uZXItY2lyY2xlIHtcbiAgc3Ryb2tlOiAjNDA5MTZjICFpbXBvcnRhbnQ7XG4gIGFuaW1hdGlvbjogcC1wcm9ncmVzcy1zcGlubmVyLWRhc2ggMS41cyBlYXNlLWluLW91dCBpbmZpbml0ZSxcbiAgICAgICAgICAgICBncGxTcGlubmVyQ29sb3IgNnMgZWFzZS1pbi1vdXQgaW5maW5pdGUgIWltcG9ydGFudDtcbn1cblxuQGtleWZyYW1lcyBncGxTcGlubmVyQ29sb3Ige1xuICAwJSAgIHsgc3Ryb2tlOiAjNDA5MTZ"
+}

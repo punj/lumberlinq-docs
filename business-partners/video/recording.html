@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Business Partner 3-second Help Preview Recording</title>
+  <style>
+    body { margin: 0; background: #111827; color: #fff; font-family: Arial, Helvetica, sans-serif; }
+    canvas { display: block; width: 100vw; height: 100vh; }
+    .note { position: fixed; left: 16px; bottom: 12px; opacity: .7; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <canvas id="c" width="1440" height="1000"></canvas>
+  <div class="note">This page records a 3-second WebM preview from generated documentation screenshots.</div>
+  <script>
+    const frames = [
+      "../screenshots/01-list.png",
+      "../screenshots/02-create-identity.png",
+      "../screenshots/03-contact-location.png",
+      "../screenshots/05-attachments.png"
+    ];
+    const labels = [
+      "View and filter Business Partners",
+      "Create a partner with required identity details",
+      "Add contact and location information",
+      "Attach compliance and business documents"
+    ];
+    const canvas = document.getElementById("c");
+    const ctx = canvas.getContext("2d");
+    function load(src) {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = reject;
+        img.src = src;
+      });
+    }
+    function draw(img, label, progress) {
+      ctx.fillStyle = "#111827";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      const scale = Math.min(canvas.width / img.width, canvas.height / img.height);
+      const w = img.width * scale;
+      const h = img.height * scale;
+      const x = (canvas.width - w) / 2;
+      const y = (canvas.height - h) / 2;
+      ctx.drawImage(img, x, y, w, h);
+      ctx.fillStyle = "rgba(17,24,39,.82)";
+      ctx.fillRect(0, 0, canvas.width, 72);
+      ctx.fillStyle = "#ffffff";
+      ctx.font = "700 28px Arial";
+      ctx.fillText("Business Partners Help", 28, 44);
+      ctx.font = "18px Arial";
+      ctx.fillStyle = "#d1d5db";
+      ctx.fillText(label, 360, 44);
+      ctx.fillStyle = "#1f6feb";
+      ctx.fillRect(0, 994, canvas.width * progress, 6);
+    }
+    async function main() {
+      const imgs = await Promise.all(frames.map(load));
+      const stream = canvas.captureStream(12);
+      const recorder = new MediaRecorder(stream, { mimeType: "video/webm" });
+      const chunks = [];
+      recorder.ondataavailable = e => chunks.push(e.data);
+      recorder.onstop = () => {
+        const blob = new Blob(chunks, { type: "video/webm" });
+        const reader = new FileReader();
+        reader.onload = () => {
+          document.body.dataset.video = reader.result;
+          document.title = "recording-complete";
+        };
+        reader.readAsDataURL(blob);
+      };
+      recorder.start();
+      const started = performance.now();
+      const duration = 3000;
+      function tick(now) {
+        const elapsed = Math.min(now - started, duration);
+        const progress = elapsed / duration;
+        const idx = Math.min(imgs.length - 1, Math.floor(progress * imgs.length));
+        draw(imgs[idx], labels[idx], progress);
+        if (elapsed < duration) requestAnimationFrame(tick);
+        else recorder.stop();
+      }
+      requestAnimationFrame(tick);
+    }
+    main();
+  </script>
+</body>
+</html>

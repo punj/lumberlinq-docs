@@ -1,0 +1,29 @@
+lastUrl=https://app-vps.rikexim.com/business-partners/0paD_DszWRdfh-uKEbp3O7Me
+
+BETA
+EN
+A
+S
+Edit Business Partner
+
+Manage your trading partners and business relationships
+
+Update Partner
+Identity
+Contact & Location
+Operations
+Attachments
+Bank Accounts
+Account 1
+Bank Name *
+Account No
+IFSC / SWIFT *
+Currency *
+Add Bank Account
+Delete
+Cancel
+Update Partner
+2024 Lumber Linq — All Rights Reserved.
+Powered By Lumber Linq
+Love our app?
+Use it for your own business!

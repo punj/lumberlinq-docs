@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LumberLinq Business Partner Help Preview</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --panel: #ffffff;
+      --text: #172033;
+      --muted: #667085;
+      --line: #d9e0ec;
+      --primary: #1f6feb;
+      --green: #12805c;
+      --red: #b42318;
+      --amber: #b54708;
+      --chip: #eef4ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 14px/1.45 Arial, Helvetica, sans-serif;
+    }
+    .app {
+      display: grid;
+      grid-template-columns: 238px 1fr;
+      min-height: 100vh;
+    }
+    .side {
+      background: #101828;
+      color: #d0d5dd;
+      padding: 20px 16px;
+    }
+    .brand {
+      color: #fff;
+      font-size: 21px;
+      font-weight: 700;
+      margin-bottom: 26px;
+    }
+    .nav-title {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: #98a2b3;
+      margin: 18px 8px 8px;
+    }
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      margin: 3px 0;
+    }
+    .nav-item.active {
+      background: #1d2939;
+      color: #fff;
+    }
+    .main { padding: 24px 28px; }
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 18px;
+    }
+    .title-row {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+    }
+    .badge {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: #e0ecff;
+      color: var(--primary);
+      display: grid;
+      place-items: center;
+      font-size: 22px;
+      font-weight: 700;
+    }
+    h1 { margin: 0; font-size: 25px; line-height: 1.15; }
+    .subtitle { margin: 4px 0 0; color: var(--muted); }
+    .actions { display: flex; gap: 10px; align-items: center; }
+    .btn {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--text);
+      border-radius: 7px;
+      padding: 9px 13px;
+      font-weight: 600;
+    }
+    .btn.primary { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .btn.danger { color: var(--red); border-color: #f3b8b3; }
+    .stats, .filters, .table-wrap, .form-card, .modal {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+    }
+    .stats {
+      display: flex;
+      gap: 22px;
+      padding: 14px 16px;
+      margin-bottom: 14px;
+    }
+    .stat strong { display: block; font-size: 22px; }
+    .stat span { color: var(--muted); }
+    .filters {
+      display: grid;
+      grid-template-columns: 1fr 190px auto auto;
+      gap: 10px;
+      padding: 14px;
+      margin-bottom: 14px;
+    }
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 10px 11px;
+      background: #fff;
+      color: var(--text);
+      font: inherit;
+    }
+    table { border-collapse: collapse; width: 100%; background: #fff; }
+    th, td { padding: 12px 13px; border-bottom: 1px solid #edf1f7; text-align: left; vertical-align: middle; }
+    th { font-size: 12px; color: #475467; background: #f8fafc; }
+    .partner-cell { display: flex; align-items: center; gap: 10px; }
+    .avatar {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-weight: 700;
+      background: linear-gradient(135deg, #1f6feb, #14b8a6);
+    }
+    .small { color: var(--muted); font-size: 12px; }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border-radius: 999px;
+      padding: 4px 9px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .pill.buyer { background: #e8f7f0; color: var(--green); }
+    .pill.seller { background: #fff4e5; color: var(--amber); }
+    .pill.both { background: var(--chip); color: #175cd3; }
+    .pill.active { background: #ecfdf3; color: var(--green); }
+    .pill.inactive { background: #fef3f2; color: var(--red); }
+    .row-actions { display: flex; gap: 8px; color: #475467; font-weight: 700; }
+    .tabs {
+      display: flex;
+      gap: 2px;
+      border-bottom: 1px solid var(--line);
+      padding: 0 14px;
+      background: #fbfcff;
+      border-radius: 8px 8px 0 0;
+    }
+    .tab {
+      padding: 13px 15px;
+      color: #475467;
+      font-weight: 700;
+      border-bottom: 3px solid transparent;
+    }
+    .tab.active { color: var(--primary); border-color: var(--primary); }
+    .form-body { padding: 20px; }
+    .section-label { font-weight: 700; margin: 0 0 14px; color: #344054; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .field label {
+      display: block;
+      color: #475467;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .req { color: var(--red); }
+    .switch-row {
+      grid-column: 1 / -1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 13px 14px;
+      background: #fbfcff;
+    }
+    .switch { width: 42px; height: 24px; border-radius: 999px; background: var(--primary); position: relative; }
+    .switch:after { content: ""; position: absolute; right: 3px; top: 3px; width: 18px; height: 18px; border-radius: 50%; background: #fff; }
+    .dropzone {
+      border: 2px dashed #b8c7df;
+      border-radius: 10px;
+      padding: 34px;
+      text-align: center;
+      background: #f8fbff;
+      color: #475467;
+    }
+    .files { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 16px; }
+    .file { border: 1px solid var(--line); border-radius: 8px; padding: 13px; background: #fff; }
+    .bank-card { border: 1px solid var(--line); border-radius: 8px; padding: 14px; margin-bottom: 14px; }
+    .footer { display: flex; justify-content: flex-end; gap: 10px; padding: 16px 20px; border-top: 1px solid var(--line); }
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(16, 24, 40, .45);
+      display: grid;
+      place-items: center;
+    }
+    .modal { width: 460px; padding: 22px; }
+    .modal h2 { margin: 0 0 8px; font-size: 20px; }
+    .modal p { color: var(--muted); margin: 0 0 20px; }
+    .modal .actions { justify-content: flex-end; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside class="side">
+      <div class="brand">LumberLinq</div>
+      <div class="nav-title">Main</div>
+      <div class="nav-item">Dashboard</div>
+      <div class="nav-item active">Business Partners</div>
+      <div class="nav-item">Products</div>
+      <div class="nav-item">Loading Sites</div>
+      <div class="nav-title">Operations</div>
+      <div class="nav-item">Tallysheet</div>
+      <div class="nav-item">Shipments</div>
+      <div class="nav-item">Inventory</div>
+      <div class="nav-title">Analysis</div>
+      <div class="nav-item">Reports</div>
+    </aside>
+    <main class="main" id="root"></main>
+  </div>
+  <script>
+    const partners = [
+      ["Greenfield Timber Exports", "exports@greenfield.example", "BOTH", "Rahul Mehta", "(415) 555-0101", "27ABCDE1234F1Z5", "EXPORTER", "IN", true],
+      ["North Ridge Sawmills", "ops@northridge.example", "SELLER", "Ava Thompson", "(604) 555-0178", "CA-879221", "COMPANY", "CA", true],
+      ["Harborline Imports LLC", "trade@harborline.example", "BUYER", "Miguel Santos", "(305) 555-0160", "US-442109", "IMPORTER", "US", true],
+      ["Evergreen Ply Traders", "accounts@evergreen.example", "BOTH", "Nisha Patel", "(212) 555-0188", "US-980125", "COMPANY", "US", false],
+      ["Blue Oak Distribution", "purchase@blueoak.example", "BUYER", "Chen Wei", "(650) 555-0144", "SG-556781", "INDIVIDUAL", "SG", true],
+      ["Atlas Veneer Works", "sales@atlasveneer.example", "SELLER", "Priya Sharma", "(713) 555-0139", "24PQRSX4455K1Z2", "COMPANY", "IN", true]
+    ];
+    const page = new URLSearchParams(location.search).get("page") || "list";
+    const root = document.getElementById("root");
+    function header(title, subtitle, icon, action) {
+      return `<div class="topbar"><div class="title-row"><div class="badge">${icon}</div><div><h1>${title}</h1><p class="subtitle">${subtitle}</p></div></div><div class="actions">${action || ""}</div></div>`;
+    }
+    function listPage() {
+      root.innerHTML = header("Business Partners", "Manage your trading partners and business relationships", "BP", `<button class="btn primary">+ New Partner</button><button class="btn danger">Delete</button>`) +
+      `<section class="stats"><div class="stat"><strong>6</strong><span>Total</span></div><div class="stat"><strong>5</strong><span>Active</span></div><div class="stat"><strong>1</strong><span>Inactive</span></div></section>
+      <section class="filters"><input value="timber" aria-label="Search"><select><option>Active</option><option>Inactive</option><option>All Status</option></select><button class="btn primary">Filter</button><button class="btn">Reset</button></section>
+      <section class="table-wrap"><table><thead><tr><th></th><th>Name</th><th>Party Type</th><th>Contact Person</th><th>Phone</th><th>Tax ID</th><th>Reg. Type</th><th>Country</th><th>Status</th><th>Actions</th></tr></thead><tbody>
+      ${partners.map((p, i) => `<tr><td><input type="checkbox" ${i===1 ? "checked" : ""}></td><td><div class="partner-cell"><div class="avatar">${p[0][0]}</div><div><strong>${p[0]}</strong><div class="small">${p[1]}</div></div></div></td><td><span class="pill ${p[2].toLowerCase()}">${p[2]}</span></td><td>${p[3]}</td><td>${p[4]}</td><td><code>${p[5]}</code></td><td>${p[6]}</td><td>${p[7]}</td><td><span class="pill ${p[8] ? "active" : "inactive"}">${p[8] ? "Active" : "Inactive"}</span></td><td><span class="row-actions">Edit · ${p[8] ? "Ban" : "Activate"} · Del</span></td></tr>`).join("")}
+      </tbody></table></section>`;
+    }
+    function formPage(activeTab) {
+      const tabs = ["Identity", "Contact & Location", "Operations", "Attachments", "Bank Accounts"];
+      const bodies = {
+        "Identity": `<p class="section-label">Company Details</p><div class="grid"><div class="field"><label>Company Name <span class="req">*</span></label><input value="Greenfield Timber Exports"></div><div class="field"><label>Contact Person</label><input value="Rahul Mehta"></div><div class="field"><label>Party Type <span class="req">*</span></label><select><option>Both</option></select></div><div class="field"><label>Reference Code</label><input value="GF-EXP-2026"></div><div class="field"><label>Registration Type <span class="req">*</span></label><select><option>Exporter</option></select></div><div class="field"><label>GSTIN <span class="req">*</span></label><input value="27ABCDE1234F1Z5"></div><div class="field"><label>Party Category <span class="req">*</span></label><select><option>International</option></select></div><div class="switch-row"><div><strong>Activate / Deactivate Business Partner</strong><div class="small">Partner is active and visible in transactions</div></div><div class="switch"></div></div></div>`,
+        "Contact & Location": `<p class="section-label">Contact Information</p><div class="grid three"><div class="field"><label>Email <span class="req">*</span></label><input value="exports@greenfield.example"></div><div class="field"><label>Phone 1 <span class="req">*</span></label><input value="(415) 555-0101"></div><div class="field"><label>Phone 2</label><input value="(415) 555-0199"></div></div><p class="section-label" style="margin-top:22px">Address</p><div class="grid"><div class="field"><label>Address Line 1 <span class="req">*</span></label><input value="Block C, Timber Export Yard"></div><div class="field"><label>Address Line 2</label><input value="Near Inland Container Depot"></div><div class="field"><label>Country <span class="req">*</span></label><select><option>India</option></select></div><div class="field"><label>State</label><select><option>Gujarat</option></select></div><div class="field"><label>City</label><select><option>Ahmedabad</option></select></div><div class="field"><label>Zip Code <span class="req">*</span></label><input value="382421"></div></div>`,
+        "Operations": `<p class="section-label">Operations</p><div class="grid"><div class="field"><label>Linked User ID</label><input value="1042"></div><div class="field"><label>External Code</label><input value="ERP-BP-7781"></div><div class="field" style="grid-column:1/-1"><label>Tags</label><input value="SAWMILL, EXPORTER, TRADER"></div><div class="field" style="grid-column:1/-1"><label>Notes</label><textarea rows="5">Preferred partner for export shipments. Keep GST and compliance documents attached.</textarea></div></div>`,
+        "Attachments": `<p class="section-label">Attachments</p><div class="dropzone"><strong>Drop files here or click to browse</strong><div class="small">Max 10 MB per file · Image · PDF · Word · Excel · CSV · PPT · Text</div></div><div class="files"><div class="file"><strong>gst-certificate.pdf</strong><div class="small">412 KB · PDF</div></div><div class="file"><strong>bank-confirmation.xlsx</strong><div class="small">88 KB · Excel</div></div><div class="file"><strong>yard-photo.jpg</strong><div class="small">1.8 MB · Image</div></div></div>`,
+        "Bank Accounts": `<p class="section-label">Bank Accounts</p><div class="bank-card"><strong>Account 1</strong><div class="grid three" style="margin-top:12px"><div class="field"><label>Bank Name <span class="req">*</span></label><input value="HDFC Bank"></div><div class="field"><label>Account No</label><input value="****4821"></div><div class="field"><label>IFSC / SWIFT <span class="req">*</span></label><input value="HDFCINBBXXX"></div><div class="field"><label>Currency <span class="req">*</span></label><input value="USD"></div></div></div><button class="btn">+ Add Bank Account</button>`
+      };
+      root.innerHTML = header(activeTab === "Identity" ? "Create Business Partner" : "Edit Business Partner", "Manage your trading partners and business relationships", "BP", `<button class="btn primary">Save Partner</button>`) +
+      `<section class="form-card"><div class="tabs">${tabs.map(t => `<div class="tab ${t===activeTab ? "active" : ""}">${t}</div>`).join("")}</div><div class="form-body">${bodies[activeTab]}</div><div class="footer"><button class="btn">Cancel</button><button class="btn primary">${activeTab === "Identity" ? "Save Partner" : "Update Partner"}</button></div></section>`;
+    }
+    function confirmPage() {
+      listPage();
+      document.body.insertAdjacentHTML("beforeend", `<div class="overlay"><div class="modal"><h2>Confirm Deactivate</h2><p>Deactivate "Evergreen Ply Traders"? Inactive partners are hidden from new transactions.</p><div class="actions"><button class="btn">Cancel</button><button class="btn primary">Deactivate</button></div></div></div>`);
+    }
+    if (page === "list") listPage();
+    if (page === "identity") formPage("Identity");
+    if (page === "contact") formPage("Contact & Location");
+    if (page === "operations") formPage("Operations");
+    if (page === "attachments") formPage("Attachments");
+    if (page === "bank") formPage("Bank Accounts");
+    if (page === "confirm") confirmPage();
+  </script>
+</body>
+</html>
