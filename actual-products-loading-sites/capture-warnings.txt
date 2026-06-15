@@ -1,0 +1,69 @@
+Could not open edit route /edit/loading-sites; url=https://app-vps.rikexim.com/loading-sites
+BETA
+EN
+A
+S
+Loading Sites
+
+View and manage existing loading site profiles
+
+5 Loading Sites
+Add New Loading Site
+5
+TOTAL
+	
+NAME
+	
+LOCATION
+	ACTIONS
+
+	
+L
+LL Help Demo - North Yard
+Asha Patel
+	
+In · Ahmedabad
+	
+
+
+	
+L
+LL Help Demo - Port Loading Bay
+Rohan Desai
+	
+In · Mundra
+	
+
+
+	
+L
+LL Help Demo - East Sawmill
+Meera Shah
+	
+In · Surat
+	
+
+
+	
+L
+LL Help Demo - Forest Depot
+Vikram Rao
+	
+In · Nagpur
+	
+
+
+	
+L
+LL Help Demo - Warehouse Stack A
+Neha Iyer
+	
+In · Mumbai
+	
+Showing 2 to 5 of 5 entries
+1
+5
+2024 Lumber Linq — All Rights Reserved.
+Powered By Lumber Linq
+Love our app?
+Use it for your own business!

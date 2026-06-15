@@ -1,0 +1,108 @@
+[
+  {
+    "authCheck": {
+      "products": 200,
+      "loadingSites": 200
+    }
+  },
+  {
+    "type": "product",
+    "name": "LL Help Demo - Round Teak Logs",
+    "action": "create",
+    "status": 201,
+    "record": {
+      "success": true,
+      "message": "Product is created successfully"
+    }
+  },
+  {
+    "type": "product",
+    "name": "LL Help Demo - Sawn Oak Boards",
+    "action": "create",
+    "status": 201,
+    "record": {
+      "success": true,
+      "message": "Product is created successfully"
+    }
+  },
+  {
+    "type": "product",
+    "name": "LL Help Demo - Pine Sleepers",
+    "action": "create",
+    "status": 201,
+    "record": {
+      "success": true,
+      "message": "Product is created successfully"
+    }
+  },
+  {
+    "type": "product",
+    "name": "LL Help Demo - Cedar Utility Poles",
+    "action": "create",
+    "status": 201,
+    "record": {
+      "success": true,
+      "message": "Product is created successfully"
+    }
+  },
+  {
+    "type": "product",
+    "name": "LL Help Demo - Mixed Hardwood Planks",
+    "action": "create",
+    "status": 201,
+    "record": {
+      "success": true,
+      "message": "Product is created successfully"
+    }
+  },
+  {
+    "type": "loading-site",
+    "name": "LL Help Demo - North Yard",
+    "action": "create",
+    "status": 201,
+    "record": {
+      "success": true,
+      "message": "Loading Site is created successfully"
+    }
+  },
+  {
+    "type": "loading-site",
+    "name": "LL Help Demo - Port Loading Bay",
+    "action": "create",
+    "status": 201,
+    "record": {
+      "success": true,
+      "message": "Loading Site is created successfully"
+    }
+  },
+  {
+    "type": "loading-site",
+    "name": "LL Help Demo - East Sawmill",
+    "action": "create",
+    "status": 201,
+    "record": {
+      "success": true,
+      "message": "Loading Site is created successfully"
+    }
+  },
+  {
+    "type": "loading-site",
+    "name": "LL Help Demo - Forest Depot",
+    "action": "create",
+    "status": 201,
+    "record": {
+      "success": true,
+      "message": "Loading Site is created successfully"
+    }
+  },
+  {
+    "type": "loading-site",
+    "name": "LL Help Demo - Warehouse Stack A",
+    "action": "create",
+    "status": 201,
+    "record": {
+      "success": true,
+      "message": "Loading Site is created successfully"
+    }
+  }
+]
