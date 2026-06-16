@@ -1,0 +1,6 @@
+locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.plan-card').first()[22m
+
+    at /home/punj/projects/lumberlinq-help-preview/actual-reports-manage-users-rbac/scripts/capture-subscription-flow.js:11:167
+    at async /home/punj/projects/lumberlinq-help-preview/actual-reports-manage-users-rbac/scripts/capture-subscription-flow.js:11:2

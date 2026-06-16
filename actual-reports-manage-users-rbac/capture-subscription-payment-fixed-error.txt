@@ -1,0 +1,7 @@
+locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('button:has-text("Next")').last()[22m
+
+    at /home/punj/projects/lumberlinq-help-preview/actual-reports-manage-users-rbac/scripts/capture-subscription-payment-fixed.js:66:58
+    at async proceedToPayment (/home/punj/projects/lumberlinq-help-preview/actual-reports-manage-users-rbac/scripts/capture-subscription-payment-fixed.js:65:3)
+    at async /home/punj/projects/lumberlinq-help-preview/actual-reports-manage-users-rbac/scripts/capture-subscription-payment-fixed.js:102:3

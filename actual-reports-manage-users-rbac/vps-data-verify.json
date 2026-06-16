@@ -1,0 +1,1680 @@
+{
+  "summary": {
+    "productMonthly": 6,
+    "productRows": 4,
+    "loadingMonthly": 5,
+    "loadingRows": 4,
+    "tallyMonthly": 6,
+    "tallyRows": 6,
+    "financialMonthly": 7,
+    "financialShipments": 8,
+    "inventorySites": 3,
+    "inventoryMovements": 17,
+    "processingRuns": 6,
+    "bpSearchCount": 5,
+    "bpAnyCount": 0,
+    "bpReportShipments": 1,
+    "bpReportMonthly": 1
+  },
+  "data": {
+    "product": {
+      "status": 200,
+      "json": {
+        "fromDate": "2025-12-16",
+        "toDate": "2026-06-16",
+        "generatedAt": "2026-06-16T06:58:56.953194323",
+        "distinctProducts": 4,
+        "totalTransportUnits": 6,
+        "totalShipments": 5,
+        "totalCbm": 134.39,
+        "totalCft": 4745.88,
+        "totalPieces": 1166,
+        "products": [
+          {
+            "productId": 5,
+            "productName": "LL Help Demo - Mixed Hardwood Planks",
+            "hsCode": "4407",
+            "totalCbm": 52.97,
+            "totalCft": 1870.55,
+            "totalPieces": 20,
+            "transportUnitCount": 1,
+            "shipmentCount": 1,
+            "avgCbmPerUnit": 52.97,
+            "topPartners": [
+              "Mahadev Export",
+              "LL Help Demo - Harborline Imports LLC"
+            ],
+            "topLoadingSites": [
+              "LL Help Demo - North Yard"
+            ]
+          },
+          {
+            "productId": 1,
+            "productName": "LL Help Demo - Round Teak Logs",
+            "hsCode": "4403",
+            "totalCbm": 43.15,
+            "totalCft": 1523.9,
+            "totalPieces": 325,
+            "transportUnitCount": 2,
+            "shipmentCount": 2,
+            "avgCbmPerUnit": 21.58,
+            "topPartners": [
+              "Mahadev Export",
+              "LL Help Demo - Blue Oak Distribution",
+              "LL Help Demo - North Ridge Sawmills"
+            ],
+            "topLoadingSites": [
+              "LL Help Demo - Forest Depot",
+              "LL Help Demo - East Sawmill"
+            ]
+          },
+          {
+            "productId": 4,
+            "productName": "LL Help Demo - Cedar Utility Poles",
+            "hsCode": "4403",
+            "totalCbm": 21.47,
+            "totalCft": 758.12,
+            "totalPieces": 181,
+            "transportUnitCount": 2,
+            "shipmentCount": 2,
+            "avgCbmPerUnit": 10.73,
+            "topPartners": [
+              "Mahadev Export",
+              "LL Help Demo - North Ridge Sawmills",
+              "LL Help Demo - Harborline Imports LLC"
+            ],
+            "topLoadingSites": [
+              "LL Help Demo - North Yard"
+            ]
+          },
+          {
+            "productId": 2,
+            "productName": "LL Help Demo - Sawn Oak Boards",
+            "hsCode": "4407",
+            "totalCbm": 16.8,
+            "totalCft": 593.3,
+            "totalPieces": 640,
+            "transportUnitCount": 1,
+            "shipmentCount": 1,
+            "avgCbmPerUnit": 16.8,
+            "topPartners": [
+              "Mahadev Export",
+              "LL Help Demo - Evergreen Ply Traders"
+            ],
+            "topLoadingSites": [
+              "LL Help Demo - Port Loading Bay"
+            ]
+          }
+        ],
+        "monthlyTrend": [
+          {
+            "yearMonth": "2026-01",
+            "productName": "LL Help Demo - Cedar Utility Poles",
+            "totalCbm": 13.52,
+            "totalCft": 477.37,
+            "totalPieces": 115,
+            "unitCount": 1
+          },
+          {
+            "yearMonth": "2026-01",
+            "productName": "LL Help Demo - Mixed Hardwood Planks",
+            "totalCbm": 52.97,
+            "totalCft": 1870.55,
+            "totalPieces": 20,
+            "unitCount": 1
+          },
+          {
+            "yearMonth": "2026-02",
+            "productName": "LL Help Demo - Round Teak Logs",
+            "totalCbm": 18.75,
+            "totalCft": 662.1,
+            "totalPieces": 145,
+            "unitCount": 1
+          },
+          {
+            "yearMonth": "2026-03",
+            "productName": "LL Help Demo - Round Teak Logs",
+            "totalCbm": 24.4,
+            "totalCft": 861.8,
+            "totalPieces": 180,
+            "unitCount": 1
+          },
+          {
+            "yearMonth": "2026-04",
+            "productName": "LL Help Demo - Sawn Oak Boards",
+            "totalCbm": 16.8,
+            "totalCft": 593.3,
+            "totalPieces": 640,
+            "unitCount": 1
+          },
+          {
+            "yearMonth": "2026-05",
+            "productName": "LL Help Demo - Cedar Utility Poles",
+            "totalCbm": 7.95,
+            "totalCft": 280.75,
+            "totalPieces": 66,
+            "unitCount": 1
+          }
+        ],
+        "topProductsByCbm": [
+          {
+            "productId": 5,
+            "productName": "LL Help Demo - Mixed Hardwood Planks",
+            "hsCode": "4407",
+            "totalCbm": 52.97,
+            "totalCft": 1870.55,
+            "totalPieces": 20,
+            "transportUnitCount": 1,
+            "shipmentCount": 1,
+            "avgCbmPerUnit": 52.97,
+            "topPartners": [
+              "Mahadev Export",
+              "LL Help Demo - Harborline Imports LLC"
+            ],
+            "topLoadingSites": [
+              "LL Help Demo - North Yard"
+            ]
+          },
+          {
+            "productId": 1,
+            "productName": "LL Help Demo - Round Teak Logs",
+            "hsCode": "4403",
+            "totalCbm": 43.15,
+            "totalCft": 1523.9,
+            "totalPieces": 325,
+            "transportUnitCount": 2,
+            "shipmentCount": 2,
+            "avgCbmPerUnit": 21.58,
+            "topPartners": [
+              "Mahadev Export",
+              "LL Help Demo - Blue Oak Distribution",
+              "LL Help Demo - North Ridge Sawmills"
+            ],
+            "topLoadingSites": [
+              "LL Help Demo - Forest Depot",
+              "LL Help Demo - East Sawmill"
+            ]
+          },
+          {
+            "productId": 4,
+            "productName": "LL Help Demo - Cedar Utility Poles",
+            "hsCode": "4403",
+            "totalCbm": 21.47,
+            "totalCft": 758.12,
+            "totalPieces": 181,
+            "transportUnitCount": 2,
+            "shipmentCount": 2,
+            "avgCbmPerUnit": 10.73,
+            "topPartners": [
+              "Mahadev Export",
+              "LL Help Demo - North Ridge Sawmills",
+              "LL Help Demo - Harborline Imports LLC"
+            ],
+            "topLoadingSites": [
+              "LL Help Demo - North Yard"
+            ]
+          },
+          {
+            "productId": 2,
+            "productName": "LL Help Demo - Sawn Oak Boards",
+            "hsCode": "4407",
+            "totalCbm": 16.8,
+            "totalCft": 593.3,
+            "totalPieces": 640,
+            "transportUnitCount": 1,
+            "shipmentCount": 1,
+            "avgCbmPerUnit": 16.8,
+            "topPartners": [
+              "Mahadev Export",
+              "LL Help Demo - Evergreen Ply Traders"
+            ],
+            "topLoadingSites": [
+              "LL Help Demo - Port Loading Bay"
+            ]
+          }
+        ]
+      }
+    },
+    "loadingSite": {
+      "status": 200,
+      "json": {
+        "fromDate": "2025-12-16",
+        "toDate": "2026-06-16",
+        "generatedAt": "2026-06-16T06:58:57.160833947",
+        "distinctSites": 4,
+        "totalTransportUnits": 6,
+        "totalShipments": 5,
+        "totalCbm": 134.39,
+        "totalCft": 4745.88,
+        "totalPieces": 1166,
+        "sites": [
+          {
+            "siteId": 1,
+            "siteName": "LL Help Demo - North Yard",
+            "location": null,
+            "capacity": "1200",
+            "currentVolume": "735",
+            "totalCbm": 74.44,
+            "totalCft": 2628.68,
+            "totalPieces": 201,
+            "transportUnitCount": 3,
+            "shipmentCount": 2,
+            "utilizationPct": 6.2,
+            "topProducts": [
+              "LL Help Demo - Cedar Utility Poles",
+              "LL Help Demo - Mixed Hardwood Planks"
+            ],
+            "topPartners": [
+              "Mahadev Export",
+              "LL Help Demo - Harborline Imports LLC",
+              "LL Help Demo - North Ridge Sawmills"
+            ]
+          },
+          {
+            "siteId": 3,
+            "siteName": "LL Help Demo - East Sawmill",
+            "location": null,
+            "capacity": "800",
+            "currentVolume": "520",
+            "totalCbm": 24.4,
+            "totalCft": 861.8,
+            "totalPieces": 180,
+            "transportUnitCount": 1,
+            "shipmentCount": 1,
+            "utilizationPct": 3.05,
+            "topProducts": [
+              "LL Help Demo - Round Teak Logs"
+            ],
+            "topPartners": [
+              "Mahadev Export",
+              "LL Help Demo - North Ridge Sawmills"
+            ]
+          },
+          {
+            "siteId": 4,
+            "siteName": "LL Help Demo - Forest Depot",
+            "location": null,
+            "capacity": "600",
+            "currentVolume": "385",
+            "totalCbm": 18.75,
+            "totalCft": 662.1,
+            "totalPieces": 145,
+            "transportUnitCount": 1,
+            "shipmentCount": 1,
+            "utilizationPct": 3.13,
+            "topProducts": [
+              "LL Help Demo - Round Teak Logs"
+            ],
+            "topPartners": [
+              "LL Help Demo - Blue Oak Distribution",
+              "Mahadev Export"
+            ]
+          },
+          {
+            "siteId": 2,
+            "siteName": "LL Help Demo - Port Loading Bay",
+            "location": null,
+            "capacity": "2500",
+            "currentVolume": "1680",
+            "totalCbm": 16.8,
+            "totalCft": 593.3,
+            "totalPieces": 640,
+            "transportUnitCount": 1,
+            "shipmentCount": 1,
+            "utilizationPct": 0.67,
+            "topProducts": [
+              "LL Help Demo - Sawn Oak Boards"
+            ],
+            "topPartners": [
+              "Mahadev Export",
+              "LL Help Demo - Evergreen Ply Traders"
+            ]
+          }
+        ],
+        "monthlyTrend": [
+          {
+            "yearMonth": "2026-01",
+            "siteName": "LL Help Demo - North Yard",
+            "totalCbm": 66.49,
+            "totalCft": 2347.92,
+            "totalPieces": 135,
+            "unitCount": 2
+          },
+          {
+            "yearMonth": "2026-02",
+            "siteName": "LL Help Demo - Forest Depot",
+            "totalCbm": 18.75,
+            "totalCft": 662.1,
+            "totalPieces": 145,
+            "unitCount": 1
+          },
+          {
+            "yearMonth": "2026-03",
+            "siteName": "LL Help Demo - East Sawmill",
+            "totalCbm": 24.4,
+            "totalCft": 861.8,
+            "totalPieces": 180,
+            "unitCount": 1
+          },
+          {
+            "yearMonth": "2026-04",
+            "siteName": "LL Help Demo - Port Loading Bay",
+            "totalCbm": 16.8,
+            "totalCft": 593.3,
+            "totalPieces": 640,
+            "unitCount": 1
+          },
+          {
+            "yearMonth": "2026-05",
+            "siteName": "LL Help Demo - North Yard",
+            "totalCbm": 7.95,
+            "totalCft": 280.75,
+            "totalPieces": 66,
+            "unitCount": 1
+          }
+        ]
+      }
+    },
+    "tally": {
+      "status": 200,
+      "json": {
+        "fromDate": "2025-12-16",
+        "toDate": "2026-06-16",
+        "generatedAt": "2026-06-16T06:58:57.276406022",
+        "totalTallies": 6,
+        "roundTallies": 4,
+        "squareTallies": 2,
+        "totalCbm": 134.39,
+        "totalCft": 4745.88,
+        "totalPieces": 1166,
+        "avgCbmPerTally": 22.4,
+        "avgPiecesPerTally": 194.33,
+        "talliesByType": {
+          "ROUND": 4,
+          "SQUARE": 2
+        },
+        "tallies": [
+          {
+            "tallyId": 1,
+            "tallyType": "ROUND",
+            "transportUnitId": "LL Help Demo Round Tally 115 Logs",
+            "transportUnitNumber": "LL-Help-Demo-Round-Tally-115",
+            "productName": "LL Help Demo - Cedar Utility Poles",
+            "loadingSiteName": "LL Help Demo - North Yard",
+            "shipmentEncodedId": "AREBcrI5sUTHohjzT0us2DUU",
+            "totalCbm": 13.52,
+            "totalCft": 477.37,
+            "totalPieces": 115,
+            "destinationCbm": 12.84,
+            "destinationPieces": 112,
+            "shrinkagePct": 5.01,
+            "detailCount": 0,
+            "createdDate": "2026-01-17"
+          },
+          {
+            "tallyId": 2,
+            "tallyType": "SQUARE",
+            "transportUnitId": "LL Help Demo Square Tally 1200 Pieces",
+            "transportUnitNumber": "LL-Help-Demo-Square-Tally-12",
+            "productName": "LL Help Demo - Mixed Hardwood Planks",
+            "loadingSiteName": "LL Help Demo - North Yard",
+            "shipmentEncodedId": "AREBcrI5sUTHohjzT0us2DUU",
+            "totalCbm": 52.97,
+            "totalCft": 1870.55,
+            "totalPieces": 20,
+            "destinationCbm": 51.42,
+            "destinationPieces": 1190,
+            "shrinkagePct": 2.92,
+            "detailCount": 0,
+            "createdDate": "2026-01-17"
+          },
+          {
+            "tallyId": 3,
+            "tallyType": "ROUND",
+            "transportUnitId": "LL Help Demo Empty Tally Sheet",
+            "transportUnitNumber": "LL-Help-Demo-Empty-Tally-She",
+            "productName": "LL Help Demo - Cedar Utility Poles",
+            "loadingSiteName": "LL Help Demo - North Yard",
+            "shipmentEncodedId": "LLHELP-SHP-RAIL-005",
+            "totalCbm": 7.95,
+            "totalCft": 280.75,
+            "totalPieces": 66,
+            "destinationCbm": 7.62,
+            "destinationPieces": 61,
+            "shrinkagePct": 4.15,
+            "detailCount": 0,
+            "createdDate": "2026-05-07"
+          },
+          {
+            "tallyId": 4,
+            "tallyType": "ROUND",
+            "transportUnitId": "LL Help Demo Dashboard Available Teak Logs",
+            "transportUnitNumber": "TU-AVAIL-004",
+            "productName": "LL Help Demo - Round Teak Logs",
+            "loadingSiteName": "LL Help Demo - Forest Depot",
+            "shipmentEncodedId": "LLHELP-SHP-AIR-002",
+            "totalCbm": 18.75,
+            "totalCft": 662.1,
+            "totalPieces": 145,
+            "destinationCbm": 17.8,
+            "destinationPieces": 138,
+            "shrinkagePct": 5.07,
+            "detailCount": 0,
+            "createdDate": "2026-02-11"
+          },
+          {
+            "tallyId": 5,
+            "tallyType": "ROUND",
+            "transportUnitId": "LL Help Demo Dashboard Mill Processing Logs",
+            "transportUnitNumber": "TU-PROC-005",
+            "productName": "LL Help Demo - Round Teak Logs",
+            "loadingSiteName": "LL Help Demo - East Sawmill",
+            "shipmentEncodedId": "LLHELP-SHP-IMP-003",
+            "totalCbm": 24.4,
+            "totalCft": 861.8,
+            "totalPieces": 180,
+            "destinationCbm": 23.15,
+            "destinationPieces": 172,
+            "shrinkagePct": 5.12,
+            "detailCount": 0,
+            "createdDate": "2026-03-08"
+          },
+          {
+            "tallyId": 6,
+            "tallyType": "SQUARE",
+            "transportUnitId": "LL Help Demo Dashboard Shipped Boards",
+            "transportUnitNumber": "TU-SHIPPED-006",
+            "productName": "LL Help Demo - Sawn Oak Boards",
+            "loadingSiteName": "LL Help Demo - Port Loading Bay",
+            "shipmentEncodedId": "LLHELP-SHP-ROAD-004",
+            "totalCbm": 16.8,
+            "totalCft": 593.3,
+            "totalPieces": 640,
+            "destinationCbm": 16.1,
+            "destinationPieces": 618,
+            "shrinkagePct": 4.17,
+            "detailCount": 0,
+            "createdDate": "2026-04-14"
+          }
+        ],
+        "monthlyTrend": [
+          {
+            "yearMonth": "2026-01",
+            "tallyType": "ROUND",
+            "tallyCount": 1,
+            "totalCbm": 13.52,
+            "totalCft": 477.37,
+            "totalPieces": 115
+          },
+          {
+            "yearMonth": "2026-01",
+            "tallyType": "SQUARE",
+            "tallyCount": 1,
+            "totalCbm": 52.97,
+            "totalCft": 1870.55,
+            "totalPieces": 20
+          },
+          {
+            "yearMonth": "2026-02",
+            "tallyType": "ROUND",
+            "tallyCount": 1,
+            "totalCbm": 18.75,
+            "totalCft": 662.1,
+            "totalPieces": 145
+          },
+          {
+            "yearMonth": "2026-03",
+            "tallyType": "ROUND",
+            "tallyCount": 1,
+            "totalCbm": 24.4,
+            "totalCft": 861.8,
+            "totalPieces": 180
+          },
+          {
+            "yearMonth": "2026-04",
+            "tallyType": "SQUARE",
+            "tallyCount": 1,
+            "totalCbm": 16.8,
+            "totalCft": 593.3,
+            "totalPieces": 640
+          },
+          {
+            "yearMonth": "2026-05",
+            "tallyType": "ROUND",
+            "tallyCount": 1,
+            "totalCbm": 7.95,
+            "totalCft": 280.75,
+            "totalPieces": 66
+          }
+        ]
+      }
+    },
+    "financial": {
+      "status": 200,
+      "json": {
+        "fromDate": "2025-12-16",
+        "toDate": "2026-06-16",
+        "generatedAt": "2026-06-16T06:58:57.467547902",
+        "totalShipments": 8,
+        "totalRevenue": 196500,
+        "totalCost": 2180000,
+        "totalReceivable": 3669650,
+        "totalPayable": 3802150,
+        "totalOverdue": 98500,
+        "byCurrency": [
+          {
+            "currency": "USD",
+            "shipmentCount": 6,
+            "sellerTotalInvoiced": 616150,
+            "sellerFullyPaid": 76500,
+            "sellerPartiallyPaid": 256400,
+            "sellerInvoiced": 184750,
+            "sellerNotInvoiced": 0,
+            "sellerOverdue": 98500,
+            "sellerCancelled": 0,
+            "sellerOutstanding": 316150,
+            "buyerTotalPayable": 877350,
+            "buyerPaid": 0,
+            "buyerPending": 616150,
+            "buyerDisputed": 0,
+            "buyerCancelled": 0,
+            "buyerOutstanding": 616150,
+            "netPosition": 164000
+          },
+          {
+            "currency": "INR",
+            "shipmentCount": 2,
+            "sellerTotalInvoiced": 3250000,
+            "sellerFullyPaid": 0,
+            "sellerPartiallyPaid": 0,
+            "sellerInvoiced": 3250000,
+            "sellerNotInvoiced": 0,
+            "sellerOverdue": 0,
+            "sellerCancelled": 0,
+            "sellerOutstanding": 2000000,
+            "buyerTotalPayable": 5430000,
+            "buyerPaid": 2180000,
+            "buyerPending": 3250000,
+            "buyerDisputed": 0,
+            "buyerCancelled": 0,
+            "buyerOutstanding": 3250000,
+            "netPosition": -930000
+          }
+        ],
+        "monthlyTrend": [
+          {
+            "yearMonth": "2026-01",
+            "currency": "USD",
+            "shipmentCount": 1,
+            "invoicedAmount": 184750,
+            "receivedAmount": 85000,
+            "payableAmount": 0,
+            "paidAmount": 0
+          },
+          {
+            "yearMonth": "2026-02",
+            "currency": "USD",
+            "shipmentCount": 1,
+            "invoicedAmount": 98500,
+            "receivedAmount": 18500,
+            "payableAmount": 0,
+            "paidAmount": 0
+          },
+          {
+            "yearMonth": "2026-03",
+            "currency": "USD",
+            "shipmentCount": 1,
+            "invoicedAmount": 142300,
+            "receivedAmount": 0,
+            "payableAmount": 0,
+            "paidAmount": 72000
+          },
+          {
+            "yearMonth": "2026-04",
+            "currency": "INR",
+            "shipmentCount": 1,
+            "invoicedAmount": 3250000,
+            "receivedAmount": 1250000,
+            "payableAmount": 0,
+            "paidAmount": 0
+          },
+          {
+            "yearMonth": "2026-05",
+            "currency": "INR",
+            "shipmentCount": 1,
+            "invoicedAmount": 2180000,
+            "receivedAmount": 0,
+            "payableAmount": 0,
+            "paidAmount": 2180000
+          },
+          {
+            "yearMonth": "2026-05",
+            "currency": "USD",
+            "shipmentCount": 1,
+            "invoicedAmount": 256400,
+            "receivedAmount": 0,
+            "payableAmount": 0,
+            "paidAmount": 0
+          },
+          {
+            "yearMonth": "2026-06",
+            "currency": "USD",
+            "shipmentCount": 2,
+            "invoicedAmount": 195400,
+            "receivedAmount": 196500,
+            "payableAmount": 0,
+            "paidAmount": 64000
+          }
+        ],
+        "topRevenuePartners": [
+          {
+            "partnerName": "Mahadev Export",
+            "encodedId": null,
+            "currency": "USD",
+            "shipmentCount": 4,
+            "totalAmount": 3609750,
+            "receivedOrPaidAmount": 1430000,
+            "outstandingAmount": 2179750
+          },
+          {
+            "partnerName": "LL Help Demo - North Ridge Sawmills",
+            "encodedId": null,
+            "currency": "INR",
+            "shipmentCount": 2,
+            "totalAmount": 2322300,
+            "receivedOrPaidAmount": 0,
+            "outstandingAmount": 2322300
+          },
+          {
+            "partnerName": "LL Help Demo - Greenfield Timber Exports",
+            "encodedId": null,
+            "currency": "USD",
+            "shipmentCount": 1,
+            "totalAmount": 256400,
+            "receivedOrPaidAmount": 120000,
+            "outstandingAmount": 136400
+          },
+          {
+            "partnerName": "LL Help Demo - Blue Oak Distribution",
+            "encodedId": null,
+            "currency": "USD",
+            "shipmentCount": 1,
+            "totalAmount": 118900,
+            "receivedOrPaidAmount": 0,
+            "outstandingAmount": 118900
+          }
+        ],
+        "topCostPartners": [
+          {
+            "partnerName": "LL Help Demo - Evergreen Ply Traders",
+            "encodedId": null,
+            "currency": "INR",
+            "shipmentCount": 1,
+            "totalAmount": 3250000,
+            "receivedOrPaidAmount": 0,
+            "outstandingAmount": 3250000
+          },
+          {
+            "partnerName": "Mahadev Export",
+            "encodedId": null,
+            "currency": "USD",
+            "shipmentCount": 3,
+            "totalAmount": 2441200,
+            "receivedOrPaidAmount": 2252000,
+            "outstandingAmount": 189200
+          },
+          {
+            "partnerName": "LL Help Demo - Blue Oak Distribution",
+            "encodedId": null,
+            "currency": "USD",
+            "shipmentCount": 2,
+            "totalAmount": 354900,
+            "receivedOrPaidAmount": 64000,
+            "outstandingAmount": 290900
+          },
+          {
+            "partnerName": "LL Help Demo - Harborline Imports LLC",
+            "encodedId": null,
+            "currency": "USD",
+            "shipmentCount": 2,
+            "totalAmount": 261250,
+            "receivedOrPaidAmount": 0,
+            "outstandingAmount": 261250
+          }
+        ],
+        "byTradeType": [
+          {
+            "tradeType": "IMPORT",
+            "shipmentCount": 2,
+            "currency": "USD",
+            "totalInvoiced": 261200,
+            "totalPaid": 0,
+            "outstanding": 261200
+          },
+          {
+            "tradeType": "EXPORT",
+            "shipmentCount": 3,
+            "currency": "USD",
+            "totalInvoiced": 359750,
+            "totalPaid": 180000,
+            "outstanding": 179750
+          },
+          {
+            "tradeType": "TRADING",
+            "shipmentCount": 1,
+            "currency": "USD",
+            "totalInvoiced": 256400,
+            "totalPaid": 120000,
+            "outstanding": 136400
+          },
+          {
+            "tradeType": "DOMESTIC_PURCHASE",
+            "shipmentCount": 1,
+            "currency": "INR",
+            "totalInvoiced": 2180000,
+            "totalPaid": 0,
+            "outstanding": 2180000
+          },
+          {
+            "tradeType": "DOMESTIC_SALE",
+            "shipmentCount": 1,
+            "currency": "INR",
+            "totalInvoiced": 3250000,
+            "totalPaid": 1250000,
+            "outstanding": 2000000
+          }
+        ],
+        "totalActualReceived": 1550000,
+        "totalActualPaid": 2316000,
+        "transactions": [
+          {
+            "transactionId": 8,
+            "shipmentEncodedId": "LLHELP-SHP-PAID-007",
+            "type": "RECEIVABLE",
+            "paymentDate": "2026-06-08",
+            "amount": 76500,
+            "currency": "USD",
+            "paymentMode": "ADVANCE_TT",
+            "referenceNo": "LLPAY-PAID-007",
+            "notes": "LL Help Demo full receipt.",
+            "partnerName": "Mahadev Export"
+          },
+          {
+            "transactionId": 6,
+            "shipmentEncodedId": "LLHELP-SHP-TRD-006",
+            "type": "RECEIVABLE",
+            "paymentDate": "2026-06-02",
+            "amount": 120000,
+            "currency": "USD",
+            "paymentMode": "WIRE_TRANSFER",
+            "referenceNo": "LLPAY-TRD-006-R",
+            "notes": "LL Help Demo trading receipt.",
+            "partnerName": "LL Help Demo - Greenfield Timber Exports"
+          },
+          {
+            "transactionId": 7,
+            "shipmentEncodedId": "LLHELP-SHP-TRD-006",
+            "type": "PAYABLE",
+            "paymentDate": "2026-06-02",
+            "amount": 64000,
+            "currency": "USD",
+            "paymentMode": "WIRE_TRANSFER",
+            "referenceNo": "LLPAY-TRD-006-P",
+            "notes": "LL Help Demo trading supplier payable.",
+            "partnerName": "LL Help Demo - Blue Oak Distribution"
+          },
+          {
+            "transactionId": 5,
+            "shipmentEncodedId": "LLHELP-SHP-RAIL-005",
+            "type": "PAYABLE",
+            "paymentDate": "2026-05-18",
+            "amount": 2180000,
+            "currency": "INR",
+            "paymentMode": "CHEQUE",
+            "referenceNo": "LLPAY-RAIL-005",
+            "notes": "LL Help Demo domestic purchase paid.",
+            "partnerName": "Mahadev Export"
+          },
+          {
+            "transactionId": 4,
+            "shipmentEncodedId": "LLHELP-SHP-ROAD-004",
+            "type": "RECEIVABLE",
+            "paymentDate": "2026-04-22",
+            "amount": 1250000,
+            "currency": "INR",
+            "paymentMode": "BANK_TRANSFER",
+            "referenceNo": "LLPAY-ROAD-004",
+            "notes": "LL Help Demo domestic receipt.",
+            "partnerName": "Mahadev Export"
+          },
+          {
+            "transactionId": 3,
+            "shipmentEncodedId": "LLHELP-SHP-IMP-003",
+            "type": "PAYABLE",
+            "paymentDate": "2026-03-18",
+            "amount": 72000,
+            "currency": "USD",
+            "paymentMode": "BANK_TRANSFER",
+            "referenceNo": "LLPAY-IMP-003",
+            "notes": "LL Help Demo import supplier payment.",
+            "partnerName": "Mahadev Export"
+          },
+          {
+            "transactionId": 2,
+            "shipmentEncodedId": "LLHELP-SHP-AIR-002",
+            "type": "RECEIVABLE",
+            "paymentDate": "2026-02-20",
+            "amount": 18500,
+            "currency": "USD",
+            "paymentMode": "LC",
+            "referenceNo": "LLPAY-AIR-002",
+            "notes": "LL Help Demo received advance.",
+            "partnerName": "Mahadev Export"
+          },
+          {
+            "transactionId": 1,
+            "shipmentEncodedId": "AREBcrI5sUTHohjzT0us2DUU",
+            "type": "RECEIVABLE",
+            "paymentDate": "2026-01-25",
+            "amount": 85000,
+            "currency": "USD",
+            "paymentMode": "WIRE_TRANSFER",
+            "referenceNo": "LLPAY-SEA-001",
+            "notes": "LL Help Demo partial receipt for dashboard.",
+            "partnerName": "Mahadev Export"
+          }
+        ]
+      }
+    },
+    "inventorySummary": {
+      "status": 200,
+      "json": {
+        "availableCbm": 26.7,
+        "availableTuCount": 2,
+        "inProcessCbm": 24.4,
+        "inProcessTuCount": 1,
+        "inShipmentCbm": 66.485,
+        "inShipmentTuCount": 2,
+        "shippedCbmThisMonth": 16.8,
+        "atForest": {
+          "cbm": 18.75,
+          "tuCount": 1
+        },
+        "inTransit": {
+          "cbm": 0,
+          "tuCount": 0
+        },
+        "atMill": {
+          "cbm": 0,
+          "tuCount": 0
+        },
+        "inProcess": {
+          "cbm": 24.4,
+          "tuCount": 1
+        },
+        "atYard": {
+          "cbm": 7.95,
+          "tuCount": 1
+        },
+        "inShipment": {
+          "cbm": 83.285,
+          "tuCount": 3
+        },
+        "bySite": [
+          {
+            "siteId": 1,
+            "siteName": "LL Help Demo - North Yard",
+            "siteType": "YARD",
+            "transportUnits": [
+              {
+                "tuId": 3,
+                "transportId": "LL Help Demo Empty Tally Sheet",
+                "encodedId": "gJpqM8MSwfReArI71mz40MVv",
+                "productName": "LL Help Demo - Cedar Utility Poles",
+                "tallyType": "ROUND",
+                "cbm": 7.95,
+                "pieces": 66,
+                "inventoryStatus": "AVAILABLE",
+                "receivedAt": "2026-06-15T14:29:15.692866",
+                "daysInYard": 1
+              }
+            ]
+          },
+          {
+            "siteId": 4,
+            "siteName": "LL Help Demo - Forest Depot",
+            "siteType": "FOREST",
+            "transportUnits": [
+              {
+                "tuId": 4,
+                "transportId": "LL Help Demo Dashboard Available Teak Logs",
+                "encodedId": "LLHELP-TU-AVAIL-004",
+                "productName": "LL Help Demo - Round Teak Logs",
+                "tallyType": "ROUND",
+                "cbm": 18.75,
+                "pieces": 145,
+                "inventoryStatus": "AVAILABLE",
+                "receivedAt": "2026-06-15T20:33:49.188917",
+                "daysInYard": 1
+              }
+            ]
+          },
+          {
+            "siteId": 3,
+            "siteName": "LL Help Demo - East Sawmill",
+            "siteType": "MILL",
+            "transportUnits": [
+              {
+                "tuId": 5,
+                "transportId": "LL Help Demo Dashboard Mill Processing Logs",
+                "encodedId": "LLHELP-TU-PROC-005",
+                "productName": "LL Help Demo - Round Teak Logs",
+                "tallyType": "ROUND",
+                "cbm": 24.4,
+                "pieces": 180,
+                "inventoryStatus": "IN_PROCESS",
+                "receivedAt": "2026-06-15T20:33:49.330285",
+                "daysInYard": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "inventoryMovements": {
+      "status": 200,
+      "json": {
+        "content": [
+          {
+            "id": 5,
+            "encodedId": "e5oVl3_cbJQJdQ79sf5SGLKh",
+            "movementType": "IN",
+            "movementAt": "2026-06-15T18:16:40.69777",
+            "transportUnitId": 3,
+            "productName": "LL Help Demo - Cedar Utility Poles",
+            "tallyType": "ROUND",
+            "cbm": 0,
+            "pieces": 0,
+            "loadingSiteId": 1,
+            "loadingSiteName": "LL Help Demo - North Yard",
+            "referenceType": null,
+            "referenceId": null,
+            "referenceCode": null,
+            "businessPartnerName": null,
+            "notes": "Received into inventory"
+          },
+          {
+            "id": 4,
+            "encodedId": "2WJr8alO2eeAZ9VWW5vUIARl",
+            "movementType": "IN",
+            "movementAt": "2026-06-15T16:31:15.394531",
+            "transportUnitId": 2,
+            "productName": "LL Help Demo - Mixed Hardwood Planks",
+            "tallyType": "SQUARE",
+            "cbm": 52.968,
+            "pieces": 20,
+            "loadingSiteId": 1,
+            "loadingSiteName": "LL Help Demo - North Yard",
+            "referenceType": "SHIPMENT",
+            "referenceId": 1,
+            "referenceCode": "AREBcrI5sUTHohjzT0us2DUU",
+            "businessPartnerName": null,
+            "notes": "Assigned to shipment (IN): AREBcrI5sUTHohjzT0us2DUU"
+          },
+          {
+            "id": 3,
+            "encodedId": "RT2n4OVRnFC6tyxZm28JI6ZW",
+            "movementType": "IN",
+            "movementAt": "2026-06-15T16:31:15.030592",
+            "transportUnitId": 2,
+            "productName": "LL Help Demo - Mixed Hardwood Planks",
+            "tallyType": "SQUARE",
+            "cbm": 52.968,
+            "pieces": 20,
+            "loadingSiteId": 1,
+            "loadingSiteName": "LL Help Demo - North Yard",
+            "referenceType": null,
+            "referenceId": null,
+            "referenceCode": null,
+            "businessPartnerName": null,
+            "notes": "Received into inventory"
+          },
+          {
+            "id": 2,
+            "encodedId": "DMHtwGEHrElmIbvLAObtnWIt",
+            "movementType": "IN",
+            "movementAt": "2026-06-15T16:31:13.931332",
+            "transportUnitId": 1,
+            "productName": "LL Help Demo - Cedar Utility Poles",
+            "tallyType": "ROUND",
+            "cbm": 13.517,
+            "pieces": 115,
+            "loadingSiteId": 1,
+            "loadingSiteName": "LL Help Demo - North Yard",
+            "referenceType": "SHIPMENT",
+            "referenceId": 1,
+            "referenceCode": "AREBcrI5sUTHohjzT0us2DUU",
+            "businessPartnerName": null,
+            "notes": "Assigned to shipment (IN): AREBcrI5sUTHohjzT0us2DUU"
+          },
+          {
+            "id": 1,
+            "encodedId": "hUsbs--LuKy8mI25wew5FKG3",
+            "movementType": "IN",
+            "movementAt": "2026-06-15T16:31:12.884534",
+            "transportUnitId": 1,
+            "productName": "LL Help Demo - Cedar Utility Poles",
+            "tallyType": "ROUND",
+            "cbm": 13.517,
+            "pieces": 115,
+            "loadingSiteId": 1,
+            "loadingSiteName": "LL Help Demo - North Yard",
+            "referenceType": null,
+            "referenceId": null,
+            "referenceCode": null,
+            "businessPartnerName": null,
+            "notes": "Received into inventory"
+          },
+          {
+            "id": 17,
+            "encodedId": "LLHELP-INV-MOV-012",
+            "movementType": "ADJUSTMENT",
+            "movementAt": "2026-06-14T10:35:00",
+            "transportUnitId": 3,
+            "productName": "Pine Round Logs",
+            "tallyType": "ROUND",
+            "cbm": -1.25,
+            "pieces": -5,
+            "loadingSiteId": 4,
+            "loadingSiteName": "Forest Depot",
+            "referenceType": "SHIPMENT",
+            "referenceId": 8,
+            "referenceCode": "LL-DEMO-SHP-ARR-008",
+            "businessPartnerName": "Quality Team",
+            "notes": "Rejected cracked ends after grading"
+          },
+          {
+            "id": 16,
+            "encodedId": "LLHELP-INV-MOV-011",
+            "movementType": "IN",
+            "movementAt": "2026-06-12T16:05:00",
+            "transportUnitId": 3,
+            "productName": "Pine Round Logs",
+            "tallyType": "ROUND",
+            "cbm": 7.95,
+            "pieces": 66,
+            "loadingSiteId": 4,
+            "loadingSiteName": "Forest Depot",
+            "referenceType": "SHIPMENT",
+            "referenceId": 8,
+            "referenceCode": "LL-DEMO-SHP-ARR-008",
+            "businessPartnerName": "Field Supervisor",
+            "notes": "Additional small-diameter logs"
+          },
+          {
+            "id": 15,
+            "encodedId": "LLHELP-INV-MOV-010",
+            "movementType": "OUT",
+            "movementAt": "2026-06-08T12:40:00",
+            "transportUnitId": 6,
+            "productName": "Teak Square Boards",
+            "tallyType": "SQUARE",
+            "cbm": 13.4,
+            "pieces": 420,
+            "loadingSiteId": 5,
+            "loadingSiteName": "Warehouse Stack A",
+            "referenceType": "SHIPMENT",
+            "referenceId": 7,
+            "referenceCode": "LL-DEMO-SHP-PAID-007",
+            "businessPartnerName": "Domestic Customer",
+            "notes": "Released to domestic sales order"
+          },
+          {
+            "id": 14,
+            "encodedId": "LLHELP-INV-MOV-009",
+            "movementType": "IN",
+            "movementAt": "2026-06-03T09:20:00",
+            "transportUnitId": 6,
+            "productName": "Teak Square Boards",
+            "tallyType": "SQUARE",
+            "cbm": 16.8,
+            "pieces": 640,
+            "loadingSiteId": 5,
+            "loadingSiteName": "Warehouse Stack A",
+            "referenceType": "TRANSPORT_UNIT",
+            "referenceId": 6,
+            "referenceCode": "TU-SHIPPED-006",
+            "businessPartnerName": "Warehouse Stock",
+            "notes": "Finished boards added to stock"
+          },
+          {
+            "id": 13,
+            "encodedId": "LLHELP-INV-MOV-008",
+            "movementType": "ADJUSTMENT",
+            "movementAt": "2026-05-14T11:25:00",
+            "transportUnitId": 2,
+            "productName": "Meranti Boards",
+            "tallyType": "SQUARE",
+            "cbm": -0.85,
+            "pieces": -12,
+            "loadingSiteId": 2,
+            "loadingSiteName": "Port Loading Bay",
+            "referenceType": "SHIPMENT",
+            "referenceId": 5,
+            "referenceCode": "LL-DEMO-SHP-RAIL-005",
+            "businessPartnerName": "Export Customer",
+            "notes": "Bundle count correction after inspection"
+          },
+          {
+            "id": 12,
+            "encodedId": "LLHELP-INV-MOV-007",
+            "movementType": "IN_SHIPMENT",
+            "movementAt": "2026-05-08T06:40:00",
+            "transportUnitId": 2,
+            "productName": "Meranti Boards",
+            "tallyType": "SQUARE",
+            "cbm": 31.85,
+            "pieces": 680,
+            "loadingSiteId": 2,
+            "loadingSiteName": "Port Loading Bay",
+            "referenceType": "SHIPMENT",
+            "referenceId": 5,
+            "referenceCode": "LL-DEMO-SHP-RAIL-005",
+            "businessPartnerName": "Export Customer",
+            "notes": "Moved to export shipment staging"
+          },
+          {
+            "id": 11,
+            "encodedId": "LLHELP-INV-MOV-006",
+            "movementType": "PROC_OUT",
+            "movementAt": "2026-04-17T18:10:00",
+            "transportUnitId": 6,
+            "productName": "Teak Square Boards",
+            "tallyType": "SQUARE",
+            "cbm": 10.4,
+            "pieces": 520,
+            "loadingSiteId": 5,
+            "loadingSiteName": "Warehouse Stack A",
+            "referenceType": "PROCESSING_RUN",
+            "referenceId": 1,
+            "referenceCode": "LL-PR-2026-APR-01",
+            "businessPartnerName": "Internal Processing",
+            "notes": "Processed square boards returned"
+          },
+          {
+            "id": 10,
+            "encodedId": "LLHELP-INV-MOV-005",
+            "movementType": "PROC_IN",
+            "movementAt": "2026-04-15T07:40:00",
+            "transportUnitId": 5,
+            "productName": "Teak Round Logs",
+            "tallyType": "ROUND",
+            "cbm": 24.4,
+            "pieces": 180,
+            "loadingSiteId": 3,
+            "loadingSiteName": "East Sawmill",
+            "referenceType": "PROCESSING_RUN",
+            "referenceId": 1,
+            "referenceCode": "LL-PR-2026-APR-01",
+            "businessPartnerName": "Internal Processing",
+            "notes": "Sent to mill for cutting"
+          },
+          {
+            "id": 9,
+            "encodedId": "LLHELP-INV-MOV-004",
+            "movementType": "ADJUSTMENT",
+            "movementAt": "2026-03-20T15:00:00",
+            "transportUnitId": 4,
+            "productName": "Teak Round Logs",
+            "tallyType": "ROUND",
+            "cbm": -2.15,
+            "pieces": -8,
+            "loadingSiteId": 1,
+            "loadingSiteName": "North Yard",
+            "referenceType": "TRANSPORT_UNIT",
+            "referenceId": 4,
+            "referenceCode": "TU-AVAIL-004",
+            "businessPartnerName": "Mumbai Timber Buyer",
+            "notes": "Moisture shrinkage adjustment"
+          },
+          {
+            "id": 8,
+            "encodedId": "LLHELP-INV-MOV-003",
+            "movementType": "IN",
+            "movementAt": "2026-03-08T10:20:00",
+            "transportUnitId": 5,
+            "productName": "Gurjan Round Logs",
+            "tallyType": "ROUND",
+            "cbm": 11.3,
+            "pieces": 92,
+            "loadingSiteId": 4,
+            "loadingSiteName": "Forest Depot",
+            "referenceType": "SHIPMENT",
+            "referenceId": 3,
+            "referenceCode": "LL-DEMO-SHP-IMP-003",
+            "businessPartnerName": "Kandla Timber Buyer",
+            "notes": "Imported stock received"
+          },
+          {
+            "id": 7,
+            "encodedId": "LLHELP-INV-MOV-002",
+            "movementType": "IN",
+            "movementAt": "2026-02-11T09:20:00",
+            "transportUnitId": 4,
+            "productName": "Acacia Round Logs",
+            "tallyType": "ROUND",
+            "cbm": 8.75,
+            "pieces": 74,
+            "loadingSiteId": 3,
+            "loadingSiteName": "East Sawmill",
+            "referenceType": "SHIPMENT",
+            "referenceId": 2,
+            "referenceCode": "LL-DEMO-SHP-AIR-002",
+            "businessPartnerName": "Saw Mill Partner",
+            "notes": "Short logs received for processing"
+          },
+          {
+            "id": 6,
+            "encodedId": "LLHELP-INV-MOV-001",
+            "movementType": "IN",
+            "movementAt": "2026-01-17T08:30:00",
+            "transportUnitId": 1,
+            "productName": "Teak Round Logs",
+            "tallyType": "ROUND",
+            "cbm": 18.42,
+            "pieces": 115,
+            "loadingSiteId": 1,
+            "loadingSiteName": "North Yard",
+            "referenceType": "SHIPMENT",
+            "referenceId": 1,
+            "referenceCode": "LL-DEMO-SHP-SEA-001",
+            "businessPartnerName": "Mahadev Export",
+            "notes": "Received round logs into yard"
+          }
+        ],
+        "pageable": {
+          "pageNumber": 0,
+          "pageSize": 20,
+          "sort": {
+            "sorted": true,
+            "unsorted": false,
+            "empty": false
+          },
+          "offset": 0,
+          "paged": true,
+          "unpaged": false
+        },
+        "totalElements": 17,
+        "totalPages": 1,
+        "last": true,
+        "first": true,
+        "size": 20,
+        "number": 0,
+        "sort": {
+          "sorted": true,
+          "unsorted": false,
+          "empty": false
+        },
+        "numberOfElements": 17,
+        "empty": false
+      }
+    },
+    "processingRuns": {
+      "status": 200,
+      "json": {
+        "content": [
+          {
+            "id": 4,
+            "encodedId": "LLHELP-PROC-FEB-01",
+            "runCode": "LL-PR-2026-FEB-01",
+            "status": "COMPLETED",
+            "processingDate": "2026-02-16",
+            "startedAt": "2026-02-16T08:00:00",
+            "completedAt": "2026-02-18T16:15:00",
+            "millSiteId": 3,
+            "millSiteName": "East Sawmill",
+            "inputCbm": 19.85,
+            "inputPieces": 155,
+            "inputProductName": "Acacia Round Logs",
+            "outputMethod": "DIRECT",
+            "outputCbm": 12.6,
+            "outputPieces": 480,
+            "outputProductName": "Acacia Pallet Boards",
+            "outputSiteId": 5,
+            "outputSiteName": "Warehouse Stack A",
+            "outturnRatio": 0.6348,
+            "lossCbm": 7.25,
+            "notes": "Demo conversion to pallet boards",
+            "inputs": []
+          },
+          {
+            "id": 5,
+            "encodedId": "LLHELP-PROC-MAY-02",
+            "runCode": "LL-PR-2026-MAY-02",
+            "status": "COMPLETED",
+            "processingDate": "2026-05-18",
+            "startedAt": "2026-05-18T07:30:00",
+            "completedAt": "2026-05-20T18:20:00",
+            "millSiteId": 3,
+            "millSiteName": "East Sawmill",
+            "inputCbm": 31.2,
+            "inputPieces": 220,
+            "inputProductName": "Meranti Round Logs",
+            "outputMethod": "DIRECT",
+            "outputCbm": 19.8,
+            "outputPieces": 760,
+            "outputProductName": "Meranti Export Boards",
+            "outputSiteId": 2,
+            "outputSiteName": "Port Loading Bay",
+            "outturnRatio": 0.6346,
+            "lossCbm": 11.4,
+            "notes": "Demo export board production",
+            "inputs": []
+          },
+          {
+            "id": 6,
+            "encodedId": "LLHELP-PROC-JUN-DRAFT",
+            "runCode": "LL-PR-2026-JUN-DRAFT",
+            "status": "DRAFT",
+            "processingDate": "2026-06-15",
+            "startedAt": null,
+            "completedAt": null,
+            "millSiteId": 4,
+            "millSiteName": "Forest Depot",
+            "inputCbm": 14.6,
+            "inputPieces": 96,
+            "inputProductName": "Pine Round Logs",
+            "outputMethod": "DIRECT",
+            "outputCbm": null,
+            "outputPieces": null,
+            "outputProductName": null,
+            "outputSiteId": null,
+            "outputSiteName": null,
+            "outturnRatio": null,
+            "lossCbm": null,
+            "notes": "Demo draft awaiting mill slot",
+            "inputs": []
+          },
+          {
+            "id": 1,
+            "encodedId": "LLHELP-PROC-COMP-001",
+            "runCode": "PR-LL-DEMO-001",
+            "status": "COMPLETED",
+            "processingDate": "2026-06-15",
+            "startedAt": "2026-06-15T18:14:52.53124",
+            "completedAt": "2026-06-15T20:14:52.53124",
+            "millSiteId": 3,
+            "millSiteName": "LL Help Demo - East Sawmill",
+            "inputCbm": 13.517,
+            "inputPieces": 115,
+            "inputProductName": "LL Help Demo - Cedar Utility Poles",
+            "outputMethod": "DIRECT",
+            "outputCbm": 10.4,
+            "outputPieces": 86,
+            "outputProductName": "LL Help Demo - Sawn Oak Boards",
+            "outputSiteId": 5,
+            "outputSiteName": "LL Help Demo - Warehouse Stack A",
+            "outturnRatio": 0.7694,
+            "lossCbm": 3.117,
+            "notes": "LL Help Demo processing run: round logs converted to sawn boards for screenshot documentation.",
+            "inputs": [
+              {
+                "transportUnitId": 1,
+                "transportId": null,
+                "cbmContributed": 13.517,
+                "piecesContributed": 115,
+                "productName": null,
+                "loadingSiteName": null
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "encodedId": "LLHELP-PROC-DRAFT-003",
+            "runCode": "PR-LL-DEMO-003",
+            "status": "DRAFT",
+            "processingDate": "2026-06-15",
+            "startedAt": null,
+            "completedAt": null,
+            "millSiteId": 3,
+            "millSiteName": "LL Help Demo - East Sawmill",
+            "inputCbm": 5.75,
+            "inputPieces": 48,
+            "inputProductName": "LL Help Demo - Cedar Utility Poles",
+            "outputMethod": null,
+            "outputCbm": null,
+            "outputPieces": null,
+            "outputProductName": null,
+            "outputSiteId": null,
+            "outputSiteName": null,
+            "outturnRatio": null,
+            "lossCbm": null,
+            "notes": "LL Help Demo draft processing run for wizard and list screenshots.",
+            "inputs": [
+              {
+                "transportUnitId": 3,
+                "transportId": null,
+                "cbmContributed": 5.75,
+                "piecesContributed": 48,
+                "productName": null,
+                "loadingSiteName": null
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "encodedId": "LLHELP-PROC-INPROG-002",
+            "runCode": "PR-LL-DEMO-002",
+            "status": "IN_PROGRESS",
+            "processingDate": "2026-06-15",
+            "startedAt": "2026-06-15T19:14:52.710728",
+            "completedAt": null,
+            "millSiteId": 3,
+            "millSiteName": "LL Help Demo - East Sawmill",
+            "inputCbm": 8.25,
+            "inputPieces": 72,
+            "inputProductName": "LL Help Demo - Round Teak Logs",
+            "outputMethod": null,
+            "outputCbm": null,
+            "outputPieces": null,
+            "outputProductName": null,
+            "outputSiteId": null,
+            "outputSiteName": null,
+            "outturnRatio": null,
+            "lossCbm": null,
+            "notes": "LL Help Demo processing run in progress for dashboard and processing screenshots.",
+            "inputs": [
+              {
+                "transportUnitId": 3,
+                "transportId": null,
+                "cbmContributed": 8.25,
+                "piecesContributed": 72,
+                "productName": null,
+                "loadingSiteName": null
+              }
+            ]
+          }
+        ],
+        "pageable": {
+          "pageNumber": 0,
+          "pageSize": 20,
+          "sort": {
+            "sorted": true,
+            "unsorted": false,
+            "empty": false
+          },
+          "offset": 0,
+          "paged": true,
+          "unpaged": false
+        },
+        "totalElements": 6,
+        "totalPages": 1,
+        "last": true,
+        "first": true,
+        "size": 20,
+        "number": 0,
+        "sort": {
+          "sorted": true,
+          "unsorted": false,
+          "empty": false
+        },
+        "numberOfElements": 6,
+        "empty": false
+      }
+    },
+    "support": {
+      "status": 404,
+      "json": null
+    },
+    "bpSearch": {
+      "status": 200,
+      "json": [
+        {
+          "id": 3,
+          "encodedId": "0paD_DszWRdfh-uKEbp3O7Me",
+          "name": "LL Help Demo - Greenfield Timber Exports",
+          "contactPerson": "Rahul Mehta"
+        },
+        {
+          "id": 4,
+          "encodedId": "1C5tdHit0gdYuMhczEeKsWEU",
+          "name": "LL Help Demo - North Ridge Sawmills",
+          "contactPerson": "Ava Thompson"
+        },
+        {
+          "id": 5,
+          "encodedId": "J6p72_Y6EpNJ7lUM9XZgIeKe",
+          "name": "LL Help Demo - Harborline Imports LLC",
+          "contactPerson": "Miguel Santos"
+        },
+        {
+          "id": 6,
+          "encodedId": "kSMnNWApxVqH2wx9t4OO7p9I",
+          "name": "LL Help Demo - Evergreen Ply Traders",
+          "contactPerson": "Nisha Patel"
+        },
+        {
+          "id": 7,
+          "encodedId": "lXuODXG83aKdUwMWFGlMgVRe",
+          "name": "LL Help Demo - Blue Oak Distribution",
+          "contactPerson": "Chen Wei"
+        }
+      ]
+    },
+    "bpAny": {
+      "status": 200,
+      "json": []
+    },
+    "bpReport": {
+      "status": 200,
+      "json": {
+        "fromDate": "2025-12-16",
+        "toDate": "2026-06-16",
+        "generatedAt": "16-Jun-2026 06:58",
+        "profile": {
+          "id": 3,
+          "encodedId": "0paD_DszWRdfh-uKEbp3O7Me",
+          "name": "LL Help Demo - Greenfield Timber Exports",
+          "partyType": "BOTH",
+          "partyCategory": "INTERNATIONAL",
+          "registrationType": "EXPORTER",
+          "country": null,
+          "email": "greenfield.demo@example.com",
+          "phone": "(415) 555-0101",
+          "taxId": "27ABCDE1234F1Z5",
+          "isActive": true,
+          "isOwner": false,
+          "address": "Block C, Timber Export Yard, Near Inland Container Depot",
+          "city": null,
+          "state": null,
+          "postalCode": "382421",
+          "website": "https://example.com/greenfield"
+        },
+        "totalShipments": 1,
+        "totalShipmentsAsSeller": 1,
+        "totalShipmentsAsBuyer": 0,
+        "totalCbm": 0,
+        "totalCft": 0,
+        "totalPieces": 0,
+        "totalCbmAsSeller": 0,
+        "totalCftAsSeller": 0,
+        "totalPiecesAsSeller": 0,
+        "totalCbmAsBuyer": 0,
+        "totalCftAsBuyer": 0,
+        "totalPiecesAsBuyer": 0,
+        "paymentBreakdown": {
+          "totalInvoiced": 256400,
+          "fullyPaidAmount": 0,
+          "partiallyPaidAmount": 256400,
+          "invoicedAmount": 0,
+          "notInvoicedAmount": 0,
+          "overdueAmount": 0,
+          "sellerCancelledAmount": 0,
+          "countFullyPaid": 0,
+          "countPartiallyPaid": 1,
+          "countInvoiced": 0,
+          "countNotInvoiced": 0,
+          "countOverdue": 0,
+          "countSellerCancelled": 0,
+          "sellerOutstandingAmount": 256400,
+          "totalPayable": 0,
+          "paidAmount": 0,
+          "pendingAmount": 0,
+          "disputedAmount": 0,
+          "buyerCancelledAmount": 0,
+          "countPaid": 0,
+          "countPending": 0,
+          "countDisputed": 0,
+          "countBuyerCancelled": 0,
+          "buyerOutstandingAmount": 0,
+          "actualReceivedAmount": 120000,
+          "actualPaidAmount": 64000
+        },
+        "transactions": [
+          {
+            "encodedId": "LLHELP-SHP-TRD-006",
+            "shipmentDate": "2026-05-28",
+            "tradeType": "TRADING",
+            "role": "SELLER",
+            "portOfLoading": "Mundra",
+            "portOfDischarge": "Shanghai",
+            "countryOfOrigin": "India",
+            "countryOfDestination": "China",
+            "finalDestination": "China",
+            "currency": "USD",
+            "totalInvoiceAmount": 256400,
+            "salesPaymentStatus": "PARTIALLY_PAID",
+            "purchasePaymentStatus": "PENDING",
+            "totalCbm": 0,
+            "totalCft": 0,
+            "totalPieces": 0,
+            "transportUnitCount": 0,
+            "status": "CONFIRMED",
+            "blNumber": "LL-DEMO-SHP-TRD-006",
+            "incoterms": "FOB",
+            "vesselOrFlight": "MV Timber Bridge",
+            "voyageOrFlightNo": "TB-886",
+            "productNames": [],
+            "loadingSiteNames": []
+          }
+        ],
+        "productSummary": [],
+        "loadingSiteSummary": [],
+        "monthlyVolume": [
+          {
+            "yearMonth": "2026-05",
+            "role": "SELLER",
+            "totalCbm": 0,
+            "totalCft": 0,
+            "totalPieces": 0,
+            "shipmentCount": 1,
+            "invoiceAmount": 256400
+          }
+        ],
+        "currencies": [
+          "USD"
+        ]
+      }
+    }
+  }
+}
