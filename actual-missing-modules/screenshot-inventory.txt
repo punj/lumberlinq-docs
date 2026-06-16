@@ -1,3 +1,6 @@
+profile-01-account-details.png
+profile-02-timezone-section.png
+profile-03-change-password-dialog.png
 storage-01-usage-and-files.png
 storage-02-refreshed-usage.png
 utilities-01-unit-conversion.png
