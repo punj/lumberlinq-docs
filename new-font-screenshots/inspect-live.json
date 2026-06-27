@@ -1,0 +1,1340 @@
+{
+  "profile": {
+    "label": "profile",
+    "url": "https://api.lumberlinq.com/api/v1/user-profile",
+    "status": 200,
+    "ok": true,
+    "body": {
+      "firstName": "Jack",
+      "lastName": "Drew",
+      "companyId": "TYAXMYEKQ",
+      "profilePicture": null,
+      "gender": "Male",
+      "roles": [
+        "ROLE_USER",
+        "ROLE_ADMIN",
+        "ROLE_REGISTRATION"
+      ],
+      "status": 200,
+      "companyLogoUrl": null,
+      "appVersion": "1.76.2"
+    }
+  },
+  "menu": {
+    "label": "menu",
+    "url": "https://api.lumberlinq.com/api/v1/menu-items",
+    "status": 200,
+    "ok": true,
+    "body": [
+      {
+        "label": "Dashboard",
+        "icon": "pi pi-chart-line",
+        "routerLink": "/dashboard-v5",
+        "allowedRoles": [
+          "COMPANY",
+          "SUPER_ADMIN",
+          "USER",
+          "ADMIN",
+          "ROOT"
+        ],
+        "items": null
+      },
+      {
+        "label": "Business Partners",
+        "icon": "pi pi-fw pi-briefcase",
+        "routerLink": null,
+        "allowedRoles": [
+          "COMPANY",
+          "SUPER_ADMIN",
+          "USER",
+          "ADMIN",
+          "ROOT"
+        ],
+        "items": [
+          {
+            "label": "Add Business Partner",
+            "icon": "pi pi-fw pi-plus",
+            "routerLink": "/business-partners/new",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "View Business Partners",
+            "icon": "pi pi-fw pi-eye",
+            "routerLink": "/business-partners",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          }
+        ]
+      },
+      {
+        "label": "Products",
+        "icon": "pi pi-fw pi-shopping-cart",
+        "routerLink": null,
+        "allowedRoles": [
+          "COMPANY",
+          "SUPER_ADMIN",
+          "USER",
+          "ADMIN",
+          "ROOT"
+        ],
+        "items": [
+          {
+            "label": "Add Product",
+            "icon": "pi pi-fw pi-plus",
+            "routerLink": "/add/product",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "View Products",
+            "icon": "pi pi-fw pi-eye",
+            "routerLink": "/products",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          }
+        ]
+      },
+      {
+        "label": "Loading Sites",
+        "icon": "pi pi-fw pi-globe",
+        "routerLink": null,
+        "allowedRoles": [
+          "COMPANY",
+          "SUPER_ADMIN",
+          "USER",
+          "ADMIN",
+          "ROOT"
+        ],
+        "items": [
+          {
+            "label": "Add Loading Site",
+            "icon": "pi pi-fw pi-plus",
+            "routerLink": "/add/loading-sites",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "View Loading Sites",
+            "icon": "pi pi-fw pi-eye",
+            "routerLink": "/loading-sites",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          }
+        ]
+      },
+      {
+        "label": "Transport Unit",
+        "icon": "pi pi-fw pi-table",
+        "routerLink": null,
+        "allowedRoles": [
+          "COMPANY",
+          "SUPER_ADMIN",
+          "USER",
+          "ADMIN",
+          "ROOT"
+        ],
+        "items": [
+          {
+            "label": "Add Transport Unit",
+            "icon": "pi pi-fw pi-plus",
+            "routerLink": "/new-tallysheet",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Transport Units",
+            "icon": "pi pi-fw pi-eye",
+            "routerLink": "/new-tallysheet/view-trans",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Transport Unit Field Access",
+            "icon": "pi pi-sliders-v",
+            "routerLink": "/tallysheet-fields-access",
+            "allowedRoles": [
+              "SUPER_ADMIN",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          }
+        ]
+      },
+      {
+        "label": "Shipments",
+        "icon": "pi pi-fw pi-truck",
+        "routerLink": null,
+        "allowedRoles": [
+          "COMPANY",
+          "SUPER_ADMIN",
+          "USER",
+          "ADMIN",
+          "ROOT"
+        ],
+        "items": [
+          {
+            "label": "Add Shipment",
+            "icon": "pi pi-fw pi-plus",
+            "routerLink": "/shipments",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "List Shipments",
+            "icon": "pi pi-fw pi-eye",
+            "routerLink": "/shipments/list",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Shipment Field Access",
+            "icon": "pi pi-sliders-h",
+            "routerLink": "/fields-access",
+            "allowedRoles": [
+              "SUPER_ADMIN",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          }
+        ]
+      },
+      {
+        "label": "Inventory",
+        "icon": "pi pi-warehouse",
+        "routerLink": null,
+        "allowedRoles": [
+          "COMPANY",
+          "SUPER_ADMIN",
+          "USER",
+          "ADMIN",
+          "ROOT"
+        ],
+        "items": [
+          {
+            "label": "Overview",
+            "icon": "pi pi-chart-bar",
+            "routerLink": "/inventory/overview",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "In / Out",
+            "icon": "pi pi-arrow-right-arrow-left",
+            "routerLink": "/inventory/in-out",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Processing",
+            "icon": "pi pi-cog",
+            "routerLink": "/inventory/processing",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          }
+        ]
+      },
+      {
+        "label": "Reports",
+        "icon": "pi pi-fw pi-chart-line",
+        "routerLink": null,
+        "allowedRoles": [
+          "COMPANY",
+          "SUPER_ADMIN",
+          "USER",
+          "ADMIN",
+          "ROOT"
+        ],
+        "items": [
+          {
+            "label": "Business Partner Report",
+            "icon": "pi pi-fw pi-briefcase",
+            "routerLink": "/reports/business-partner",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Shipment Report",
+            "icon": "pi pi-fw pi-truck",
+            "routerLink": "/reports/shipment",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Product Report",
+            "icon": "pi pi-fw pi-shopping-cart",
+            "routerLink": "/reports/product",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Loading Site Report",
+            "icon": "pi pi-fw pi-globe",
+            "routerLink": "/reports/loading-site",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Financial Report",
+            "icon": "pi pi-fw pi-dollar",
+            "routerLink": "/reports/financial",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Tally Report",
+            "icon": "pi pi-fw pi-table",
+            "routerLink": "/reports/tally",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Transport Unit Report",
+            "icon": "pi pi-fw pi-inbox",
+            "routerLink": "/reports/transport-unit",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Reconciliation Report",
+            "icon": "pi pi-fw pi-sync",
+            "routerLink": "/reports/reconciliation",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Inventory Report",
+            "icon": "pi pi-warehouse",
+            "routerLink": "/reports/inventory",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Users Report",
+            "icon": "pi pi-fw pi-users",
+            "routerLink": "/reports/users",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Analytics",
+            "icon": "pi pi-chart-line",
+            "routerLink": "/reports/app-usage",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          }
+        ]
+      },
+      {
+        "label": "User",
+        "icon": "pi pi-fw pi-user",
+        "routerLink": null,
+        "allowedRoles": [
+          "COMPANY",
+          "SUPER_ADMIN",
+          "USER",
+          "ADMIN",
+          "ROOT"
+        ],
+        "items": [
+          {
+            "label": "Add User",
+            "icon": "pi pi-fw pi-user-plus",
+            "routerLink": "/add/user",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Manage User",
+            "icon": "pi pi-fw pi-cog",
+            "routerLink": "/manage/user",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "User Profile",
+            "icon": "pi pi-fw pi-user-edit",
+            "routerLink": "/profile",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Storage",
+            "icon": "pi pi-fw pi-database",
+            "routerLink": "/storage",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          }
+        ]
+      },
+      {
+        "label": "Company",
+        "icon": "pi pi-fw pi-building",
+        "routerLink": null,
+        "allowedRoles": [
+          "COMPANY",
+          "SUPER_ADMIN",
+          "ADMIN",
+          "ROOT"
+        ],
+        "items": [
+          {
+            "label": "Company Profile",
+            "icon": "pi pi-fw pi-id-card",
+            "routerLink": "/company",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Subscription",
+            "icon": "pi pi-fw pi-book",
+            "routerLink": "/subscriptions",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Branding",
+            "icon": "pi pi-fw pi-image",
+            "routerLink": "/company/branding",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Access Control",
+            "icon": "pi pi-shield",
+            "routerLink": "/settings/rbac",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          }
+        ]
+      },
+      {
+        "label": "Utility",
+        "icon": "pi pi-fw pi-cog",
+        "routerLink": null,
+        "allowedRoles": [
+          "COMPANY",
+          "SUPER_ADMIN",
+          "USER",
+          "ADMIN",
+          "ROOT"
+        ],
+        "items": [
+          {
+            "label": "Cost Estimate",
+            "icon": "pi pi-book",
+            "routerLink": "/utility/volume-estimates",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Unit Conversion",
+            "icon": "pi pi-calculator",
+            "routerLink": "/utility/unit-conversion",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          },
+          {
+            "label": "Generate Slab",
+            "icon": "pi pi-bars",
+            "routerLink": "/utility/slab-generator",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          }
+        ]
+      },
+      {
+        "label": "Support",
+        "icon": "pi pi-question-circle",
+        "routerLink": null,
+        "allowedRoles": [
+          "COMPANY",
+          "SUPER_ADMIN",
+          "USER",
+          "ADMIN",
+          "ROOT"
+        ],
+        "items": [
+          {
+            "label": "Support Tickets",
+            "icon": "pi pi-ticket",
+            "routerLink": "/support/tickets",
+            "allowedRoles": [
+              "COMPANY",
+              "SUPER_ADMIN",
+              "USER",
+              "ADMIN",
+              "ROOT"
+            ],
+            "items": null
+          }
+        ]
+      }
+    ]
+  },
+  "dashboardV5": {
+    "label": "dashboardV5",
+    "url": "https://api.lumberlinq.com/api/v1/dashboard-v5/stats",
+    "status": 200,
+    "ok": true,
+    "body": {
+      "partners": {
+        "total": 1,
+        "active": 1,
+        "inactive": 0,
+        "byCountry": {
+          "IN": 1
+        }
+      },
+      "shipments": {
+        "total": 0,
+        "byTradeType": {},
+        "byMode": {},
+        "upcomingDepartures": [],
+        "upcomingArrivals": [],
+        "paymentStatus": {
+          "PAID": 0,
+          "PENDING": 0
+        }
+      },
+      "transportUnits": {
+        "total": 0,
+        "unassigned": 0
+      },
+      "tally": {
+        "totalCbm": 0,
+        "totalCft": 0,
+        "totalPieces": 0,
+        "trend": [],
+        "topProducts": []
+      },
+      "loadingSites": [],
+      "subscription": {
+        "packageName": "Standard",
+        "status": "ACTIVE",
+        "validTill": null,
+        "daysRemaining": -1
+      },
+      "recentTransportUnits": [],
+      "financialHealth": {
+        "totalInvoiced": 0,
+        "totalReceived": 0,
+        "totalPayable": 0,
+        "outstandingReceivable": 0,
+        "overdueAmount": 0,
+        "overdueCount": 0,
+        "primaryCurrency": "USD",
+        "receivablesAging": [
+          {
+            "label": "0–30 days",
+            "amount": 0,
+            "count": 0
+          },
+          {
+            "label": "31–60 days",
+            "amount": 0,
+            "count": 0
+          },
+          {
+            "label": "61–90 days",
+            "amount": 0,
+            "count": 0
+          },
+          {
+            "label": "90+ days",
+            "amount": 0,
+            "count": 0
+          }
+        ]
+      },
+      "reconciliation": {
+        "totalTUs": 0,
+        "reconciledTUs": 0,
+        "pendingTUs": 0,
+        "lockedTUs": 0,
+        "netDiscrepancyCbm": 0,
+        "topDiscrepancies": []
+      },
+      "processing": {
+        "totalRuns": 0,
+        "completedRuns": 0,
+        "totalInputCbm": 0,
+        "totalOutputCbm": 0,
+        "avgOutturnPercent": 0,
+        "netGainCbm": 0
+      }
+    }
+  },
+  "businessPartners": {
+    "label": "businessPartners",
+    "url": "https://api.lumberlinq.com/api/v1/business-partners?size=5&page=0",
+    "status": 200,
+    "ok": true,
+    "body": {
+      "content": [
+        {
+          "email": "shiv@mahadev.com",
+          "countryIso2": "IN",
+          "taxId": "24AADCR8186J1ZY",
+          "phone1": "9879205382",
+          "phone2": null,
+          "encodedId": "pJIQuutUzT4zIqcLNoZTm_yk",
+          "city": null,
+          "contactPerson": "Jack Drew",
+          "bankDetails": [],
+          "partyType": "BOTH",
+          "registrationType": "COMPANY",
+          "website": null,
+          "partyCategory": "DOMESTIC",
+          "isOwner": true,
+          "isActive": true,
+          "name": "RIK Exim Private Limited",
+          "id": 4,
+          "state": null,
+          "country": null,
+          "tags": []
+        }
+      ],
+      "pageable": {
+        "pageNumber": 0,
+        "pageSize": 5,
+        "sort": {
+          "sorted": false,
+          "unsorted": true,
+          "empty": true
+        },
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+      },
+      "totalElements": 1,
+      "totalPages": 1,
+      "last": true,
+      "first": true,
+      "size": 5,
+      "number": 0,
+      "sort": {
+        "sorted": false,
+        "unsorted": true,
+        "empty": true
+      },
+      "numberOfElements": 1,
+      "empty": false
+    }
+  },
+  "products": {
+    "label": "products",
+    "url": "https://api.lumberlinq.com/api/v1/products/filter?size=5&page=0",
+    "status": 200,
+    "ok": true,
+    "body": {
+      "content": [],
+      "pageable": {
+        "pageNumber": 0,
+        "pageSize": 5,
+        "sort": {
+          "sorted": true,
+          "unsorted": false,
+          "empty": false
+        },
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+      },
+      "totalElements": 0,
+      "totalPages": 0,
+      "last": true,
+      "first": true,
+      "size": 5,
+      "number": 0,
+      "sort": {
+        "sorted": true,
+        "unsorted": false,
+        "empty": false
+      },
+      "numberOfElements": 0,
+      "empty": true
+    }
+  },
+  "loadingSites": {
+    "label": "loadingSites",
+    "url": "https://api.lumberlinq.com/api/v1/list-loading-sites?size=5&page=0",
+    "status": 200,
+    "ok": true,
+    "body": {
+      "content": [],
+      "pageable": {
+        "pageNumber": 0,
+        "pageSize": 5,
+        "sort": {
+          "sorted": true,
+          "unsorted": false,
+          "empty": false
+        },
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+      },
+      "totalElements": 0,
+      "totalPages": 0,
+      "last": true,
+      "first": true,
+      "size": 5,
+      "number": 0,
+      "sort": {
+        "sorted": true,
+        "unsorted": false,
+        "empty": false
+      },
+      "numberOfElements": 0,
+      "empty": true
+    }
+  },
+  "transportModes": {
+    "label": "transportModes",
+    "url": "https://api.lumberlinq.com/api/v1/transport-modes",
+    "status": 200,
+    "ok": true,
+    "body": [
+      {
+        "label": "Odd Sized Container",
+        "value": "odd",
+        "items": [
+          {
+            "value": "20 Open Top",
+            "label": "20 Open Top",
+            "id": 9
+          },
+          {
+            "value": "40 Open Top",
+            "label": "40 Open Top",
+            "id": 10
+          },
+          {
+            "value": "40 Open Top High",
+            "label": "40 Open Top High",
+            "id": 11
+          },
+          {
+            "value": "40 Flat Standard",
+            "label": "40 Flat Standard",
+            "id": 12
+          },
+          {
+            "value": "40 Flat High",
+            "label": "40 Flat High",
+            "id": 13
+          },
+          {
+            "value": "20 Flat",
+            "label": "20 Flat",
+            "id": 14
+          }
+        ]
+      },
+      {
+        "label": "Regular Sized Cargo",
+        "value": "regular",
+        "items": [
+          {
+            "value": "20 Dry Standard",
+            "label": "20 Dry Standard",
+            "id": 1
+          },
+          {
+            "value": "40 Dry Standard",
+            "label": "40 Dry Standard",
+            "id": 2
+          },
+          {
+            "value": "40 Dry High",
+            "label": "40 Dry High",
+            "id": 3
+          },
+          {
+            "value": "45 Dry High",
+            "label": "45 Dry High",
+            "id": 4
+          },
+          {
+            "value": "20 Tank",
+            "label": "20 Tank",
+            "id": 5
+          },
+          {
+            "value": "40 Tank",
+            "label": "40 Tank",
+            "id": 6
+          }
+        ]
+      },
+      {
+        "label": "Truck",
+        "value": "truck",
+        "items": [
+          {
+            "value": "Small Truck",
+            "label": "Small Truck",
+            "id": 15
+          },
+          {
+            "value": "Medium Truck",
+            "label": "Medium Truck",
+            "id": 16
+          },
+          {
+            "value": "Large Truck",
+            "label": "Large Truck",
+            "id": 17
+          },
+          {
+            "value": "Articulated Truck",
+            "label": "Articulated Truck",
+            "id": 18
+          }
+        ]
+      },
+      {
+        "label": "Reefer Container",
+        "value": "reefer",
+        "items": [
+          {
+            "value": "20 Reefer Standard",
+            "label": "20 Reefer Standard",
+            "id": 7
+          },
+          {
+            "value": "40 Reefer High",
+            "label": "40 Reefer High",
+            "id": 8
+          }
+        ]
+      },
+      {
+        "label": "Train",
+        "value": "train",
+        "items": [
+          {
+            "value": "Boxcar",
+            "label": "Boxcar",
+            "id": 24
+          },
+          {
+            "value": "Flatcar",
+            "label": "Flatcar",
+            "id": 25
+          },
+          {
+            "value": "Tank Car",
+            "label": "Tank Car",
+            "id": 26
+          },
+          {
+            "value": "Reefer Car",
+            "label": "Reefer Car",
+            "id": 27
+          },
+          {
+            "value": "Hopper Car",
+            "label": "Hopper Car",
+            "id": 28
+          }
+        ]
+      },
+      {
+        "label": "Other",
+        "value": "other",
+        "items": [
+          {
+            "value": "Self Pickup",
+            "label": "Self Pickup",
+            "id": 29
+          }
+        ]
+      },
+      {
+        "label": "Trailer",
+        "value": "trailer",
+        "items": [
+          {
+            "value": "Flatbed Trailer",
+            "label": "Flatbed Trailer",
+            "id": 19
+          },
+          {
+            "value": "Dry Van Trailer",
+            "label": "Dry Van Trailer",
+            "id": 20
+          },
+          {
+            "value": "Reefer Trailer",
+            "label": "Reefer Trailer",
+            "id": 21
+          },
+          {
+            "value": "Lowboy Trailer",
+            "label": "Lowboy Trailer",
+            "id": 22
+          },
+          {
+            "value": "Tanker Trailer",
+            "label": "Tanker Trailer",
+            "id": 23
+          }
+        ]
+      }
+    ]
+  },
+  "transportUnits": {
+    "label": "transportUnits",
+    "url": "https://api.lumberlinq.com/api/v1/transportunits/paginated?page=0&size=5&sortBy=createdDate&sortDir=desc",
+    "status": 200,
+    "ok": true,
+    "body": {
+      "content": [],
+      "pageable": {
+        "pageNumber": 0,
+        "pageSize": 5,
+        "sort": {
+          "sorted": true,
+          "unsorted": false,
+          "empty": false
+        },
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+      },
+      "totalElements": 0,
+      "totalPages": 0,
+      "last": true,
+      "first": true,
+      "size": 5,
+      "number": 0,
+      "sort": {
+        "sorted": true,
+        "unsorted": false,
+        "empty": false
+      },
+      "numberOfElements": 0,
+      "empty": true
+    }
+  },
+  "shipments": {
+    "label": "shipments",
+    "url": "https://api.lumberlinq.com/api/v1/shipments/list?page=0&size=5&sort=shipmentDate,desc",
+    "status": 200,
+    "ok": true,
+    "body": {
+      "content": [],
+      "pageable": {
+        "pageNumber": 0,
+        "pageSize": 5,
+        "sort": {
+          "sorted": true,
+          "unsorted": false,
+          "empty": false
+        },
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+      },
+      "totalElements": 0,
+      "totalPages": 0,
+      "last": true,
+      "first": true,
+      "size": 5,
+      "number": 0,
+      "sort": {
+        "sorted": true,
+        "unsorted": false,
+        "empty": false
+      },
+      "numberOfElements": 0,
+      "empty": true
+    }
+  },
+  "inventorySummary": {
+    "label": "inventorySummary",
+    "url": "https://api.lumberlinq.com/api/v1/inventory/summary",
+    "status": 200,
+    "ok": true,
+    "body": {
+      "availableCbm": 0,
+      "availableTuCount": 0,
+      "inProcessCbm": 0,
+      "inProcessTuCount": 0,
+      "inShipmentCbm": 0,
+      "inShipmentTuCount": 0,
+      "shippedCbmThisMonth": 0,
+      "openLotsCbm": 0,
+      "openLotsCount": 0,
+      "atForest": {
+        "cbm": 0,
+        "tuCount": 0
+      },
+      "inTransit": {
+        "cbm": 0,
+        "tuCount": 0
+      },
+      "atMill": {
+        "cbm": 0,
+        "tuCount": 0
+      },
+      "inProcess": {
+        "cbm": 0,
+        "tuCount": 0
+      },
+      "atYard": {
+        "cbm": 0,
+        "tuCount": 0
+      },
+      "inShipment": {
+        "cbm": 0,
+        "tuCount": 0
+      },
+      "bySite": []
+    }
+  },
+  "inventoryLots": {
+    "label": "inventoryLots",
+    "url": "https://api.lumberlinq.com/api/v1/inventory-lots?page=0&size=5",
+    "status": 200,
+    "ok": true,
+    "body": {
+      "content": [],
+      "pageable": {
+        "pageNumber": 0,
+        "pageSize": 5,
+        "sort": {
+          "sorted": true,
+          "unsorted": false,
+          "empty": false
+        },
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+      },
+      "totalElements": 0,
+      "totalPages": 0,
+      "last": true,
+      "first": true,
+      "size": 5,
+      "number": 0,
+      "sort": {
+        "sorted": true,
+        "unsorted": false,
+        "empty": false
+      },
+      "numberOfElements": 0,
+      "empty": true
+    }
+  },
+  "processingInputs": {
+    "label": "processingInputs",
+    "url": "https://api.lumberlinq.com/api/v1/processing-runs/available-inputs",
+    "status": 200,
+    "ok": true,
+    "body": []
+  },
+  "processingRuns": {
+    "label": "processingRuns",
+    "url": "https://api.lumberlinq.com/api/v1/processing-runs?page=0&size=5",
+    "status": 200,
+    "ok": true,
+    "body": {
+      "content": [],
+      "pageable": {
+        "pageNumber": 0,
+        "pageSize": 5,
+        "sort": {
+          "sorted": true,
+          "unsorted": false,
+          "empty": false
+        },
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+      },
+      "totalElements": 0,
+      "totalPages": 0,
+      "last": true,
+      "first": true,
+      "size": 5,
+      "number": 0,
+      "sort": {
+        "sorted": true,
+        "unsorted": false,
+        "empty": false
+      },
+      "numberOfElements": 0,
+      "empty": true
+    }
+  },
+  "reportShipment": {
+    "label": "reportShipment",
+    "url": "https://api.lumberlinq.com/api/v1/reports/shipment?period=YEAR",
+    "status": 200,
+    "ok": true,
+    "body": {
+      "fromDate": "2025-12-26",
+      "toDate": "2026-06-26",
+      "tradeTypeFilter": null,
+      "statusFilter": null,
+      "generatedAt": "26-Jun-2026 07:09",
+      "totalShipments": 0,
+      "totalCbm": 0,
+      "totalCft": 0,
+      "totalPieces": 0,
+      "totalTransportUnits": 0,
+      "totalInvoiced": 0,
+      "totalFullyPaid": 0,
+      "totalOutstanding": 0,
+      "totalOverdue": 0,
+      "shipmentsByTradeType": {},
+      "shipmentsByStatus": {},
+      "shipmentsByMode": {},
+      "invoicedByPayStatus": {},
+      "countByPayStatus": {},
+      "financialByCurrency": [],
+      "monthlyTrend": [],
+      "topPortsOfLoading": [],
+      "topPortsOfDischarge": [],
+      "rows": []
+    }
+  },
+  "reportTally": {
+    "label": "reportTally",
+    "url": "https://api.lumberlinq.com/api/v1/reports/tally?period=YEAR",
+    "status": 200,
+    "ok": true,
+    "body": {
+      "fromDate": "2025-12-26",
+      "toDate": "2026-06-26",
+      "generatedAt": "2026-06-26T07:09:34.799681665",
+      "totalTallies": 0,
+      "roundTallies": 0,
+      "squareTallies": 0,
+      "totalCbm": 0,
+      "totalCft": 0,
+      "totalPieces": 0,
+      "avgCbmPerTally": 0,
+      "avgPiecesPerTally": 0,
+      "talliesByType": {},
+      "tallies": [],
+      "monthlyTrend": []
+    }
+  },
+  "reportInventory": {
+    "label": "reportInventory",
+    "url": "https://api.lumberlinq.com/api/v1/reports/inventory?period=YEAR",
+    "status": 404,
+    "ok": false,
+    "body": null
+  },
+  "dashboardText": "BETA\nEN\nA\nJ\nDashboard\n\nBusiness, Financial & Inventory Overview\n\nFrom\nTo\nBUSINESS PULSE\nBUSINESS PARTNERS\n1\n1 active\n0 inactive\nSHIPMENTS\n0\n0 upcoming\nTRANSPORT UNITS\n0\n0 unassigned\nTOTAL VOLUME\n0.0\nCBM  |  0 CFT\nTOTAL PIECES\n0\nTally Units\nFINANCIAL HEALTH\nView All\nTOTAL INVOICED\nUSD 0\nRECEIVED\nUSD 0\nOUTSTANDING\nUSD 0\nOVERDUE\nUSD 0\nPAYABLES\nUSD 0\nRECEIVABLES AGING\n0–30 days\nUSD 0\n0 shipments\n31–60 days\nUSD 0\n0 shipments\n61–90 days\nUSD 0\n0 shipments\n90+ days\nUSD 0\n0 shipments\nINVENTORY SNAPSHOT\nFull Inventory\nAVAILABLE STOCK\n0.0\nCBM  ·  0 TUs\nIN PROCESSING\n0.0\nCBM\nIN SHIPMENT\n0.0\nCBM\nSHIPPED THIS MONTH\n0.0\nCBM\nACTIVE SITES\n0\nlocations\nAVG OUTTURN\n0.0%\n0 runs\nNET GAIN (PROCESSING)\n+0.00\nCBM ▲\nRECONCILIATION STATUS\nView All\n0%\nRECONCILED\n0\nTOTAL TUS\n0\nRECONCILED\n0\nPENDING\n0\nLOCKED\nNET DISCREPANCY\n0.000 CBM\nNo discrepancies — all reconciled TUs match.\nVolume Trend (CBM)\n\nNo data available for the selected period\nShipments by Trade Type\n\nNo data available for the selected period\nTop Products by Volume (CFT)\n\nNo data available for the selected period\nTransport Mode\n\nNo data available for the selected period\nPayment Flow\nReceived\nUSD 0\nOutstanding\nUSD 0\nUPCOMING SHIPMENTS\nView All\nDepartures\n0\nBL / BILL NO\tSHIPPER\tCONSIGNEE\tPORT OF LOADING\tPORT OF DISCHARGE\tDATE\tMODE\nNo data available for the selected period\nArrivals\n0\nBL / BILL NO\tSHIPPER\tCONSIGNEE\tPORT OF LOADING\tPORT OF DISCHARGE\tDATE\tMODE\nNo data available for the selected period\nGEOGRAPHY & SITES\nPartners by Country\n1\nIN\n1\nLoading Site Utilization\nSITE\tCOUNTRY\tCAPACITY\tCURRENT\tUTILIZATION\nNo data available for the selected period\nRECENT TRANSPORT UNITS\nView All\nTRANSPORT ID\tPRODUCT\tLOADING SITE\tPIECES\tCBM\tCFT\tCREATED\nNo data available for the selected period\nStandard\nStatus: ACTIVE\nManage\n2024 Lumber Linq — All Rights Reserved.\nPowered By Lumber Linq\nLove our app?\nUse it for your own business!"
+}

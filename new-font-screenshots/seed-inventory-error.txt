@@ -1,0 +1,4 @@
+Error: complete-proc → HTTP 500: <Map><appCodeLabel>Unexpected / uncategorised error</appCodeLabel><appCode>5099</appCode><message>An unexpected error occurred. Please try again or contact support.</message><status>500</status><timestamp>2026-06-26T09:26:39.922285574Z</timestamp></Map>
+    at must (/home/punj/projects/lumberlinq-demo-seed/seed-inventory-demo.js:93:11)
+    at async upsertProcessingRun (/home/punj/projects/lumberlinq-demo-seed/seed-inventory-demo.js:171:16)
+    at async /home/punj/projects/lumberlinq-demo-seed/seed-inventory-demo.js:382:7

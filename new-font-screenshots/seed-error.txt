@@ -1,0 +1,4 @@
+Error: create transport unit LLPD-TU-001 failed: HTTP 500 <Map><appCodeLabel>Database / persistence failure</appCodeLabel><appCode>5001</appCode><message>An unexpected error occurred. Please try again or contact support.</message><status>500</status><timestamp>2026-06-26T07:32:43.798846418Z</timestamp></Map>
+    at mustApi (/home/punj/projects/lumberlinq-demo-seed/seed-premium-demo.js:91:11)
+    at async createTransportUnit (/home/punj/projects/lumberlinq-demo-seed/seed-premium-demo.js:192:19)
+    at async /home/punj/projects/lumberlinq-demo-seed/seed-premium-demo.js:392:20
